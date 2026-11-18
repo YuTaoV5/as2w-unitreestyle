@@ -1,0 +1,5 @@
+* text=auto eol=lf
+assets/as2w/as2w.urdf -text whitespace=cr-at-eol
+*.STL binary
+*.npz binary
+*.pt binary
