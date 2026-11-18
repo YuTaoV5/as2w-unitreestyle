@@ -1,0 +1,50 @@
+# AS2-W 原厂风格训练复现
+
+从第 **1,220 次 PPO 更新**的策略和优化器状态继续训练。运行设置为 **8,192 个环境 × 48 步 rollout**，seed 42，每段 2,000 次更新，计划新增 10,000 次。每段结束后用原始步态做验收，再决定是否继续。
+
+## 在新服务器运行
+
+在具备 NVIDIA GPU 的 Linux 主机上，先按[运行环境说明](repro/runtime.md)配置 Isaac Sim 和 Isaac Lab。已验证机器为 NVIDIA L40（nvidia-smi 报告 46,068 MiB）。以下命令从仓库根目录执行。每次尝试使用一个新的输出目录。
+
+```bash
+git clone https://github.com/YuTaoV5/as2w-unitreestyle.git
+cd as2w-unitreestyle
+./repro/check_runtime.sh
+
+RUN="$PWD/runs/resume-1220"
+./continuation1220/prepare_run.sh "$RUN"
+./evaluation/replay.sh "$RUN"
+./continuation1220/smoke.sh "$RUN"
+nohup ./continuation1220/run_blocks.sh "$RUN" >"$RUN/progress.log" 2>&1 </dev/null &
+tail -f "$RUN/progress.log"
+```
+
+- `prepare_run.sh` 校验所有冻结输入的 SHA-256，再建立 `$RUN/source`。其中 `best.pt` 包含模型和优化器，来源记录见 `baseline/best.json` 和 `baseline/run.json`。种子 checkpoint SHA-256 为 `d8402f10e85956bc9dd5fcdcaa91e5e14d63cdb4fc55d46b96a2e0186f571a50`。
+- `replay.sh` 在 48 个平地环境中复跑起点策略，输出 `flat.npz`、`flat-motion-audit.json` 和 `gate.json`。先确认起点的 `gait_preserved` 为 true，并核对噪声计数和冻结对照。原始轨迹包含实际关节角、限幅后未经过控制低通的腿部目标、滤波后目标和各轮法向接触力。
+- `smoke.sh` 载入起点权重，实际跑一次完整 PPO 更新（393,216 条环境步），写到 `$RUN/smoke`。查看 `$RUN/smoke.log` 中的 `AS2W_RESUME`、`AS2W_PHASE_METRICS` 和 `AS2W_TRAIN_SMOKE_OK`。正式训练仍从第 1,220 轮启动。
+- 正式训练先写入 `$RUN/blocks/u3220/train`。每段完成时比较段末 checkpoint 和按训练回报保存的 `best.pt`。选中的路径记在 `selection.json`。通过步态验收且毛刺计数严格低于起点的候选，才进入 `$RUN/validated-best.json`。`AS2W_HELD_FOR_GAIT_REVIEW` 表示该段所有候选均未通过步态验收，脚本已主动退出。训练日志与编号 checkpoint 保留在各段目录。
+- 如果服务中途中断，保留已生成的 `blocks`。`run_blocks.sh` 从头启动整条流水线，重跑时使用新目录。脚本 `train.py` 的 `--resume`、`--offset`、`--iterations` 可用于从明确指定的 checkpoint 单独恢复一段。
+
+验证记录见 [完整单轮日志](repro/smoke-evidence.txt)和[起点回放结果](repro/replay-evidence.json)。
+
+## 哪些行为保持第 1,220 轮的定义
+
+58 维策略观测和 12 维腿部动作，50 Hz 策略控制。轮目标来自 `vx / 0.086`，限于 ±12 rad/s。纯侧移或转向时轮速度目标回到 0，由腿负责踏步。腿部位置目标低通 10 Hz，轮速目标低通 5 Hz。仿真使用 `load-v0` URDF，基座质量和惯量乘 1.15，基座质心沿 x 后移 15 mm。沿用平地、坡、起伏、台阶地形和原始域随机化，包括摩擦及恢复系数、质量 ±5%、基座三轴质心 ±5 mm、PD 增益 ±5%，具体以 `common/environment.py` 为准。
+
+训练继续使用原来的速度跟踪、机体稳定、腿偏置和动作差分奖励。唯一新增奖励项为 `-dt * 0.02 * short_reversal_cost`。只对平地纯侧移、纯转向，且足够稳定地锁定触地相位的样本生效。对比起点策略在对应相位的动作模板，只处罚幅度超过阈值的 1–2 帧反转残差。相位模板由第 1,220 轮平地轨迹生成，按最早的合格轮载触地事件划分周期、重采样、取中位数并做周期平滑。可重建模板：
+
+```bash
+./preflight/analysis-python continuation1220/build_reference.py \
+    baseline/flat.npz /tmp/as2w-reference.npz
+./preflight/analysis-python evaluation/plot_trial.py baseline/flat.npz left /tmp/as2w-1220-left.png
+```
+
+验收同时比较指令跟踪、跌倒、关节周期和活动幅度、抬轮次数、轮载分布以及相位去除后的关节抖动。用于自动筛选的是平地数据。粗糙地形参与训练，平地验收结果只说明这组平地命令下的表现。细看单次试验时，`flat.npz` 的 `q[..., :12]` 是腿部实际角度（rad），`wheel_data[..., 15]` 是四轮的竖直法向力（N），轮序为 FL、FR、RL、RR。
+
+## 来源和目录
+
+- `baseline/` 冻结的起点权重、记录、平地数据、统计和参考相位。
+- `common/` 原始环境、PPO runner 和 checkpoint 规则。若要用同一原始环境重新从零训练，入口为 `./preflight/isaac-python common/run.py --mode unitree_style --asset calibration/candidates/load-v0/as2w-load-v0.urdf --num-envs 4096 --rollout-steps 48 --iterations 1220 --out <新目录>`。从零训练的数值轨迹受 PhysX 与硬件影响，复现续训以归档权重为起点。
+- `continuation1220/` 相位参考生成、续训、分段选择和 gait gate。
+- `evaluation/` 和 `quality/` 平地回放、轮地接触计算和统计。
+- `assets/as2w/` 来自 [unitree_ros](https://github.com/unitreerobotics/unitree_ros/tree/157ff950351e5f535e03c5d85a16b7d594b3dbcc/robots/as2w_description) 的官方 URDF 和 mesh，许可证见 `LICENSES/`。训练使用的 load-v0 校准 URDF 位于 `calibration/candidates/load-v0/`。
