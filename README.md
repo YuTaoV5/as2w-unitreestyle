@@ -48,3 +48,7 @@ tail -f "$RUN/progress.log"
 - `continuation1220/` 相位参考生成、续训、分段选择和 gait gate。
 - `evaluation/` 和 `quality/` 平地回放、轮地接触计算和统计。
 - `assets/as2w/` 来自 [unitree_ros](https://github.com/unitreerobotics/unitree_ros/tree/157ff950351e5f535e03c5d85a16b7d594b3dbcc/robots/as2w_description) 的官方 URDF 和 mesh，许可证见 `LICENSES/`。训练使用的 load-v0 校准 URDF 位于 `calibration/candidates/load-v0/`。
+
+## 已归档的续训结果
+
+第 3,220 轮完成首段，两个候选均未通过固定平地验收。已归档权重、完整回放、关节角与轮载、周期性诊断和两种物理引擎视频。 [第 3,220 轮边界结果](review/u3220/README.md)
