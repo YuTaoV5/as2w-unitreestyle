@@ -1,0 +1,18 @@
+{
+  "20261119-114540": {
+    "frames": 987,
+    "within_2_tick_units": 987,
+    "exact_tick": 573,
+    "leg_mae_nm": 0.1178023207338538,
+    "wheel_mae_nm": 0.04399338162726748,
+    "leg_pd_peak_nm": 27.01978537
+  },
+  "20261119-190857": {
+    "frames": 858,
+    "within_2_tick_units": 858,
+    "exact_tick": 428,
+    "leg_mae_nm": 0.1176901568153212,
+    "wheel_mae_nm": 0.03428262214948135,
+    "leg_pd_peak_nm": 25.753452450000005
+  }
+}

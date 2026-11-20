@@ -1,0 +1,177 @@
+{
+  "phases": [
+    {
+      "state": "FixedStand",
+      "duration_s": 4.9582175,
+      "frames": 2469,
+      "aligned_count": 889,
+      "leg_kp_first_last": [
+        85.0,
+        85.0
+      ],
+      "leg_kd_first_last": [
+        3.20000005,
+        3.20000005
+      ],
+      "pitch_minmax_deg": [
+        -2.4786007127359606,
+        -0.727414381055478
+      ],
+      "last_1s_pitch_deg": -0.8891753827721084,
+      "last_1s_rear_calf_error_rad": [
+        -0.12547559151079138,
+        -0.11222127496402885
+      ],
+      "last_1s_rear_hip_error_rad": [
+        -0.21524295683453237,
+        0.21781028057553958
+      ],
+      "wheel_abs_dq_peak": 0.220893
+    },
+    {
+      "state": "PolicyHandoff",
+      "duration_s": 1.998053437,
+      "frames": 997,
+      "aligned_count": 299,
+      "leg_kp_first_last": [
+        85.0,
+        55.2989349
+      ],
+      "leg_kd_first_last": [
+        3.20000005,
+        2.01195741
+      ],
+      "pitch_minmax_deg": [
+        -1.3495975058770644,
+        -0.8996695966474164
+      ],
+      "last_1s_pitch_deg": -1.0082547426111466,
+      "last_1s_rear_calf_error_rad": [
+        -0.15250893370165744,
+        -0.11853959005524861
+      ],
+      "last_1s_rear_hip_error_rad": [
+        -0.10878588956353591,
+        0.0897375157480663
+      ],
+      "wheel_abs_dq_peak": 0.601321
+    },
+    {
+      "state": "PolicyWalk",
+      "duration_s": 10.01624125,
+      "frames": 4978,
+      "aligned_count": 2503,
+      "leg_kp_first_last": [
+        55.0,
+        55.0
+      ],
+      "leg_kd_first_last": [
+        2.0,
+        2.0
+      ],
+      "pitch_minmax_deg": [
+        -3.8744350358955852,
+        -1.4016291932263891
+      ],
+      "last_1s_pitch_deg": -3.6542826043107164,
+      "last_1s_rear_calf_error_rad": [
+        -0.20111807615702482,
+        -0.16275983347107437
+      ],
+      "last_1s_rear_hip_error_rad": [
+        -0.07046181704958678,
+        0.024272415867768595
+      ],
+      "wheel_abs_dq_peak": 0.368155
+    },
+    {
+      "state": "Brake",
+      "duration_s": 0.318421719,
+      "frames": 159,
+      "aligned_count": 47,
+      "leg_kp_first_last": [
+        55.0,
+        55.0
+      ],
+      "leg_kd_first_last": [
+        2.0,
+        2.0
+      ],
+      "pitch_minmax_deg": [
+        -3.9241856310910217,
+        -3.8677047103058477
+      ],
+      "last_1s_pitch_deg": -3.8856510657965484,
+      "last_1s_rear_calf_error_rad": [
+        -0.20634181595744683,
+        -0.16597186340425535
+      ],
+      "last_1s_rear_hip_error_rad": [
+        -0.0855744965106383,
+        0.04039800097872341
+      ],
+      "wheel_abs_dq_peak": 0.33134
+    },
+    {
+      "state": "ReturnStand",
+      "duration_s": 2.518375312,
+      "frames": 1248,
+      "aligned_count": 562,
+      "leg_kp_first_last": [
+        55.0,
+        84.9962158
+      ],
+      "leg_kd_first_last": [
+        2.0,
+        3.19984889
+      ],
+      "pitch_minmax_deg": [
+        -4.055498094439164,
+        -2.547349440081343
+      ],
+      "last_1s_pitch_deg": -3.2462309645935568,
+      "last_1s_rear_calf_error_rad": [
+        -0.18466746073170734,
+        -0.2030207339512195
+      ],
+      "last_1s_rear_hip_error_rad": [
+        -0.20334897390479512,
+        0.19361947004678293
+      ],
+      "wheel_abs_dq_peak": 0.368155
+    },
+    {
+      "state": "FixedStand",
+      "duration_s": 14.998622032,
+      "frames": 7450,
+      "aligned_count": 3578,
+      "leg_kp_first_last": [
+        85.0,
+        85.0
+      ],
+      "leg_kd_first_last": [
+        3.20000005,
+        3.20000005
+      ],
+      "pitch_minmax_deg": [
+        -2.5448440483581938,
+        -2.197276645796622
+      ],
+      "last_1s_pitch_deg": -2.215844221203572,
+      "last_1s_rear_calf_error_rad": [
+        -0.15317045794117642,
+        -0.17411920794117644
+      ],
+      "last_1s_rear_hip_error_rad": [
+        -0.2269020955882353,
+        0.22123932352941175
+      ],
+      "wheel_abs_dq_peak": 0.159534
+    }
+  ],
+  "policy_frames": 617,
+  "fixedstand_pre_post_max_target_delta_rad": 0.0,
+  "policy_nonzero_command_frames": 0,
+  "protection_rows": 15199,
+  "protection_flagged_rows": 0
+}

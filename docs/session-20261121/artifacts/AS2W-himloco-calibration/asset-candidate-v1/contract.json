@@ -1,0 +1,52 @@
+{
+  "scope": "MuJoCo offline candidate; not an Isaac Lab training asset",
+  "dds_to_mujoco_slots": [
+    3,
+    4,
+    5,
+    0,
+    1,
+    2,
+    9,
+    10,
+    11,
+    6,
+    7,
+    8,
+    13,
+    12,
+    15,
+    14
+  ],
+  "dds_to_mujoco_sign": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mass_kg": 27.012,
+  "timestep_seconds": 0.001,
+  "excluded_body_pairs": [
+    [
+      "base_link",
+      "FL_thigh"
+    ],
+    [
+      "base_link",
+      "FR_thigh"
+    ]
+  ],
+  "hardware_mapping_changed": false
+}

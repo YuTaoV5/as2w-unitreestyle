@@ -1,0 +1,101 @@
+{
+  "checkpoint_sha256": "8e9f2e0fae9701853ca6b21c03b8e325c2a24733642f08d27969e08144e7dbce",
+  "trajectory_sha256": "fe7a5d2bb7fdc8e6523244db3af6025dce2da196b226d11bd75bb040cfa1661f",
+  "physics": "Isaac Lab / PhysX recorded trajectory",
+  "renderer": "MuJoCo visual-only forward kinematics",
+  "mujoco_version": "3.12.0",
+  "policy_label": "model_1000",
+  "status": "research_only; not gait-qualified",
+  "seed": 719,
+  "trial_rule": "first of six trials, fixed in advance",
+  "terrain": "flat",
+  "randomization_level": 3,
+  "fps": 25,
+  "speed": 1,
+  "kinematics": {
+    "max_wheel_link_position_error_m": 4.548989021967238e-06,
+    "p99_error_m": 3.6331594841067945e-06
+  },
+  "chapters": [
+    {
+      "mode": "stand",
+      "start_s": 0.0,
+      "trial_index": 0,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "mode": "forward",
+      "start_s": 6.0,
+      "trial_index": 6,
+      "command": [
+        0.6000000238418579,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "mode": "reverse",
+      "start_s": 12.0,
+      "trial_index": 12,
+      "command": [
+        -0.6000000238418579,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "mode": "left",
+      "start_s": 18.0,
+      "trial_index": 18,
+      "command": [
+        0.0,
+        0.30000001192092896,
+        0.0
+      ]
+    },
+    {
+      "mode": "right",
+      "start_s": 24.0,
+      "trial_index": 24,
+      "command": [
+        0.0,
+        -0.30000001192092896,
+        0.0
+      ]
+    },
+    {
+      "mode": "yaw_left",
+      "start_s": 30.0,
+      "trial_index": 30,
+      "command": [
+        0.0,
+        0.0,
+        0.6000000238418579
+      ]
+    },
+    {
+      "mode": "yaw_right",
+      "start_s": 36.0,
+      "trial_index": 36,
+      "command": [
+        0.0,
+        0.0,
+        -0.6000000238418579
+      ]
+    },
+    {
+      "mode": "mixed",
+      "start_s": 42.0,
+      "trial_index": 42,
+      "command": [
+        0.44999998807907104,
+        0.20000000298023224,
+        0.44999998807907104
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "tire_bottom_abs_error_mm": {
+    "p50": 0.032223077012123735,
+    "p95": 0.13327652776508325,
+    "max": 0.1455058468876752
+  },
+  "online_offline_calibrated_events": {
+    "left": 119,
+    "right": 93,
+    "yaw_left": 33,
+    "yaw_right": 37
+  }
+}

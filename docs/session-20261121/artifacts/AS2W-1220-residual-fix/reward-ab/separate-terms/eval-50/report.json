@@ -1,0 +1,947 @@
+{
+  "C": {
+    "fails": [
+      "right: increased measured phase residual",
+      "yaw_left: RR lifts",
+      "mixed: FL lifts",
+      "mixed: FR lifts",
+      "mixed: RL lifts"
+    ],
+    "reward_weights": [
+      0.02,
+      0.0
+    ],
+    "phase_rms_ratio": 1.012422814663985,
+    "spikes": [
+      9414,
+      9188
+    ],
+    "commands": {
+      "stand": {
+        "four_wheel_support_pct": [
+          100.0,
+          100.0
+        ],
+        "lifts": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "actual_velocity": [
+          [
+            0.006899999920278788,
+            0.0012000000569969416,
+            -0.0003000000142492354
+          ],
+          [
+            0.006899999920278788,
+            0.0012000000569969416,
+            -0.0003000000142492354
+          ]
+        ]
+      },
+      "forward": {
+        "four_wheel_support_pct": [
+          98.93,
+          98.93
+        ],
+        "lifts": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "actual_velocity": [
+          [
+            0.54339998960495,
+            0.0008999999845400453,
+            9.999999747378752e-05
+          ],
+          [
+            0.54339998960495,
+            0.0008999999845400453,
+            9.999999747378752e-05
+          ]
+        ]
+      },
+      "reverse": {
+        "four_wheel_support_pct": [
+          90.47,
+          90.47
+        ],
+        "lifts": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "actual_velocity": [
+          [
+            -0.5299000144004822,
+            -0.000699999975040555,
+            -0.003100000089034438
+          ],
+          [
+            -0.5299000144004822,
+            -0.000699999975040555,
+            -0.003100000089034438
+          ]
+        ]
+      },
+      "left": {
+        "four_wheel_support_pct": [
+          16.93,
+          18.33
+        ],
+        "lifts": [
+          [
+            39,
+            32,
+            42,
+            0
+          ],
+          [
+            36,
+            32,
+            42,
+            0
+          ]
+        ],
+        "actual_velocity": [
+          [
+            -0.010999999940395355,
+            0.31060001254081726,
+            -0.0006000000284984708
+          ],
+          [
+            -0.014299999922513962,
+            0.3052000105381012,
+            9.999999747378752e-05
+          ]
+        ],
+        "phase_rms_deg": [
+          0.7088461015256651,
+          0.7287649620155521
+        ],
+        "period_s": [
+          0.71,
+          0.6900000000000001
+        ],
+        "cycles": [
+          34,
+          36
+        ]
+      },
+      "right": {
+        "four_wheel_support_pct": [
+          27.93,
+          26.4
+        ],
+        "lifts": [
+          [
+            7,
+            18,
+            0,
+            15
+          ],
+          [
+            10,
+            20,
+            0,
+            15
+          ]
+        ],
+        "actual_velocity": [
+          [
+            -0.007899999618530273,
+            -0.2897000014781952,
+            -0.004100000020116568
+          ],
+          [
+            -0.002300000051036477,
+            -0.2962000072002411,
+            0.002199999988079071
+          ]
+        ],
+        "phase_rms_deg": [
+          0.8908680668710772,
+          0.9991249993701478
+        ],
+        "period_s": [
+          0.62,
+          0.62
+        ],
+        "cycles": [
+          38,
+          38
+        ]
+      },
+      "yaw_left": {
+        "four_wheel_support_pct": [
+          49.27,
+          51.2
+        ],
+        "lifts": [
+          [
+            0,
+            0,
+            0,
+            21
+          ],
+          [
+            0,
+            0,
+            0,
+            14
+          ]
+        ],
+        "actual_velocity": [
+          [
+            0.0010999999940395355,
+            -0.009700000286102295,
+            0.5630000233650208
+          ],
+          [
+            0.0013000000035390258,
+            -0.008500000461935997,
+            0.5698999762535095
+          ]
+        ],
+        "phase_rms_deg": [
+          0.5498038737699614,
+          0.5297773798699497
+        ],
+        "period_s": [
+          0.76,
+          0.76
+        ],
+        "cycles": [
+          35,
+          36
+        ]
+      },
+      "yaw_right": {
+        "four_wheel_support_pct": [
+          49.0,
+          48.33
+        ],
+        "lifts": [
+          [
+            0,
+            3,
+            16,
+            0
+          ],
+          [
+            0,
+            1,
+            16,
+            0
+          ]
+        ],
+        "actual_velocity": [
+          [
+            -0.0066999997943639755,
+            0.005799999926239252,
+            -0.5712000131607056
+          ],
+          [
+            -0.005100000184029341,
+            0.00800000037997961,
+            -0.5728999972343445
+          ]
+        ],
+        "phase_rms_deg": [
+          0.579470163003279,
+          0.5426721697449507
+        ],
+        "period_s": [
+          0.8200000000000001,
+          0.8200000000000001
+        ],
+        "cycles": [
+          30,
+          30
+        ]
+      },
+      "mixed": {
+        "four_wheel_support_pct": [
+          21.07,
+          21.0
+        ],
+        "lifts": [
+          [
+            25,
+            33,
+            29,
+            7
+          ],
+          [
+            15,
+            23,
+            21,
+            11
+          ]
+        ],
+        "actual_velocity": [
+          [
+            0.42340001463890076,
+            0.1777999997138977,
+            0.44600000977516174
+          ],
+          [
+            0.4156999886035919,
+            0.17489999532699585,
+            0.4406000077724457
+          ]
+        ]
+      }
+    },
+    "training": {
+      "median_active_post_update_kl": 0.0033121689816263435,
+      "median_active_post_update_clip_fraction": 0.022041924571509584,
+      "means_by_terrain_and_command": {
+        "flat/forward": {
+          "base_reward_per_sec": 4.712944342542116,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.0,
+          "applied_residual_max_axis_mean_rad": 0.0,
+          "count": 146382
+        },
+        "flat/left": {
+          "base_reward_per_sec": 4.637046554236256,
+          "short_cost_raw": 0.04069909230486419,
+          "duty_cost_raw": 0.0022862872950053497,
+          "phase_fraction": 0.41876826722338206,
+          "applied_residual_mean_rad": 0.005561984439815344,
+          "applied_residual_max_axis_mean_rad": 0.022063839035724384,
+          "count": 143700
+        },
+        "flat/mixed": {
+          "base_reward_per_sec": 4.451925941034448,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.006353107382696623,
+          "applied_residual_max_axis_mean_rad": 0.025125517955065887,
+          "count": 286201
+        },
+        "flat/reverse": {
+          "base_reward_per_sec": 4.7197729321696675,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.0,
+          "applied_residual_max_axis_mean_rad": 0.0,
+          "count": 152793
+        },
+        "flat/right": {
+          "base_reward_per_sec": 4.624775457915574,
+          "short_cost_raw": 0.04570178767220983,
+          "duty_cost_raw": 0.0017145060726158283,
+          "phase_fraction": 0.43321563615762637,
+          "applied_residual_mean_rad": 0.005590571199465036,
+          "applied_residual_max_axis_mean_rad": 0.022112981382357857,
+          "count": 151802
+        },
+        "flat/stand": {
+          "base_reward_per_sec": 4.529271379421945,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.0,
+          "applied_residual_max_axis_mean_rad": 0.0,
+          "count": 295854
+        },
+        "flat/yaw_left": {
+          "base_reward_per_sec": 4.681743279070076,
+          "short_cost_raw": 0.05824199890638073,
+          "duty_cost_raw": 2.050046170772297e-05,
+          "phase_fraction": 0.44952288618992914,
+          "applied_residual_mean_rad": 0.005107654216567482,
+          "applied_residual_max_axis_mean_rad": 0.020516595121492096,
+          "count": 150593
+        },
+        "flat/yaw_right": {
+          "base_reward_per_sec": 4.693307202346589,
+          "short_cost_raw": 0.06071400275945979,
+          "duty_cost_raw": 7.374479454065994e-06,
+          "phase_fraction": 0.4447991306414915,
+          "applied_residual_mean_rad": 0.005055979261917465,
+          "applied_residual_max_axis_mean_rad": 0.02021024295072238,
+          "count": 147235
+        },
+        "nonflat/forward": {
+          "base_reward_per_sec": 4.616899410643718,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.0,
+          "applied_residual_max_axis_mean_rad": 0.0,
+          "count": 252797
+        },
+        "nonflat/left": {
+          "base_reward_per_sec": 4.602966086091984,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.005531660738760124,
+          "applied_residual_max_axis_mean_rad": 0.021956813924458807,
+          "count": 244413
+        },
+        "nonflat/mixed": {
+          "base_reward_per_sec": 4.347094664112138,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.006376269343898914,
+          "applied_residual_max_axis_mean_rad": 0.02519784853869376,
+          "count": 484760
+        },
+        "nonflat/reverse": {
+          "base_reward_per_sec": 4.62995871415252,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.0,
+          "applied_residual_max_axis_mean_rad": 0.0,
+          "count": 241858
+        },
+        "nonflat/right": {
+          "base_reward_per_sec": 4.573000879058997,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.005593070024245723,
+          "applied_residual_max_axis_mean_rad": 0.022134687405806014,
+          "count": 245504
+        },
+        "nonflat/stand": {
+          "base_reward_per_sec": 4.521362899455928,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.0,
+          "applied_residual_max_axis_mean_rad": 0.0,
+          "count": 485598
+        },
+        "nonflat/yaw_left": {
+          "base_reward_per_sec": 4.63901021359233,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.005078468074349309,
+          "applied_residual_max_axis_mean_rad": 0.020414764308615104,
+          "count": 248780
+        },
+        "nonflat/yaw_right": {
+          "base_reward_per_sec": 4.6442264304915515,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.005133453661226626,
+          "applied_residual_max_axis_mean_rad": 0.020489559769325236,
+          "count": 253890
+        }
+      }
+    }
+  },
+  "D": {
+    "fails": [
+      "yaw_left: RR lifts",
+      "mixed: FL lifts"
+    ],
+    "reward_weights": [
+      0.0,
+      0.1
+    ],
+    "phase_rms_ratio": 1.0038135836238389,
+    "spikes": [
+      9414,
+      9066
+    ],
+    "commands": {
+      "stand": {
+        "four_wheel_support_pct": [
+          100.0,
+          100.0
+        ],
+        "lifts": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "actual_velocity": [
+          [
+            0.006899999920278788,
+            0.0012000000569969416,
+            -0.0003000000142492354
+          ],
+          [
+            0.006899999920278788,
+            0.0012000000569969416,
+            -0.0003000000142492354
+          ]
+        ]
+      },
+      "forward": {
+        "four_wheel_support_pct": [
+          98.93,
+          98.93
+        ],
+        "lifts": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "actual_velocity": [
+          [
+            0.54339998960495,
+            0.0008999999845400453,
+            9.999999747378752e-05
+          ],
+          [
+            0.54339998960495,
+            0.0008999999845400453,
+            9.999999747378752e-05
+          ]
+        ]
+      },
+      "reverse": {
+        "four_wheel_support_pct": [
+          90.47,
+          90.47
+        ],
+        "lifts": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "actual_velocity": [
+          [
+            -0.5299000144004822,
+            -0.000699999975040555,
+            -0.003100000089034438
+          ],
+          [
+            -0.5299000144004822,
+            -0.000699999975040555,
+            -0.003100000089034438
+          ]
+        ]
+      },
+      "left": {
+        "four_wheel_support_pct": [
+          16.93,
+          17.8
+        ],
+        "lifts": [
+          [
+            39,
+            32,
+            42,
+            0
+          ],
+          [
+            38,
+            32,
+            42,
+            0
+          ]
+        ],
+        "actual_velocity": [
+          [
+            -0.010999999940395355,
+            0.31060001254081726,
+            -0.0006000000284984708
+          ],
+          [
+            -0.016499999910593033,
+            0.31380000710487366,
+            0.0017000000225380063
+          ]
+        ],
+        "phase_rms_deg": [
+          0.7088461015256651,
+          0.700809914370945
+        ],
+        "period_s": [
+          0.71,
+          0.7000000000000001
+        ],
+        "cycles": [
+          34,
+          34
+        ]
+      },
+      "right": {
+        "four_wheel_support_pct": [
+          27.93,
+          29.13
+        ],
+        "lifts": [
+          [
+            7,
+            18,
+            0,
+            15
+          ],
+          [
+            9,
+            21,
+            0,
+            15
+          ]
+        ],
+        "actual_velocity": [
+          [
+            -0.007899999618530273,
+            -0.2897000014781952,
+            -0.004100000020116568
+          ],
+          [
+            -0.0032999999821186066,
+            -0.2906999886035919,
+            0.0038999998942017555
+          ]
+        ],
+        "phase_rms_deg": [
+          0.8908680668710772,
+          0.9414834006778726
+        ],
+        "period_s": [
+          0.62,
+          0.62
+        ],
+        "cycles": [
+          38,
+          41
+        ]
+      },
+      "yaw_left": {
+        "four_wheel_support_pct": [
+          49.27,
+          49.47
+        ],
+        "lifts": [
+          [
+            0,
+            0,
+            0,
+            21
+          ],
+          [
+            1,
+            0,
+            0,
+            13
+          ]
+        ],
+        "actual_velocity": [
+          [
+            0.0010999999940395355,
+            -0.009700000286102295,
+            0.5630000233650208
+          ],
+          [
+            0.0010999999940395355,
+            -0.007499999832361937,
+            0.5681999921798706
+          ]
+        ],
+        "phase_rms_deg": [
+          0.5498038737699614,
+          0.56162526937754
+        ],
+        "period_s": [
+          0.76,
+          0.78
+        ],
+        "cycles": [
+          35,
+          35
+        ]
+      },
+      "yaw_right": {
+        "four_wheel_support_pct": [
+          49.0,
+          47.93
+        ],
+        "lifts": [
+          [
+            0,
+            3,
+            16,
+            0
+          ],
+          [
+            0,
+            2,
+            18,
+            0
+          ]
+        ],
+        "actual_velocity": [
+          [
+            -0.0066999997943639755,
+            0.005799999926239252,
+            -0.5712000131607056
+          ],
+          [
+            -0.001500000013038516,
+            0.005799999926239252,
+            -0.5734000205993652
+          ]
+        ],
+        "phase_rms_deg": [
+          0.579470163003279,
+          0.5494967635785137
+        ],
+        "period_s": [
+          0.8200000000000001,
+          0.8200000000000001
+        ],
+        "cycles": [
+          30,
+          31
+        ]
+      },
+      "mixed": {
+        "four_wheel_support_pct": [
+          21.07,
+          21.27
+        ],
+        "lifts": [
+          [
+            25,
+            33,
+            29,
+            7
+          ],
+          [
+            15,
+            26,
+            26,
+            12
+          ]
+        ],
+        "actual_velocity": [
+          [
+            0.42340001463890076,
+            0.1777999997138977,
+            0.44600000977516174
+          ],
+          [
+            0.4253000020980835,
+            0.1703999936580658,
+            0.45179998874664307
+          ]
+        ]
+      }
+    },
+    "training": {
+      "median_active_post_update_kl": 0.0034820019612879366,
+      "median_active_post_update_clip_fraction": 0.022979946183965747,
+      "means_by_terrain_and_command": {
+        "flat/forward": {
+          "base_reward_per_sec": 4.72217847269684,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.0,
+          "applied_residual_max_axis_mean_rad": 0.0,
+          "count": 150706
+        },
+        "flat/left": {
+          "base_reward_per_sec": 4.635297500119131,
+          "short_cost_raw": 0.04105670116945515,
+          "duty_cost_raw": 0.0017950185750937426,
+          "phase_fraction": 0.4206961340258821,
+          "applied_residual_mean_rad": 0.0055842208501342295,
+          "applied_residual_max_axis_mean_rad": 0.021908109319237076,
+          "count": 146897
+        },
+        "flat/mixed": {
+          "base_reward_per_sec": 4.452349880488296,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.006552280526467826,
+          "applied_residual_max_axis_mean_rad": 0.025538793782450893,
+          "count": 297565
+        },
+        "flat/reverse": {
+          "base_reward_per_sec": 4.720773708776282,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.0,
+          "applied_residual_max_axis_mean_rad": 0.0,
+          "count": 139877
+        },
+        "flat/right": {
+          "base_reward_per_sec": 4.6274726979373355,
+          "short_cost_raw": 0.0457383924664176,
+          "duty_cost_raw": 0.0017502614225901158,
+          "phase_fraction": 0.4307931570762053,
+          "applied_residual_mean_rad": 0.00566272896186541,
+          "applied_residual_max_axis_mean_rad": 0.022176678828811584,
+          "count": 149176
+        },
+        "flat/stand": {
+          "base_reward_per_sec": 4.531536236554529,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.0,
+          "applied_residual_max_axis_mean_rad": 0.0,
+          "count": 297312
+        },
+        "flat/yaw_left": {
+          "base_reward_per_sec": 4.684463566564898,
+          "short_cost_raw": 0.05815237360433907,
+          "duty_cost_raw": 2.299620340653321e-05,
+          "phase_fraction": 0.4426612568459674,
+          "applied_residual_mean_rad": 0.0053392658354449755,
+          "applied_residual_max_axis_mean_rad": 0.020801531368057367,
+          "count": 149358
+        },
+        "flat/yaw_right": {
+          "base_reward_per_sec": 4.68740695844267,
+          "short_cost_raw": 0.06385605028012524,
+          "duty_cost_raw": 1.0023693854427338e-05,
+          "phase_fraction": 0.47008749277853956,
+          "applied_residual_mean_rad": 0.00528688025005408,
+          "applied_residual_max_axis_mean_rad": 0.02093271415960091,
+          "count": 143669
+        },
+        "nonflat/forward": {
+          "base_reward_per_sec": 4.62008245934597,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.0,
+          "applied_residual_max_axis_mean_rad": 0.0,
+          "count": 252435
+        },
+        "nonflat/left": {
+          "base_reward_per_sec": 4.596886617100372,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.0056932463218970315,
+          "applied_residual_max_axis_mean_rad": 0.022324211115541923,
+          "count": 245597
+        },
+        "nonflat/mixed": {
+          "base_reward_per_sec": 4.352133596028435,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.00656514275947022,
+          "applied_residual_max_axis_mean_rad": 0.025542663307214664,
+          "count": 493760
+        },
+        "nonflat/reverse": {
+          "base_reward_per_sec": 4.631764058693178,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.0,
+          "applied_residual_max_axis_mean_rad": 0.0,
+          "count": 249552
+        },
+        "nonflat/right": {
+          "base_reward_per_sec": 4.577223295355334,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.00572078920869165,
+          "applied_residual_max_axis_mean_rad": 0.022376551132470487,
+          "count": 240534
+        },
+        "nonflat/stand": {
+          "base_reward_per_sec": 4.522028830913472,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.0,
+          "applied_residual_max_axis_mean_rad": 0.0,
+          "count": 483912
+        },
+        "nonflat/yaw_left": {
+          "base_reward_per_sec": 4.63508360739545,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.005366034369608176,
+          "applied_residual_max_axis_mean_rad": 0.02082978294267741,
+          "count": 248423
+        },
+        "nonflat/yaw_right": {
+          "base_reward_per_sec": 4.64729849606799,
+          "short_cost_raw": 0.0,
+          "duty_cost_raw": 0.0,
+          "phase_fraction": 0.0,
+          "applied_residual_mean_rad": 0.005203012909995193,
+          "applied_residual_max_axis_mean_rad": 0.02058550670520194,
+          "count": 243387
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "qualified": false,
+  "failures": [
+    "reverse: four-wheel rolling support below 90%",
+    "left: fewer than two events on a wheel in a trial",
+    "right: fewer than two events on a wheel in a trial",
+    "yaw_left: fewer than two events on a wheel in a trial",
+    "yaw_right: fewer than two events on a wheel in a trial"
+  ],
+  "cases": {
+    "forward": {
+      "min_tracking_ratio": 0.9532480239868164,
+      "min_four_wheel_support": 0.976,
+      "min_events_per_wheel": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "reverse": {
+      "min_tracking_ratio": 0.9096741676330566,
+      "min_four_wheel_support": 0.788,
+      "min_events_per_wheel": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "left": {
+      "min_tracking_ratio": 0.9425831437110901,
+      "min_four_wheel_support": 0.056,
+      "min_events_per_wheel": [
+        5,
+        0,
+        6,
+        1
+      ]
+    },
+    "right": {
+      "min_tracking_ratio": 0.9440305829048157,
+      "min_four_wheel_support": 0.128,
+      "min_events_per_wheel": [
+        0,
+        2,
+        0,
+        3
+      ]
+    },
+    "yaw_left": {
+      "min_tracking_ratio": 0.8995418548583984,
+      "min_four_wheel_support": 0.512,
+      "min_events_per_wheel": [
+        0,
+        0,
+        0,
+        6
+      ]
+    },
+    "yaw_right": {
+      "min_tracking_ratio": 0.9861701130867004,
+      "min_four_wheel_support": 0.52,
+      "min_events_per_wheel": [
+        0,
+        0,
+        6,
+        0
+      ]
+    }
+  }
+}

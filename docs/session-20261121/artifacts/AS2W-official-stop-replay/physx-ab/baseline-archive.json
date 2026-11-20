@@ -1,0 +1,10 @@
+{
+  "checkpoint": "/root/gpufree-data/as2w-runs/him-flat-t2-v2-20261119-G6IW9O/train/model_9836.pt",
+  "sha256": "44fd1e6211749496812039b3d7997be9bfd2b7d59a4441a7744d97b396d87b60",
+  "asset": "/root/as2w/unitree-flat-v2-dr/assets/as2w-t2-v2-mu025.usd",
+  "asset_sha256": "d48020cce1cbe59655c3bd95800f73b11b47026664deb941dfd0ebf6a1858034",
+  "seed": 319,
+  "dt_s": 0.02,
+  "evaluation_complete": true,
+  "acceptance_status": "pending_review"
+}

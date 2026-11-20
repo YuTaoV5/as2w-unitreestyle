@@ -1,0 +1,252 @@
+{
+  "baseline": {
+    "offline_reward_terms": {
+      "left": {
+        "phase_fraction": 0.9666666666666667,
+        "weighted_short_per_sec": 0.002245537181787363,
+        "weighted_duty_per_sec": 3.2019047619047727e-07
+      },
+      "right": {
+        "phase_fraction": 0.946,
+        "weighted_short_per_sec": 0.0021694033234042048,
+        "weighted_duty_per_sec": 2.4600000000000075e-07
+      },
+      "yaw_left": {
+        "phase_fraction": 0.9713333333333334,
+        "weighted_short_per_sec": 0.002652945365228756,
+        "weighted_duty_per_sec": 4.6290838206627563e-07
+      },
+      "yaw_right": {
+        "phase_fraction": 0.976,
+        "weighted_short_per_sec": 0.002814243228210351,
+        "weighted_duty_per_sec": 0.0
+      }
+    },
+    "pure_commands": {
+      "stand": {
+        "four_support_pct": 100.0,
+        "traces_exact_vs_baseline": {
+          "q": true,
+          "target_trace": true,
+          "wheel_data": true
+        }
+      },
+      "forward": {
+        "four_support_pct": 98.93333333333332,
+        "traces_exact_vs_baseline": {
+          "q": true,
+          "target_trace": true,
+          "wheel_data": true
+        }
+      },
+      "reverse": {
+        "four_support_pct": 90.46666666666667,
+        "traces_exact_vs_baseline": {
+          "q": true,
+          "target_trace": true,
+          "wheel_data": true
+        }
+      }
+    }
+  },
+  "u1320": {
+    "offline_reward_terms": {
+      "left": {
+        "phase_fraction": 0.9633333333333334,
+        "weighted_short_per_sec": 0.0019736739197012353,
+        "weighted_duty_per_sec": 1.7921904761904807e-06
+      },
+      "right": {
+        "phase_fraction": 0.962,
+        "weighted_short_per_sec": 0.0020884055367197635,
+        "weighted_duty_per_sec": 4.390666666666676e-06
+      },
+      "yaw_left": {
+        "phase_fraction": 0.9726666666666667,
+        "weighted_short_per_sec": 0.002482521673043113,
+        "weighted_duty_per_sec": 4.2928966861598254e-07
+      },
+      "yaw_right": {
+        "phase_fraction": 0.976,
+        "weighted_short_per_sec": 0.002703421683012186,
+        "weighted_duty_per_sec": 0.0
+      }
+    },
+    "pure_commands": {
+      "stand": {
+        "four_support_pct": 100.0,
+        "traces_exact_vs_baseline": {
+          "q": true,
+          "target_trace": true,
+          "wheel_data": true
+        }
+      },
+      "forward": {
+        "four_support_pct": 98.93333333333332,
+        "traces_exact_vs_baseline": {
+          "q": true,
+          "target_trace": true,
+          "wheel_data": true
+        }
+      },
+      "reverse": {
+        "four_support_pct": 90.46666666666667,
+        "traces_exact_vs_baseline": {
+          "q": true,
+          "target_trace": true,
+          "wheel_data": true
+        }
+      }
+    }
+  },
+  "best1370": {
+    "offline_reward_terms": {
+      "left": {
+        "phase_fraction": 0.9653333333333334,
+        "weighted_short_per_sec": 0.0020913805722920353,
+        "weighted_duty_per_sec": 3.2647619047618926e-07
+      },
+      "right": {
+        "phase_fraction": 0.9666666666666667,
+        "weighted_short_per_sec": 0.002150677713092805,
+        "weighted_duty_per_sec": 5.2188888888889006e-06
+      },
+      "yaw_left": {
+        "phase_fraction": 0.9733333333333334,
+        "weighted_short_per_sec": 0.0024852168401502004,
+        "weighted_duty_per_sec": 4.2928966861598254e-07
+      },
+      "yaw_right": {
+        "phase_fraction": 0.9753333333333334,
+        "weighted_short_per_sec": 0.0025124288385901046,
+        "weighted_duty_per_sec": 0.0
+      }
+    },
+    "pure_commands": {
+      "stand": {
+        "four_support_pct": 100.0,
+        "traces_exact_vs_baseline": {
+          "q": true,
+          "target_trace": true,
+          "wheel_data": true
+        }
+      },
+      "forward": {
+        "four_support_pct": 98.93333333333332,
+        "traces_exact_vs_baseline": {
+          "q": true,
+          "target_trace": true,
+          "wheel_data": true
+        }
+      },
+      "reverse": {
+        "four_support_pct": 90.46666666666667,
+        "traces_exact_vs_baseline": {
+          "q": true,
+          "target_trace": true,
+          "wheel_data": true
+        }
+      }
+    }
+  },
+  "u1500": {
+    "offline_reward_terms": {
+      "left": {
+        "phase_fraction": 0.968,
+        "weighted_short_per_sec": 0.0020042802523414695,
+        "weighted_duty_per_sec": 1.7847619047619065e-06
+      },
+      "right": {
+        "phase_fraction": 0.966,
+        "weighted_short_per_sec": 0.0020935963601337385,
+        "weighted_duty_per_sec": 1.93288888888889e-06
+      },
+      "yaw_left": {
+        "phase_fraction": 0.972,
+        "weighted_short_per_sec": 0.0024022881778489147,
+        "weighted_duty_per_sec": 1.1497543859649103e-07
+      },
+      "yaw_right": {
+        "phase_fraction": 0.976,
+        "weighted_short_per_sec": 0.0025340727395625987,
+        "weighted_duty_per_sec": 1.3533968253968175e-07
+      }
+    },
+    "pure_commands": {
+      "stand": {
+        "four_support_pct": 100.0,
+        "traces_exact_vs_baseline": {
+          "q": true,
+          "target_trace": true,
+          "wheel_data": true
+        }
+      },
+      "forward": {
+        "four_support_pct": 98.93333333333332,
+        "traces_exact_vs_baseline": {
+          "q": true,
+          "target_trace": true,
+          "wheel_data": true
+        }
+      },
+      "reverse": {
+        "four_support_pct": 90.46666666666667,
+        "traces_exact_vs_baseline": {
+          "q": true,
+          "target_trace": true,
+          "wheel_data": true
+        }
+      }
+    }
+  },
+  "u1720": {
+    "offline_reward_terms": {
+      "left": {
+        "phase_fraction": 0.9646666666666667,
+        "weighted_short_per_sec": 0.0019567611645788536,
+        "weighted_duty_per_sec": 0.0
+      },
+      "right": {
+        "phase_fraction": 0.9613333333333334,
+        "weighted_short_per_sec": 0.0019729093952860436,
+        "weighted_duty_per_sec": 1.4020000000000011e-06
+      },
+      "yaw_left": {
+        "phase_fraction": 0.9586666666666667,
+        "weighted_short_per_sec": 0.002330274953402227,
+        "weighted_duty_per_sec": 7.772226120857671e-07
+      },
+      "yaw_right": {
+        "phase_fraction": 0.976,
+        "weighted_short_per_sec": 0.0023958148363569065,
+        "weighted_duty_per_sec": 7.777777777778137e-09
+      }
+    },
+    "pure_commands": {
+      "stand": {
+        "four_support_pct": 100.0,
+        "traces_exact_vs_baseline": {
+          "q": true,
+          "target_trace": true,
+          "wheel_data": true
+        }
+      },
+      "forward": {
+        "four_support_pct": 98.93333333333332,
+        "traces_exact_vs_baseline": {
+          "q": true,
+          "target_trace": true,
+          "wheel_data": true
+        }
+      },
+      "reverse": {
+        "four_support_pct": 90.46666666666667,
+        "traces_exact_vs_baseline": {
+          "q": true,
+          "target_trace": true,
+          "wheel_data": true
+        }
+      }
+    }
+  }
+}

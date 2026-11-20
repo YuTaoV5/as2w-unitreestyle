@@ -1,0 +1,32 @@
+{
+  "seed": 42,
+  "iterations": 10000,
+  "num_envs": 4096,
+  "rollout_steps": 48,
+  "policy_dt_s": 0.02,
+  "asset": "/root/as2w/calibration/candidates/load-v0/as2w-load-v0.urdf",
+  "asset_sha256": "7c9740a95042bad7b73cadfda90bdc7c1873ac766afbb7c0e7e492367d45afb0",
+  "resume": null,
+  "terrain": {
+    "plane": 0.6,
+    "slope": 0.4
+  },
+  "source": "/root/as2w/unified_unitree_20261119-010208",
+  "rewards": {
+    "swing_event": 0.08,
+    "swing_overdue": 0.18,
+    "loaded_lateral_slip": 0.2,
+    "landing_speed": 0.08,
+    "nonwheel_contact": 0.4,
+    "joint_soft_limit": 0.2,
+    "rolling_missing_wheel": 0.4,
+    "rolling_command_min_m_s": 0.15,
+    "rolling_grace_s": 0.24,
+    "rolling_unload_s": 0.1,
+    "landing_speed_free_m_s": 0.25,
+    "nonwheel_contact_force_n": 8.0,
+    "body_contact_stop_s": 0.08,
+    "soft_joint_limit_margin_fraction": 0.1
+  },
+  "priority": "pure vx rolling; pure vy or wz stepping"
+}

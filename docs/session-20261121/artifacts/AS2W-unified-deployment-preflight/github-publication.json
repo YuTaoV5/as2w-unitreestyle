@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/YuTaoV5/as2w-unitreestyle",
+  "branch": "codex/unified-dr-20261119",
+  "commit": "b1e3a83bf11f1f2ed7b74881ff1f65da8066f8f9",
+  "remote_verified": true,
+  "bundle_staged_bytes_verified": 349,
+  "status": "research_only",
+  "readme_url": "https://github.com/YuTaoV5/as2w-unitreestyle/blob/b1e3a83bf11f1f2ed7b74881ff1f65da8066f8f9/unified_dr/README.md",
+  "base_training": "ongoing to 10000 updates"
+}
