@@ -47,7 +47,7 @@
 | `plots/p6-training-curves.png` | 175163 | `48bdb883887e22b439bb003be1a4e49a436feb8a62a8fb93c3de76d547abe565` |
 | `plots/p7-gate-matrix.png` | 23673 | `bf59fe855b6e82a82a78ddcb66467a030a95c6628079649789164ec9838f0ea2` |
 | `plots/p8-right-RR-events.png` | 95578 | `7900017c73907c32610f3e34f01e2a7c59d5690222e6d5b65311e8a6bb438ba7` |
-| `publish.py` | 4466 | `4cdc77124a38f6c81f9f118ad0041b035fbcd4a6a8b8860a1628b6eb60e61e81` |
+| `publish.py` | 4981 | `109a73aa8483dd617be6755a5b04198aee81f2eeaffeb9dc4a0ee01b08a8016e` |
 | `README.md` | 6311 | `91db039cc3602cf5c2fe29c28da4d44c3c4e05cb47fb02e41f7392837a2b54be` |
 | `tools/assets/check_usd_friction.py` | 809 | `5d36d7b228e303d042619b265e037878585e0684854648ed28abc435b2cd4489` |
 | `tools/assets/inspect_usd_com.py` | 525 | `2a9fd085294908707246d85e787fea3b6583efd138323ec126aa95c5686046e9` |
@@ -96,4 +96,5 @@
 ## 说明
 
 - 训练服务器 2026-11-21 11:35 重新可达后补取了全部 8 条臂的逐轮日志，`data/training-*.csv` 由其生成。
-- 图表由 `make_plots.py` / `rebuild_training_plots.py` 从 `data/` 与 `analysis/` 的可复算数据生成。
+- 图表由 `tools/plotting/` 下两个脚本从 `data/` 与 `analysis/` 的可复算数据生成。
+- `tools/` 内脚本的输入路径是作者本机的会话工作目录；逻辑与机器无关，改路径即可复跑。
