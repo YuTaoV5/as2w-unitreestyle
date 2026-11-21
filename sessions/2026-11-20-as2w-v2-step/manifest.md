@@ -1,6 +1,6 @@
 # 归档清单（2026-11-20 会话）
 
-共 47 个文件，合计 1.06 MB。
+共 79 个文件，合计 1.12 MB。
 
 | 文件 | 字节 | SHA256 |
 |---|---|---|
@@ -38,7 +38,6 @@
 | `docs/step-hard-600.md` | 1849 | `55e7378debe8ae0eb8318e7b113fa8faf1fc299e9b7abbff30d4dbb654e4b20d` |
 | `docs/stop-ab.md` | 1162 | `231bc648646aa1cffc708c8fb8c6704a145cc994b947664bc6fdc05ee8237bdf` |
 | `docs/tanh-baseline.md` | 1809 | `050897cd0a1987d5a9cfe8ce28bc176ccda69ad81a6e7df3ba8bdc894561e336` |
-| `make_plots.py` | 14008 | `5738295baf85885714e8e66522dea306014f49732072d4c70dbdf24eaffc852a` |
 | `plans/next-steps.md` | 3341 | `0c55a32cebde1dd1c51529f5da167c3c05e530078a7d1f7fefd2fba91296c911` |
 | `plots/p1-field-zeroB-weights.png` | 35852 | `a7efbe45e5fd50a04a01ae59953f4a81d03dc4415a8b238d853d15a8605dc6f1` |
 | `plots/p2-field-yaw-tracking.png` | 140663 | `0831f0cfc07b7150bbe259be83d524d44b3d8e921fe0eaffb451d4e70223720b` |
@@ -49,8 +48,41 @@
 | `plots/p7-gate-matrix.png` | 23673 | `bf59fe855b6e82a82a78ddcb66467a030a95c6628079649789164ec9838f0ea2` |
 | `plots/p8-right-RR-events.png` | 95578 | `7900017c73907c32610f3e34f01e2a7c59d5690222e6d5b65311e8a6bb438ba7` |
 | `publish.py` | 4466 | `4cdc77124a38f6c81f9f118ad0041b035fbcd4a6a8b8860a1628b6eb60e61e81` |
-| `README.md` | 6132 | `cadc304133490c7701555e6ec3294a99cec4adee7b8109947086f93f52de1eb2` |
-| `rebuild_training_plots.py` | 5041 | `6a13f11a46ec54c2ccbb38499befa1290d71d27f7e5691596a5a4d0f0fd020cc` |
+| `README.md` | 6311 | `91db039cc3602cf5c2fe29c28da4d44c3c4e05cb47fb02e41f7392837a2b54be` |
+| `tools/assets/check_usd_friction.py` | 809 | `5d36d7b228e303d042619b265e037878585e0684854648ed28abc435b2cd4489` |
+| `tools/assets/inspect_usd_com.py` | 525 | `2a9fd085294908707246d85e787fea3b6583efd138323ec126aa95c5686046e9` |
+| `tools/assets/make_com_variant.py` | 722 | `aaae29a13444b74a40a18c8a8f5df84a0649dfba6c520b119bdadd5db641662c` |
+| `tools/assets/make_mass_variant.py` | 596 | `6327672f6a3520a6ea6e9470f1c33bf530498f73f99238cb3622eff39df15b5b` |
+| `tools/field/analyze_lat_mu025.py` | 3956 | `d976fd7e27aeca9109f7eb44d5bfe0f48582872c279afb1aeab23eff966ff5bb` |
+| `tools/field/analyze_lateral.py` | 3367 | `29eebf635e5e0f7de0fcabf89d2fc7ead61ec8c991db6fcde413e8b24d0e6379` |
+| `tools/field/analyze_trial3.py` | 3481 | `8ca8d8d571d32569a8411f55d644463c2663b64e9b83c3ae9ba36e303460da3f` |
+| `tools/field/analyze_zero_b3.py` | 3529 | `8387675b6397bca91e09069d2459f2f28d139dba5595c43cc83bdd9ee6a5d2c8` |
+| `tools/field/analyze_zerob_mu025.py` | 3124 | `33d59109bb290fb418aa9dbda0584f56bc33458a4e2a4cec58fe34fb23f7b936` |
+| `tools/field/compare_yaw_lat.py` | 3063 | `7b27a4ad383f2d83aae29a5f9c92e11b974176bd77f275add0b603a5edba202a` |
+| `tools/field/gait_sign.py` | 2080 | `795dbde5535f469420868dc8ff0a4029657c019396b47f18288e0a634904087d` |
+| `tools/field/imu_lateral_sign.py` | 3290 | `882117223d5238434009d48017676b69108ab5633c2087665cc24226474bb9e5` |
+| `tools/field/slopes.py` | 2590 | `841c08e21b982e87f0468f5d5ff3ac44a49bbaf6dcc90b21912a470dcf5d062b` |
+| `tools/field/tau_estimate.py` | 2442 | `85c38deb5c966c97de7b42fbe728eaeb2ad47ab827ab066cb07d14414c1f5e5c` |
+| `tools/parity/check_tanh_onnx.py` | 784 | `226e67038094726beccf0540c68c62d876718390431a850f1f493588b824558e` |
+| `tools/parity/diag_parity.py` | 1225 | `2a1f04facac35d30572bb7459cdd7166e8b4259b0a5bafb26c26aa91a2e72dba` |
+| `tools/parity/make_fixture.py` | 1201 | `757b0ec1ff6e9f0874366a67363a040b72663d0e5f4e0bc408f6d9e8dba8ccdb` |
+| `tools/parity/parity_cpp.py` | 2394 | `dfd027cf882371232c7333e3bb7252f310e18958ae37153360ada67ca13140a5` |
+| `tools/parity/parity_cpp2.py` | 2389 | `2f1235ab66d379d15d573978452587aeb99e26657d4dbc4dafd82c8577de3bbc` |
+| `tools/plotting/make_plots.py` | 14008 | `5738295baf85885714e8e66522dea306014f49732072d4c70dbdf24eaffc852a` |
+| `tools/plotting/rebuild_training_plots.py` | 5041 | `6a13f11a46ec54c2ccbb38499befa1290d71d27f7e5691596a5a4d0f0fd020cc` |
+| `tools/README.md` | 5718 | `644ae2e7003b37525fb464d374efe52df439e86a60f20847f589a640d4e09baa` |
+| `tools/sim/compare_com.py` | 1280 | `f03001b7203dfe9b55a5695b31acad92abc72c8a064ae8d878bae50a6cd1f99b` |
+| `tools/sim/compare_com_stiff.py` | 1081 | `e89ad4f65cf80a037a00c2779d2a7fd8cc76293b7ef1ea525d72ae500bbe26ca` |
+| `tools/sim/compare_report.py` | 2974 | `9a276a52f2adc2307b785412a5afb195c55cf6753728c9ef7426ec078cf55308` |
+| `tools/sim/compare_static.py` | 996 | `5a420f1fa926e96736f0d823e27e68659aada41e2deda35e90ec6748738815a2` |
+| `tools/sim/jitter_metrics.py` | 2836 | `e6ef63a19d784ccca2ee2e2630074f22e43a8e157a01087fbdbf9628a6bb16de` |
+| `tools/sim/torque_from_tape.py` | 2012 | `2f004a4a029e6b284c4573b5c9144f7ceb30eeb5d55528dc028548c0e2d477e8` |
+| `tools/training/chain_compare.sh` | 807 | `6043153f4ace99a3c364401b87720300d39d908c5fae020302b90a125957c794` |
+| `tools/training/chain_jitter.sh` | 691 | `9749fb8131efbe0825097422c227af0c292f00af2e099e9af49f5a13c001147f` |
+| `tools/training/chain_mu025.sh` | 783 | `f4fc8606327a52f094bd1d182ab7c9f46cd96a6fd62c16a2f8bbf96764c5dc65` |
+| `tools/training/eval_asset.sh` | 1138 | `d8120b3924f7d24049157af567063a0f3db06844626f5b499fde681082b5fa7a` |
+| `tools/training/eval_dr.sh` | 887 | `3286d323aefb8e10dba9ec4f23a74ca350c05be0ac96f5e8530f8060d36350a6` |
+| `tools/training/eval_out.sh` | 695 | `0bb41f7e0eaf84b8204307ef4cadb326e2f3dfd799a025c55b91e49f22698316` |
 
 ## 未上传（体量原因，已在本机归档）
 
