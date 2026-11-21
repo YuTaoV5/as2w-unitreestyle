@@ -1,4 +1,4 @@
-"""Rebuild training-data extracts and plots from all fetched runs."""
+﻿"""Rebuild training-data extracts and plots from all fetched runs."""
 import json
 from pathlib import Path
 
@@ -36,7 +36,7 @@ KEYS = ["executed_signflip_fraction", "executed_delta_mean", "executed_abs_mean"
         "swing_event", "event_right_RR", "event_left_RR", "event_right_RL",
         "support_right_RR", "tracking"]
 
-# ── summary csv ─────────────────────────────────────────────────────────────
+# 鈹€鈹€ summary csv 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 lines = ["run,updates," + ",".join(KEYS)]
 for run, rows in logs.items():
     last = rows[-1]
@@ -51,7 +51,7 @@ for run, rows in logs.items():
     lines.append(f"{run},{len(rows)}," + ",".join(vals))
 (DATA / "training-runs-summary.csv").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
-# ── downsampled curves csv ──────────────────────────────────────────────────
+# 鈹€鈹€ downsampled curves csv 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 cos = ["run", "update", "executed_signflip_fraction", "executed_delta_mean",
        "executed_abs_mean", "event_right_RR", "event_left_RR", "swing_event"]
 out = [",".join(cos)]
@@ -62,7 +62,7 @@ for run, rows in logs.items():
         out.append(f"{run},{r['update']}," + ",".join(g(k) for k in cos[2:]))
 (DATA / "training-curves-downsampled.csv").write_text("\n".join(out) + "\n", encoding="utf-8")
 
-# ── P6: jitter metrics across runs ──────────────────────────────────────────
+# 鈹€鈹€ P6: jitter metrics across runs 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 fig, axes = plt.subplots(1, 2, figsize=(11, 3.6))
 ax = axes[0]
 for run, label in RUNS.items():
@@ -92,7 +92,7 @@ ax.legend(fontsize=7)
 fig.savefig(PLOTS / "p6-training-curves.png")
 plt.close(fig)
 
-# ── P8: right-wheel lift events (the unsolved direction) ────────────────────
+# 鈹€鈹€ P8: right-wheel lift events (the unsolved direction) 鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€鈹€
 fig, ax = plt.subplots(figsize=(9, 3.2))
 for run, label in RUNS.items():
     if run not in logs:
@@ -103,9 +103,10 @@ for run, label in RUNS.items():
     ax.plot([r["update"] for r in rows], [r["event_right_RR"] for r in rows], lw=1, label=label)
 ax.set_ylim(bottom=0)
 ax.set_xlabel("update"); ax.set_ylabel("event_right_RR")
-ax.set_title("rear-right wheel lift events in right translation (stays at 0 for every arm)")
+ax.set_title("event_right_RR: final value 0.000000 for every arm (peak during training <= 0.0015)")
 ax.legend(fontsize=7)
 fig.savefig(PLOTS / "p8-right-RR-events.png")
 plt.close(fig)
 
 print("wrote", sorted(p.name for p in PLOTS.glob("*.png")))
+

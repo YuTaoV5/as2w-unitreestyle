@@ -47,10 +47,10 @@
 | `plots/p5-negative-controls.png` | 26084 | `14298d9c2758fad5257738d8ff65d1d695f209e50b938c79435af674ce1d38ae` |
 | `plots/p6-training-curves.png` | 175163 | `48bdb883887e22b439bb003be1a4e49a436feb8a62a8fb93c3de76d547abe565` |
 | `plots/p7-gate-matrix.png` | 23673 | `bf59fe855b6e82a82a78ddcb66467a030a95c6628079649789164ec9838f0ea2` |
-| `plots/p8-right-RR-events.png` | 94992 | `30ad1fda29afea70121cc2ba707121e327e243e12cd5cb7d7cf51aaab8d9542c` |
+| `plots/p8-right-RR-events.png` | 95578 | `7900017c73907c32610f3e34f01e2a7c59d5690222e6d5b65311e8a6bb438ba7` |
 | `publish.py` | 4466 | `4cdc77124a38f6c81f9f118ad0041b035fbcd4a6a8b8860a1628b6eb60e61e81` |
-| `README.md` | 5994 | `a43b87d6e6ab7c84bf405f7da95a1df46b8f18c2e2abd22e5df4db33f911a36d` |
-| `rebuild_training_plots.py` | 4486 | `e6cb8d73f94a335ec39488df40b872dd76b2eee232c459bf62eab6665b6c8d87` |
+| `README.md` | 6132 | `cadc304133490c7701555e6ec3294a99cec4adee7b8109947086f93f52de1eb2` |
+| `rebuild_training_plots.py` | 5041 | `6a13f11a46ec54c2ccbb38499befa1290d71d27f7e5691596a5a4d0f0fd020cc` |
 
 ## 未上传（体量原因，已在本机归档）
 
