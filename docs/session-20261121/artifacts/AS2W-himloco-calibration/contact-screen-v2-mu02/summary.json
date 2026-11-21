@@ -1,0 +1,59 @@
+{
+  "cases": {
+    "native": {
+      "t2": {
+        "pitch_abs_error_deg": 6.683018297289881,
+        "hip_rmse_nm": 7.803469241961506,
+        "hip_sign_matches": 4,
+        "max_contact_force_closure_n": 1.7211211547873972e-06,
+        "wheel_normal_n": [
+          34.48625823974609,
+          42.01372573852539,
+          103.2799153137207,
+          90.16323669433594
+        ]
+      },
+      "official": {
+        "pitch_abs_error_deg": 0.9360252172410302,
+        "hip_rmse_nm": 4.443423793886075,
+        "hip_sign_matches": 2,
+        "max_contact_force_closure_n": 9.839823974289174e-07,
+        "wheel_normal_n": [
+          65.51744720458984,
+          67.01372421264648,
+          68.12211181640625,
+          69.23645309448243
+        ]
+      }
+    },
+    ".2": {
+      "t2": {
+        "pitch_abs_error_deg": 1.0129422111943125,
+        "hip_rmse_nm": 4.680281860552663,
+        "hip_sign_matches": 4,
+        "max_contact_force_closure_n": 3.591006759506854e-07,
+        "wheel_normal_n": [
+          53.2605012512207,
+          54.253497009277346,
+          82.53920822143554,
+          79.83881958007812
+        ]
+      },
+      "official": {
+        "pitch_abs_error_deg": 0.8531123613162123,
+        "hip_rmse_nm": 0.873497023240312,
+        "hip_sign_matches": 4,
+        "max_contact_force_closure_n": 1.0374063140261568e-06,
+        "wheel_normal_n": [
+          71.44674118041992,
+          66.82645767211915,
+          68.54535003662109,
+          63.17215118408203
+        ]
+      }
+    }
+  },
+  "joint_improvements": [
+    ".2"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "joint_axes_and_origins_matched": 16,
+  "urdf_collision": {
+    "base_link": [
+      "<geometry>\n        <mesh filename=\"meshes/base_link.STL\" />\n      </geometry>"
+    ],
+    "FL_thigh": [
+      "<geometry>\n        <mesh filename=\"meshes/FL_thigh.STL\" />\n      </geometry>"
+    ],
+    "FR_thigh": [
+      "<geometry>\n        <mesh filename=\"meshes/FR_thigh.STL\" />\n      </geometry>"
+    ],
+    "FL_foot": [
+      "<geometry>\n        <mesh filename=\"meshes/FL_foot.STL\" />\n      </geometry>"
+    ]
+  },
+  "cases": {
+    "ground": {
+      "-1": {
+        "wheel_gap_mm": {
+          "FL_foot": 0.0,
+          "FR_foot": 3.26,
+          "RL_foot": 1.72,
+          "RR_foot": 5.51
+        },
+        "front_track_m": 0.42084336160002456,
+        "self_contacts": [
+          [
+            "base_link",
+            "FL_thigh",
+            -13.8
+          ],
+          [
+            "base_link",
+            "FR_thigh",
+            -13.57
+          ]
+        ]
+      },
+      "1": {
+        "wheel_gap_mm": {
+          "FL_foot": 0.0,
+          "FR_foot": 4.63,
+          "RL_foot": 5.46,
+          "RR_foot": 5.94
+        },
+        "front_track_m": 0.23701806593040786,
+        "self_contacts": [
+          [
+            "base_link",
+            "FL_thigh",
+            -7.68
+          ],
+          [
+            "base_link",
+            "FR_thigh",
+            -7.81
+          ]
+        ]
+      }
+    },
+    "suspended": {
+      "-1": {
+        "wheel_gap_mm": {
+          "FL_foot": 12.59,
+          "FR_foot": 1.47,
+          "RL_foot": 11.22,
+          "RR_foot": 0.0
+        },
+        "front_track_m": 0.440756576576591,
+        "self_contacts": [
+          [
+            "base_link",
+            "FL_thigh",
+            -14.51
+          ],
+          [
+            "base_link",
+            "FR_thigh",
+            -14.53
+          ]
+        ]
+      },
+      "1": {
+        "wheel_gap_mm": {
+          "FL_foot": 7.1,
+          "FR_foot": 0.81,
+          "RL_foot": 5.99,
+          "RR_foot": 0.0
+        },
+        "front_track_m": 0.21535378644455747,
+        "self_contacts": [
+          [
+            "base_link",
+            "FL_thigh",
+            -7.26
+          ],
+          [
+            "base_link",
+            "FR_thigh",
+            -7.24
+          ]
+        ]
+      }
+    }
+  }
+}

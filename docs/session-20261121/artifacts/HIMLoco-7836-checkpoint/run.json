@@ -1,0 +1,28 @@
+{
+  "asset": "/root/as2w/calibration/candidates/load-v0/as2w-load-v0.urdf",
+  "asset_sha256": "7c9740a95042bad7b73cadfda90bdc7c1873ac766afbb7c0e7e492367d45afb0",
+  "num_envs": 4096,
+  "rollout_steps": 48,
+  "policy_dt_s": 0.02,
+  "seed": 42,
+  "experiment": "him-stairs-5cm-v1",
+  "stage": "flat",
+  "reference_q": [
+    0.009417971596121788,
+    0.7507156729698181,
+    -1.729775071144104,
+    0.004589483607560396,
+    0.7501038908958435,
+    -1.729904055595398,
+    -0.007249526213854551,
+    0.698336124420166,
+    -1.8501152992248535,
+    -0.011449754238128662,
+    0.7065856456756592,
+    -1.8392364978790283
+  ],
+  "reference_height": 0.341465562582016,
+  "frame_width": 60,
+  "resume": "/root/gpufree-data/as2w-runs/him-arc-164323/u6000/best-eval/best.pt",
+  "swing_load_weight": 0.0
+}

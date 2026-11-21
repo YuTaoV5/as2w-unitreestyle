@@ -1,0 +1,1838 @@
+{
+  "gait_preserved": false,
+  "failures": [
+    "forward: loss of four-wheel stance",
+    "left: cadence",
+    "left: reduced active joint excursion",
+    "right: FR lifts",
+    "right: increased measured phase residual",
+    "right: reduced active joint excursion",
+    "yaw_left: cadence",
+    "yaw_left: increased measured phase residual",
+    "yaw_left: reduced active joint excursion",
+    "yaw_right: increased measured phase residual",
+    "yaw_right: reduced active joint excursion",
+    "mixed: tracking axis 1",
+    "mixed: FL lifts",
+    "mixed: RR lifts",
+    "mixed: wheel duty"
+  ],
+  "spikes_baseline": 8811,
+  "spikes_candidate": 7147,
+  "case_metrics": {
+    "stand": {
+      "baseline": {
+        "survived": 6,
+        "trials": 6,
+        "mean_body_vx_vy_wz": [
+          0.006899999920278788,
+          0.0012000000569969416,
+          -0.0003000000142492354
+        ],
+        "valid_frames": 1500,
+        "spectrum_trials": 6,
+        "tilt_p95_deg": 1.5300999879837036,
+        "roll_pitch_rate_p95_deg_s": 2.411900043487549,
+        "support_pct_0_to_4": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        "nonwheel_contact_frames": 0,
+        "loaded_mesh_min_p05_mm": [
+          -5.1907,
+          -5.1858
+        ],
+        "abs_lateral_slip_median_p95_m_s": [
+          0.0007,
+          0.0023
+        ],
+        "abs_longitudinal_slip_median_p95_m_s": [
+          0.0014,
+          0.005
+        ],
+        "measured_wheel_speed_abs_p95_rad_s": 0.49570000171661377,
+        "lift_event_counts_FL_FR_RL_RR": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "lift_events_Hz_per_wheel_FL_FR_RL_RR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "joint_angles_p05_p50_p95_rad": [
+          -1.5136,
+          -0.0012,
+          1.0604
+        ],
+        "joint_dominant_Hz": [
+          null,
+          0.6,
+          1.2,
+          null,
+          0.6,
+          0.6,
+          0.9,
+          0.6,
+          0.7,
+          0.8,
+          0.6,
+          0.6
+        ],
+        "roll_pitch_dominant_Hz": [
+          0.6,
+          null
+        ],
+        "body_roll_pitch_p05_p95_deg": [
+          -1.5044,
+          0.6152
+        ],
+        "lift_duration_median_s": null
+      },
+      "candidate": {
+        "survived": 6,
+        "trials": 6,
+        "mean_body_vx_vy_wz": [
+          0.008799999952316284,
+          0.0007999999797903001,
+          -0.0003000000142492354
+        ],
+        "valid_frames": 1500,
+        "spectrum_trials": 6,
+        "tilt_p95_deg": 1.6811000108718872,
+        "roll_pitch_rate_p95_deg_s": 14.343500137329102,
+        "support_pct_0_to_4": [
+          0.0,
+          0.0,
+          0.0,
+          0.33,
+          99.67
+        ],
+        "nonwheel_contact_frames": 0,
+        "loaded_mesh_min_p05_mm": [
+          -5.3664,
+          -5.3249
+        ],
+        "abs_lateral_slip_median_p95_m_s": [
+          0.0008,
+          0.0198
+        ],
+        "abs_longitudinal_slip_median_p95_m_s": [
+          0.0018,
+          0.0227
+        ],
+        "measured_wheel_speed_abs_p95_rad_s": 0.8428000211715698,
+        "lift_event_counts_FL_FR_RL_RR": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "lift_events_Hz_per_wheel_FL_FR_RL_RR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "joint_angles_p05_p50_p95_rad": [
+          -1.5206,
+          -0.0059,
+          1.0414
+        ],
+        "joint_dominant_Hz": [
+          0.8,
+          0.7,
+          1.5,
+          0.6,
+          0.7,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.8,
+          0.6,
+          0.7
+        ],
+        "roll_pitch_dominant_Hz": [
+          null,
+          0.6
+        ],
+        "body_roll_pitch_p05_p95_deg": [
+          -1.4542,
+          0.6989
+        ],
+        "lift_duration_median_s": null
+      }
+    },
+    "forward": {
+      "baseline": {
+        "survived": 6,
+        "trials": 6,
+        "mean_body_vx_vy_wz": [
+          0.54339998960495,
+          0.0008999999845400453,
+          9.999999747378752e-05
+        ],
+        "valid_frames": 1500,
+        "spectrum_trials": 6,
+        "tilt_p95_deg": 2.2137999534606934,
+        "roll_pitch_rate_p95_deg_s": 14.524499893188477,
+        "support_pct_0_to_4": [
+          0.0,
+          0.0,
+          0.27,
+          0.8,
+          98.93
+        ],
+        "nonwheel_contact_frames": 0,
+        "loaded_mesh_min_p05_mm": [
+          -6.3164,
+          -3.9422
+        ],
+        "abs_lateral_slip_median_p95_m_s": [
+          0.0101,
+          0.0343
+        ],
+        "abs_longitudinal_slip_median_p95_m_s": [
+          0.0234,
+          0.1039
+        ],
+        "measured_wheel_speed_abs_p95_rad_s": 7.345600128173828,
+        "lift_event_counts_FL_FR_RL_RR": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "lift_events_Hz_per_wheel_FL_FR_RL_RR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "joint_angles_p05_p50_p95_rad": [
+          -1.5506,
+          -0.0054,
+          1.1478
+        ],
+        "joint_dominant_Hz": [
+          0.7,
+          0.6,
+          3.8,
+          0.6,
+          0.6,
+          2.0,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6
+        ],
+        "roll_pitch_dominant_Hz": [
+          null,
+          0.6
+        ],
+        "body_roll_pitch_p05_p95_deg": [
+          -1.7655,
+          0.5386
+        ],
+        "lift_duration_median_s": null
+      },
+      "candidate": {
+        "survived": 6,
+        "trials": 6,
+        "mean_body_vx_vy_wz": [
+          0.5202999711036682,
+          0.004999999888241291,
+          0.006399999838322401
+        ],
+        "valid_frames": 1500,
+        "spectrum_trials": 6,
+        "tilt_p95_deg": 4.193399906158447,
+        "roll_pitch_rate_p95_deg_s": 25.794200897216797,
+        "support_pct_0_to_4": [
+          0.0,
+          0.0,
+          0.6,
+          4.2,
+          95.2
+        ],
+        "nonwheel_contact_frames": 0,
+        "loaded_mesh_min_p05_mm": [
+          -6.7184,
+          -3.8314
+        ],
+        "abs_lateral_slip_median_p95_m_s": [
+          0.0095,
+          0.1852
+        ],
+        "abs_longitudinal_slip_median_p95_m_s": [
+          0.0402,
+          0.338
+        ],
+        "measured_wheel_speed_abs_p95_rad_s": 8.041299819946289,
+        "lift_event_counts_FL_FR_RL_RR": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "lift_events_Hz_per_wheel_FL_FR_RL_RR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "joint_angles_p05_p50_p95_rad": [
+          -1.5357,
+          0.0013,
+          1.0406
+        ],
+        "joint_dominant_Hz": [
+          0.7,
+          0.8,
+          1.0,
+          0.6,
+          0.6,
+          0.8,
+          0.7,
+          0.6,
+          0.8,
+          0.6,
+          0.6,
+          0.6
+        ],
+        "roll_pitch_dominant_Hz": [
+          1.0,
+          0.7
+        ],
+        "body_roll_pitch_p05_p95_deg": [
+          -3.8906,
+          0.7003
+        ],
+        "lift_duration_median_s": null
+      }
+    },
+    "reverse": {
+      "baseline": {
+        "survived": 6,
+        "trials": 6,
+        "mean_body_vx_vy_wz": [
+          -0.5299000144004822,
+          -0.000699999975040555,
+          -0.003100000089034438
+        ],
+        "valid_frames": 1500,
+        "spectrum_trials": 6,
+        "tilt_p95_deg": 1.9075000286102295,
+        "roll_pitch_rate_p95_deg_s": 23.417200088500977,
+        "support_pct_0_to_4": [
+          0.0,
+          0.0,
+          0.6,
+          8.93,
+          90.47
+        ],
+        "nonwheel_contact_frames": 0,
+        "loaded_mesh_min_p05_mm": [
+          -6.6337,
+          -3.7596
+        ],
+        "abs_lateral_slip_median_p95_m_s": [
+          0.0118,
+          0.0379
+        ],
+        "abs_longitudinal_slip_median_p95_m_s": [
+          0.0195,
+          0.0897
+        ],
+        "measured_wheel_speed_abs_p95_rad_s": 7.406700134277344,
+        "lift_event_counts_FL_FR_RL_RR": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "lift_events_Hz_per_wheel_FL_FR_RL_RR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "joint_angles_p05_p50_p95_rad": [
+          -1.5417,
+          -0.0026,
+          1.1482
+        ],
+        "joint_dominant_Hz": [
+          1.0,
+          0.9,
+          0.6,
+          1.0,
+          0.6,
+          0.9,
+          0.6,
+          0.6,
+          0.6,
+          0.8,
+          0.7,
+          0.6
+        ],
+        "roll_pitch_dominant_Hz": [
+          0.6,
+          null
+        ],
+        "body_roll_pitch_p05_p95_deg": [
+          -1.1611,
+          1.3935
+        ],
+        "lift_duration_median_s": null
+      },
+      "candidate": {
+        "survived": 6,
+        "trials": 6,
+        "mean_body_vx_vy_wz": [
+          -0.5264999866485596,
+          0.00139999995008111,
+          -0.0015999999595806003
+        ],
+        "valid_frames": 1500,
+        "spectrum_trials": 6,
+        "tilt_p95_deg": 1.8066999912261963,
+        "roll_pitch_rate_p95_deg_s": 29.41029930114746,
+        "support_pct_0_to_4": [
+          0.0,
+          0.0,
+          1.6,
+          9.6,
+          88.8
+        ],
+        "nonwheel_contact_frames": 0,
+        "loaded_mesh_min_p05_mm": [
+          -6.5254,
+          -3.7543
+        ],
+        "abs_lateral_slip_median_p95_m_s": [
+          0.0094,
+          0.0745
+        ],
+        "abs_longitudinal_slip_median_p95_m_s": [
+          0.0274,
+          0.1301
+        ],
+        "measured_wheel_speed_abs_p95_rad_s": 7.701900005340576,
+        "lift_event_counts_FL_FR_RL_RR": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "lift_events_Hz_per_wheel_FL_FR_RL_RR": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "joint_angles_p05_p50_p95_rad": [
+          -1.5333,
+          -0.0011,
+          1.0908
+        ],
+        "joint_dominant_Hz": [
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.7,
+          0.7,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6
+        ],
+        "roll_pitch_dominant_Hz": [
+          null,
+          0.6
+        ],
+        "body_roll_pitch_p05_p95_deg": [
+          -0.8103,
+          1.5008
+        ],
+        "lift_duration_median_s": null
+      }
+    },
+    "left": {
+      "baseline": {
+        "survived": 6,
+        "trials": 6,
+        "mean_body_vx_vy_wz": [
+          -0.010999999940395355,
+          0.31060001254081726,
+          -0.0006000000284984708
+        ],
+        "valid_frames": 1500,
+        "spectrum_trials": 6,
+        "tilt_p95_deg": 5.8831000328063965,
+        "roll_pitch_rate_p95_deg_s": 68.20850372314453,
+        "support_pct_0_to_4": [
+          0.0,
+          0.13,
+          32.93,
+          50.0,
+          16.93
+        ],
+        "nonwheel_contact_frames": 0,
+        "loaded_mesh_min_p05_mm": [
+          -5.8383,
+          -5.2263
+        ],
+        "abs_lateral_slip_median_p95_m_s": [
+          0.0056,
+          0.8375
+        ],
+        "abs_longitudinal_slip_median_p95_m_s": [
+          0.0069,
+          0.4038
+        ],
+        "measured_wheel_speed_abs_p95_rad_s": 1.3911000490188599,
+        "lift_event_counts_FL_FR_RL_RR": [
+          39,
+          32,
+          42,
+          0
+        ],
+        "lift_events_Hz_per_wheel_FL_FR_RL_RR": [
+          1.3,
+          1.07,
+          1.4,
+          0.0
+        ],
+        "joint_angles_p05_p50_p95_rad": [
+          -1.7086,
+          0.1007,
+          1.0312
+        ],
+        "joint_dominant_Hz": [
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          2.8,
+          2.8,
+          1.4,
+          1.4,
+          1.4
+        ],
+        "roll_pitch_dominant_Hz": [
+          1.4,
+          1.4
+        ],
+        "body_roll_pitch_p05_p95_deg": [
+          -4.4348,
+          1.9022
+        ],
+        "lift_duration_median_s": 0.14
+      },
+      "candidate": {
+        "survived": 6,
+        "trials": 6,
+        "mean_body_vx_vy_wz": [
+          0.011900000274181366,
+          0.30709999799728394,
+          0.010200000368058681
+        ],
+        "valid_frames": 1500,
+        "spectrum_trials": 6,
+        "tilt_p95_deg": 6.107900142669678,
+        "roll_pitch_rate_p95_deg_s": 69.90599822998047,
+        "support_pct_0_to_4": [
+          0.0,
+          0.0,
+          37.67,
+          52.07,
+          10.27
+        ],
+        "nonwheel_contact_frames": 0,
+        "loaded_mesh_min_p05_mm": [
+          -5.806,
+          -4.2767
+        ],
+        "abs_lateral_slip_median_p95_m_s": [
+          0.0053,
+          0.6774
+        ],
+        "abs_longitudinal_slip_median_p95_m_s": [
+          0.006,
+          0.4522
+        ],
+        "measured_wheel_speed_abs_p95_rad_s": 1.5011999607086182,
+        "lift_event_counts_FL_FR_RL_RR": [
+          41,
+          28,
+          42,
+          1
+        ],
+        "lift_events_Hz_per_wheel_FL_FR_RL_RR": [
+          1.37,
+          0.93,
+          1.4,
+          0.03
+        ],
+        "joint_angles_p05_p50_p95_rad": [
+          -1.756,
+          0.1166,
+          1.0337
+        ],
+        "joint_dominant_Hz": [
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4
+        ],
+        "roll_pitch_dominant_Hz": [
+          1.4,
+          1.4
+        ],
+        "body_roll_pitch_p05_p95_deg": [
+          -4.4812,
+          1.9009
+        ],
+        "lift_duration_median_s": 0.16
+      },
+      "phase_baseline": {
+        "cycles": 34,
+        "period_s": 0.71,
+        "measured_residual_rms_deg": 0.7088461015256651
+      },
+      "phase_candidate": {
+        "cycles": 22,
+        "period_s": 0.74,
+        "measured_residual_rms_deg": 0.7321216175899682
+      },
+      "baseline_shorts": 1492,
+      "candidate_shorts": 1213
+    },
+    "right": {
+      "baseline": {
+        "survived": 6,
+        "trials": 6,
+        "mean_body_vx_vy_wz": [
+          -0.007899999618530273,
+          -0.2897000014781952,
+          -0.004100000020116568
+        ],
+        "valid_frames": 1500,
+        "spectrum_trials": 6,
+        "tilt_p95_deg": 4.831099987030029,
+        "roll_pitch_rate_p95_deg_s": 76.81670379638672,
+        "support_pct_0_to_4": [
+          0.0,
+          0.0,
+          24.67,
+          47.4,
+          27.93
+        ],
+        "nonwheel_contact_frames": 0,
+        "loaded_mesh_min_p05_mm": [
+          -5.6733,
+          -4.8064
+        ],
+        "abs_lateral_slip_median_p95_m_s": [
+          0.0067,
+          0.6587
+        ],
+        "abs_longitudinal_slip_median_p95_m_s": [
+          0.0063,
+          0.2811
+        ],
+        "measured_wheel_speed_abs_p95_rad_s": 1.339400053024292,
+        "lift_event_counts_FL_FR_RL_RR": [
+          7,
+          18,
+          0,
+          15
+        ],
+        "lift_events_Hz_per_wheel_FL_FR_RL_RR": [
+          0.23,
+          0.6,
+          0.0,
+          0.5
+        ],
+        "joint_angles_p05_p50_p95_rad": [
+          -1.6967,
+          -0.0728,
+          1.0185
+        ],
+        "joint_dominant_Hz": [
+          1.6,
+          1.6,
+          3.2,
+          1.6,
+          1.6,
+          1.6,
+          1.6,
+          1.6,
+          1.6,
+          1.6,
+          1.6,
+          1.6
+        ],
+        "roll_pitch_dominant_Hz": [
+          1.6,
+          1.6
+        ],
+        "body_roll_pitch_p05_p95_deg": [
+          -4.1836,
+          2.5169
+        ],
+        "lift_duration_median_s": 0.08
+      },
+      "candidate": {
+        "survived": 6,
+        "trials": 6,
+        "mean_body_vx_vy_wz": [
+          -0.0006000000284984708,
+          -0.30709999799728394,
+          0.0032999999821186066
+        ],
+        "valid_frames": 1500,
+        "spectrum_trials": 6,
+        "tilt_p95_deg": 5.78249979019165,
+        "roll_pitch_rate_p95_deg_s": 68.07350158691406,
+        "support_pct_0_to_4": [
+          0.0,
+          0.0,
+          24.47,
+          47.6,
+          27.93
+        ],
+        "nonwheel_contact_frames": 0,
+        "loaded_mesh_min_p05_mm": [
+          -5.7337,
+          -5.2843
+        ],
+        "abs_lateral_slip_median_p95_m_s": [
+          0.0078,
+          0.9638
+        ],
+        "abs_longitudinal_slip_median_p95_m_s": [
+          0.0077,
+          0.3805
+        ],
+        "measured_wheel_speed_abs_p95_rad_s": 1.5666999816894531,
+        "lift_event_counts_FL_FR_RL_RR": [
+          17,
+          13,
+          0,
+          16
+        ],
+        "lift_events_Hz_per_wheel_FL_FR_RL_RR": [
+          0.57,
+          0.43,
+          0.0,
+          0.53
+        ],
+        "joint_angles_p05_p50_p95_rad": [
+          -1.7324,
+          -0.0707,
+          1.0463
+        ],
+        "joint_dominant_Hz": [
+          1.8,
+          1.8,
+          1.8,
+          1.8,
+          1.8,
+          1.8,
+          1.8,
+          1.8,
+          1.8,
+          1.8,
+          3.4,
+          1.8
+        ],
+        "roll_pitch_dominant_Hz": [
+          1.8,
+          1.8
+        ],
+        "body_roll_pitch_p05_p95_deg": [
+          -4.4721,
+          3.5736
+        ],
+        "lift_duration_median_s": 0.06
+      },
+      "phase_baseline": {
+        "cycles": 38,
+        "period_s": 0.62,
+        "measured_residual_rms_deg": 0.8908680668710772
+      },
+      "phase_candidate": {
+        "cycles": 41,
+        "period_s": 0.56,
+        "measured_residual_rms_deg": 1.0929250556684442
+      },
+      "baseline_shorts": 1678,
+      "candidate_shorts": 1222
+    },
+    "yaw_left": {
+      "baseline": {
+        "survived": 6,
+        "trials": 6,
+        "mean_body_vx_vy_wz": [
+          0.0010999999940395355,
+          -0.009700000286102295,
+          0.5630000233650208
+        ],
+        "valid_frames": 1500,
+        "spectrum_trials": 6,
+        "tilt_p95_deg": 4.688300132751465,
+        "roll_pitch_rate_p95_deg_s": 52.03519821166992,
+        "support_pct_0_to_4": [
+          0.0,
+          0.2,
+          11.33,
+          39.2,
+          49.27
+        ],
+        "nonwheel_contact_frames": 0,
+        "loaded_mesh_min_p05_mm": [
+          -5.8305,
+          -5.396
+        ],
+        "abs_lateral_slip_median_p95_m_s": [
+          0.013,
+          0.4118
+        ],
+        "abs_longitudinal_slip_median_p95_m_s": [
+          0.0239,
+          0.4087
+        ],
+        "measured_wheel_speed_abs_p95_rad_s": 1.5570000410079956,
+        "lift_event_counts_FL_FR_RL_RR": [
+          0,
+          0,
+          0,
+          21
+        ],
+        "lift_events_Hz_per_wheel_FL_FR_RL_RR": [
+          0.0,
+          0.0,
+          0.0,
+          0.7
+        ],
+        "joint_angles_p05_p50_p95_rad": [
+          -1.6225,
+          -0.0153,
+          0.9678
+        ],
+        "joint_dominant_Hz": [
+          1.3,
+          1.2,
+          1.3,
+          1.2,
+          1.3,
+          1.2,
+          1.3,
+          1.3,
+          1.2,
+          1.3,
+          1.3,
+          3.8
+        ],
+        "roll_pitch_dominant_Hz": [
+          0.7,
+          1.2
+        ],
+        "body_roll_pitch_p05_p95_deg": [
+          -3.7267,
+          2.6262
+        ],
+        "lift_duration_median_s": 0.08
+      },
+      "candidate": {
+        "survived": 6,
+        "trials": 6,
+        "mean_body_vx_vy_wz": [
+          -0.00570000009611249,
+          -0.005900000222027302,
+          0.5860999822616577
+        ],
+        "valid_frames": 1500,
+        "spectrum_trials": 6,
+        "tilt_p95_deg": 3.4079999923706055,
+        "roll_pitch_rate_p95_deg_s": 44.33169937133789,
+        "support_pct_0_to_4": [
+          0.0,
+          0.13,
+          18.27,
+          25.33,
+          56.27
+        ],
+        "nonwheel_contact_frames": 0,
+        "loaded_mesh_min_p05_mm": [
+          -5.417,
+          -5.1891
+        ],
+        "abs_lateral_slip_median_p95_m_s": [
+          0.021,
+          0.4801
+        ],
+        "abs_longitudinal_slip_median_p95_m_s": [
+          0.0219,
+          0.3917
+        ],
+        "measured_wheel_speed_abs_p95_rad_s": 1.3070000410079956,
+        "lift_event_counts_FL_FR_RL_RR": [
+          23,
+          0,
+          0,
+          28
+        ],
+        "lift_events_Hz_per_wheel_FL_FR_RL_RR": [
+          0.77,
+          0.0,
+          0.0,
+          0.93
+        ],
+        "joint_angles_p05_p50_p95_rad": [
+          -1.6352,
+          0.0015,
+          1.0025
+        ],
+        "joint_dominant_Hz": [
+          1.6,
+          1.6,
+          1.6,
+          1.6,
+          1.6,
+          1.6,
+          1.6,
+          1.6,
+          1.6,
+          1.6,
+          1.6,
+          1.6
+        ],
+        "roll_pitch_dominant_Hz": [
+          0.6,
+          3.3
+        ],
+        "body_roll_pitch_p05_p95_deg": [
+          -2.9002,
+          1.4781
+        ],
+        "lift_duration_median_s": 0.08
+      },
+      "phase_baseline": {
+        "cycles": 35,
+        "period_s": 0.76,
+        "measured_residual_rms_deg": 0.5498038737699614
+      },
+      "phase_candidate": {
+        "cycles": 42,
+        "period_s": 0.6,
+        "measured_residual_rms_deg": 0.7036935234307551
+      },
+      "baseline_shorts": 1731,
+      "candidate_shorts": 1576
+    },
+    "yaw_right": {
+      "baseline": {
+        "survived": 6,
+        "trials": 6,
+        "mean_body_vx_vy_wz": [
+          -0.0066999997943639755,
+          0.005799999926239252,
+          -0.5712000131607056
+        ],
+        "valid_frames": 1500,
+        "spectrum_trials": 6,
+        "tilt_p95_deg": 3.946700096130371,
+        "roll_pitch_rate_p95_deg_s": 55.661399841308594,
+        "support_pct_0_to_4": [
+          0.0,
+          0.0,
+          13.8,
+          37.2,
+          49.0
+        ],
+        "nonwheel_contact_frames": 0,
+        "loaded_mesh_min_p05_mm": [
+          -6.8914,
+          -4.659
+        ],
+        "abs_lateral_slip_median_p95_m_s": [
+          0.0111,
+          0.2605
+        ],
+        "abs_longitudinal_slip_median_p95_m_s": [
+          0.019,
+          0.317
+        ],
+        "measured_wheel_speed_abs_p95_rad_s": 1.7740000486373901,
+        "lift_event_counts_FL_FR_RL_RR": [
+          0,
+          3,
+          16,
+          0
+        ],
+        "lift_events_Hz_per_wheel_FL_FR_RL_RR": [
+          0.0,
+          0.1,
+          0.53,
+          0.0
+        ],
+        "joint_angles_p05_p50_p95_rad": [
+          -1.6412,
+          0.0049,
+          0.9666
+        ],
+        "joint_dominant_Hz": [
+          1.2,
+          1.2,
+          1.2,
+          1.2,
+          1.2,
+          1.2,
+          1.2,
+          1.2,
+          2.3,
+          1.2,
+          1.2,
+          1.2
+        ],
+        "roll_pitch_dominant_Hz": [
+          1.0,
+          1.2
+        ],
+        "body_roll_pitch_p05_p95_deg": [
+          -3.2967,
+          1.2217
+        ],
+        "lift_duration_median_s": 0.08
+      },
+      "candidate": {
+        "survived": 6,
+        "trials": 6,
+        "mean_body_vx_vy_wz": [
+          0.005200000014156103,
+          -0.00430000014603138,
+          -0.5763999819755554
+        ],
+        "valid_frames": 1500,
+        "spectrum_trials": 6,
+        "tilt_p95_deg": 3.419100046157837,
+        "roll_pitch_rate_p95_deg_s": 42.86640167236328,
+        "support_pct_0_to_4": [
+          0.0,
+          0.0,
+          15.47,
+          28.6,
+          55.93
+        ],
+        "nonwheel_contact_frames": 0,
+        "loaded_mesh_min_p05_mm": [
+          -5.6416,
+          -4.8383
+        ],
+        "abs_lateral_slip_median_p95_m_s": [
+          0.0176,
+          0.3816
+        ],
+        "abs_longitudinal_slip_median_p95_m_s": [
+          0.0192,
+          0.3694
+        ],
+        "measured_wheel_speed_abs_p95_rad_s": 1.5154999494552612,
+        "lift_event_counts_FL_FR_RL_RR": [
+          0,
+          9,
+          27,
+          0
+        ],
+        "lift_events_Hz_per_wheel_FL_FR_RL_RR": [
+          0.0,
+          0.3,
+          0.9,
+          0.0
+        ],
+        "joint_angles_p05_p50_p95_rad": [
+          -1.6376,
+          -0.0122,
+          1.0187
+        ],
+        "joint_dominant_Hz": [
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          1.4,
+          4.2,
+          1.4,
+          1.4,
+          1.4
+        ],
+        "roll_pitch_dominant_Hz": [
+          0.7,
+          1.4
+        ],
+        "body_roll_pitch_p05_p95_deg": [
+          -2.8563,
+          0.8985
+        ],
+        "lift_duration_median_s": 0.08
+      },
+      "phase_baseline": {
+        "cycles": 30,
+        "period_s": 0.8200000000000001,
+        "measured_residual_rms_deg": 0.579470163003279
+      },
+      "phase_candidate": {
+        "cycles": 39,
+        "period_s": 0.7000000000000001,
+        "measured_residual_rms_deg": 0.638098233593133
+      },
+      "baseline_shorts": 1988,
+      "candidate_shorts": 1698
+    },
+    "mixed": {
+      "baseline": {
+        "survived": 6,
+        "trials": 6,
+        "mean_body_vx_vy_wz": [
+          0.42340001463890076,
+          0.1777999997138977,
+          0.44600000977516174
+        ],
+        "valid_frames": 1500,
+        "spectrum_trials": 6,
+        "tilt_p95_deg": 4.4552001953125,
+        "roll_pitch_rate_p95_deg_s": 67.91059875488281,
+        "support_pct_0_to_4": [
+          0.07,
+          0.27,
+          39.27,
+          39.33,
+          21.07
+        ],
+        "nonwheel_contact_frames": 0,
+        "loaded_mesh_min_p05_mm": [
+          -6.221,
+          -3.7635
+        ],
+        "abs_lateral_slip_median_p95_m_s": [
+          0.0137,
+          0.2718
+        ],
+        "abs_longitudinal_slip_median_p95_m_s": [
+          0.0369,
+          0.4471
+        ],
+        "measured_wheel_speed_abs_p95_rad_s": 6.771299839019775,
+        "lift_event_counts_FL_FR_RL_RR": [
+          25,
+          33,
+          29,
+          7
+        ],
+        "lift_events_Hz_per_wheel_FL_FR_RL_RR": [
+          0.83,
+          1.1,
+          0.97,
+          0.23
+        ],
+        "joint_angles_p05_p50_p95_rad": [
+          -1.7144,
+          0.0769,
+          1.0174
+        ],
+        "joint_dominant_Hz": [
+          1.2,
+          1.2,
+          1.2,
+          1.2,
+          1.1,
+          1.9,
+          0.9,
+          1.2,
+          1.1,
+          1.2,
+          1.2,
+          1.2
+        ],
+        "roll_pitch_dominant_Hz": [
+          2.6,
+          1.2
+        ],
+        "body_roll_pitch_p05_p95_deg": [
+          -3.1848,
+          2.4378
+        ],
+        "lift_duration_median_s": 0.08
+      },
+      "candidate": {
+        "survived": 6,
+        "trials": 6,
+        "mean_body_vx_vy_wz": [
+          0.39989998936653137,
+          0.22370000183582306,
+          0.4352000057697296
+        ],
+        "valid_frames": 1500,
+        "spectrum_trials": 6,
+        "tilt_p95_deg": 6.3684000968933105,
+        "roll_pitch_rate_p95_deg_s": 62.240299224853516,
+        "support_pct_0_to_4": [
+          0.0,
+          0.2,
+          48.87,
+          37.47,
+          13.47
+        ],
+        "nonwheel_contact_frames": 0,
+        "loaded_mesh_min_p05_mm": [
+          -6.2671,
+          -3.4868
+        ],
+        "abs_lateral_slip_median_p95_m_s": [
+          0.0155,
+          0.4716
+        ],
+        "abs_longitudinal_slip_median_p95_m_s": [
+          0.0371,
+          0.4782
+        ],
+        "measured_wheel_speed_abs_p95_rad_s": 6.741199970245361,
+        "lift_event_counts_FL_FR_RL_RR": [
+          13,
+          30,
+          48,
+          1
+        ],
+        "lift_events_Hz_per_wheel_FL_FR_RL_RR": [
+          0.43,
+          1.0,
+          1.6,
+          0.03
+        ],
+        "joint_angles_p05_p50_p95_rad": [
+          -1.7745,
+          0.1122,
+          1.0584
+        ],
+        "joint_dominant_Hz": [
+          1.6,
+          3.1,
+          1.6,
+          1.6,
+          1.6,
+          1.6,
+          1.5,
+          1.6,
+          1.6,
+          1.1,
+          1.6,
+          1.5
+        ],
+        "roll_pitch_dominant_Hz": [
+          1.1,
+          1.6
+        ],
+        "body_roll_pitch_p05_p95_deg": [
+          -4.9011,
+          0.2467
+        ],
+        "lift_duration_median_s": 0.16
+      },
+      "baseline_shorts": 1922,
+      "candidate_shorts": 1438
+    }
+  },
+  "wheel_load_baseline": {
+    "forward": {
+      "short_reversals": 89,
+      "load_share": [
+        0.2562814950942993,
+        0.2523390054702759,
+        0.24834465980529785,
+        0.24303492903709412
+      ],
+      "duty": [
+        0.9993333333333333,
+        0.9973333333333333,
+        0.998,
+        0.992
+      ],
+      "force_p05_p50_p95_N": [
+        [
+          43.97853088378906,
+          42.00145931243897,
+          41.419476699829104,
+          40.29331283569336
+        ],
+        [
+          66.51910781860352,
+          65.73231887817383,
+          62.53568077087402,
+          62.21775436401367
+        ],
+        [
+          116.98732910156247,
+          126.65178451538085,
+          139.80759506225584,
+          137.6919143676758
+        ]
+      ]
+    },
+    "left": {
+      "short_reversals": 1610,
+      "load_share": [
+        0.24473191797733307,
+        0.3192189633846283,
+        0.2264557182788849,
+        0.20959338545799255
+      ],
+      "duty": [
+        0.6286666666666667,
+        0.7866666666666666,
+        0.6186666666666667,
+        0.8033333333333333
+      ],
+      "force_p05_p50_p95_N": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          72.64682388305664,
+          87.61988830566406,
+          70.47078704833984,
+          57.42042350769043
+        ],
+        [
+          164.84225769042968,
+          195.67551269531248,
+          123.4070442199707,
+          129.67728729248046
+        ]
+      ]
+    },
+    "mixed": {
+      "short_reversals": 2080,
+      "load_share": [
+        0.2558293044567108,
+        0.2771534323692322,
+        0.20011042058467865,
+        0.2669067978858948
+      ],
+      "duty": [
+        0.7186666666666667,
+        0.6773333333333333,
+        0.624,
+        0.7906666666666666
+      ],
+      "force_p05_p50_p95_N": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          79.83450698852539,
+          70.48194122314453,
+          57.8397159576416,
+          75.63379287719727
+        ],
+        [
+          145.23527526855466,
+          190.0963310241699,
+          136.8562873840332,
+          143.62606201171874
+        ]
+      ]
+    },
+    "reverse": {
+      "short_reversals": 265,
+      "load_share": [
+        0.27375832200050354,
+        0.2771383225917816,
+        0.2296876609325409,
+        0.2194157838821411
+      ],
+      "duty": [
+        1.0,
+        1.0,
+        0.9446666666666667,
+        0.954
+      ],
+      "force_p05_p50_p95_N": [
+        [
+          47.089983749389646,
+          45.82212238311767,
+          0.0,
+          21.383443069458007
+        ],
+        [
+          70.72051620483398,
+          70.97807312011719,
+          56.5098876953125,
+          53.210872650146484
+        ],
+        [
+          125.89698295593257,
+          136.5099220275879,
+          142.48523254394527,
+          143.61505050659179
+        ]
+      ]
+    },
+    "right": {
+      "short_reversals": 1769,
+      "load_share": [
+        0.28111883997917175,
+        0.2531304359436035,
+        0.2468404918909073,
+        0.21890991926193237
+      ],
+      "duty": [
+        0.772,
+        0.7186666666666667,
+        0.86,
+        0.682
+      ],
+      "force_p05_p50_p95_N": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          69.99378967285156,
+          70.60538864135742,
+          69.8847770690918,
+          71.86226654052734
+        ],
+        [
+          179.16389999389648,
+          158.57778244018553,
+          135.93659362792968,
+          120.92845420837402
+        ]
+      ]
+    },
+    "stand": {
+      "short_reversals": 0,
+      "load_share": [
+        0.2656591832637787,
+        0.2595709562301636,
+        0.2406177669763565,
+        0.23415204882621765
+      ],
+      "duty": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "force_p05_p50_p95_N": [
+        [
+          60.90006275177002,
+          60.38634738922119,
+          48.50882339477539,
+          48.66471652984619
+        ],
+        [
+          71.75640106201172,
+          69.59189224243164,
+          66.82517623901367,
+          62.52898406982422
+        ],
+        [
+          82.27406692504883,
+          82.06959419250488,
+          78.3728240966797,
+          78.63172149658203
+        ]
+      ]
+    },
+    "yaw_left": {
+      "short_reversals": 1858,
+      "load_share": [
+        0.2602851986885071,
+        0.2666633725166321,
+        0.2238166183233261,
+        0.24923479557037354
+      ],
+      "duty": [
+        0.9086666666666666,
+        0.8406666666666667,
+        0.8013333333333333,
+        0.8246666666666667
+      ],
+      "force_p05_p50_p95_N": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          78.60723495483398,
+          77.55367660522461,
+          61.26119804382324,
+          78.73270416259766
+        ],
+        [
+          112.33114166259766,
+          162.38996810913085,
+          135.7810111999511,
+          103.72765655517578
+        ]
+      ]
+    },
+    "yaw_right": {
+      "short_reversals": 2097,
+      "load_share": [
+        0.2743343710899353,
+        0.25182926654815674,
+        0.2457284778356552,
+        0.2281080186367035
+      ],
+      "duty": [
+        0.868,
+        0.866,
+        0.8293333333333334,
+        0.7886666666666666
+      ],
+      "force_p05_p50_p95_N": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          74.3090705871582,
+          76.35099411010742,
+          77.80452346801758,
+          64.80913162231445
+        ],
+        [
+          168.71308212280275,
+          120.70878562927246,
+          100.84756507873534,
+          139.83583374023436
+        ]
+      ]
+    }
+  },
+  "wheel_load_candidate": {
+    "forward": {
+      "short_reversals": 1027,
+      "load_share": [
+        0.2553553581237793,
+        0.2606322765350342,
+        0.24642731249332428,
+        0.2375849187374115
+      ],
+      "duty": [
+        0.9893333333333333,
+        0.996,
+        0.9873333333333333,
+        0.9733333333333334
+      ],
+      "force_p05_p50_p95_N": [
+        [
+          25.177508640289307,
+          25.62469873428345,
+          35.84749298095703,
+          34.07209300994873
+        ],
+        [
+          67.11240768432617,
+          67.98047256469727,
+          62.56132698059082,
+          60.88742256164551
+        ],
+        [
+          129.6385871887207,
+          135.46123123168937,
+          129.970255279541,
+          119.15306434631346
+        ]
+      ]
+    },
+    "left": {
+      "short_reversals": 1229,
+      "load_share": [
+        0.24584271013736725,
+        0.29122304916381836,
+        0.2226441651582718,
+        0.24029019474983215
+      ],
+      "duty": [
+        0.6626666666666666,
+        0.794,
+        0.5393333333333333,
+        0.73
+      ],
+      "force_p05_p50_p95_N": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          69.677978515625,
+          78.1296157836914,
+          82.3493423461914,
+          81.12438201904297
+        ],
+        [
+          155.38444442749022,
+          172.49728698730468,
+          131.848380279541,
+          139.5875015258789
+        ]
+      ]
+    },
+    "mixed": {
+      "short_reversals": 1462,
+      "load_share": [
+        0.3126038908958435,
+        0.24387110769748688,
+        0.149703249335289,
+        0.2938220798969269
+      ],
+      "duty": [
+        0.758,
+        0.6173333333333333,
+        0.422,
+        0.8446666666666667
+      ],
+      "force_p05_p50_p95_N": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          90.92129898071289,
+          52.20686721801758,
+          0.0,
+          91.39383697509766
+        ],
+        [
+          174.76006851196288,
+          199.28600006103514,
+          127.29739532470703,
+          139.79965972900388
+        ]
+      ]
+    },
+    "reverse": {
+      "short_reversals": 270,
+      "load_share": [
+        0.2734150290489197,
+        0.27651846408843994,
+        0.22779084742069244,
+        0.22227562963962555
+      ],
+      "duty": [
+        0.9993333333333333,
+        1.0,
+        0.9533333333333334,
+        0.9193333333333333
+      ],
+      "force_p05_p50_p95_N": [
+        [
+          42.97460880279541,
+          44.13465957641601,
+          19.871374702453615,
+          0.0
+        ],
+        [
+          70.1860580444336,
+          70.98948287963867,
+          54.685386657714844,
+          53.592872619628906
+        ],
+        [
+          131.08895187377928,
+          128.78550491333004,
+          137.84615554809565,
+          146.62337112426755
+        ]
+      ]
+    },
+    "right": {
+      "short_reversals": 1237,
+      "load_share": [
+        0.2788527011871338,
+        0.26234403252601624,
+        0.24922750890254974,
+        0.20957563817501068
+      ],
+      "duty": [
+        0.7086666666666667,
+        0.7373333333333333,
+        0.894,
+        0.6946666666666667
+      ],
+      "force_p05_p50_p95_N": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          80.0242805480957,
+          67.1509895324707,
+          70.2183952331543,
+          73.28022766113281
+        ],
+        [
+          170.26953125,
+          191.8733413696289,
+          132.61774444580078,
+          112.55397720336913
+        ]
+      ]
+    },
+    "stand": {
+      "short_reversals": 37,
+      "load_share": [
+        0.2631576955318451,
+        0.26347970962524414,
+        0.23450621962547302,
+        0.23885631561279297
+      ],
+      "duty": [
+        1.0,
+        1.0,
+        0.9973333333333333,
+        0.9993333333333333
+      ],
+      "force_p05_p50_p95_N": [
+        [
+          57.84600944519043,
+          59.50718536376953,
+          50.58865242004394,
+          51.59862861633301
+        ],
+        [
+          70.18156814575195,
+          71.60063171386719,
+          64.89663314819336,
+          63.02754211425781
+        ],
+        [
+          81.91140289306641,
+          84.10902442932128,
+          74.3882957458496,
+          77.46552963256836
+        ]
+      ]
+    },
+    "yaw_left": {
+      "short_reversals": 1588,
+      "load_share": [
+        0.24061168730258942,
+        0.3088468313217163,
+        0.2535800039768219,
+        0.19696125388145447
+      ],
+      "duty": [
+        0.808,
+        0.9306666666666666,
+        0.8833333333333333,
+        0.7553333333333333
+      ],
+      "force_p05_p50_p95_N": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          74.36260986328125,
+          76.97167587280273,
+          67.4832878112793,
+          63.70938682556152
+        ],
+        [
+          117.91013526916501,
+          175.0644546508789,
+          123.36801834106446,
+          95.14303245544434
+        ]
+      ]
+    },
+    "yaw_right": {
+      "short_reversals": 1725,
+      "load_share": [
+        0.31012043356895447,
+        0.24003253877162933,
+        0.20171387493610382,
+        0.24813304841518402
+      ],
+      "duty": [
+        0.924,
+        0.8153333333333334,
+        0.7766666666666666,
+        0.8886666666666667
+      ],
+      "force_p05_p50_p95_N": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          80.08221817016602,
+          76.09969711303711,
+          63.78284454345703,
+          66.91621780395508
+        ],
+        [
+          187.2509696960449,
+          113.25683517456055,
+          91.8976333618164,
+          139.17018661499023
+        ]
+      ]
+    }
+  }
+}

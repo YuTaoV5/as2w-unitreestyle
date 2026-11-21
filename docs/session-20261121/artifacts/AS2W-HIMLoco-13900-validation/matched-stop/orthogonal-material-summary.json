@@ -1,0 +1,286 @@
+{
+  "0.25 min": {
+    "bindings": [
+      {
+        "shape": "/World/envs/env_0/Robot/Geometry/base_link/FL_hip/FL_thigh/FL_calf/FL_foot/FL_foot_1/FL_foot",
+        "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "combine": null
+      },
+      {
+        "shape": "/World/envs/env_0/Robot/Geometry/base_link/FR_hip/FR_thigh/FR_calf/FR_foot/FR_foot_1/FR_foot",
+        "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "combine": null
+      },
+      {
+        "shape": "/World/envs/env_0/Robot/Geometry/base_link/RL_hip/RL_thigh/RL_calf/RL_foot/RL_foot_1/RL_foot",
+        "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "combine": null
+      },
+      {
+        "shape": "/World/envs/env_0/Robot/Geometry/base_link/RR_hip/RR_thigh/RR_calf/RR_foot/RR_foot_1/RR_foot",
+        "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "combine": null
+      },
+      {
+        "shape": "/World/ground/terrain/GroundPlane/CollisionPlane",
+        "material": "/World/ground/terrain/physicsMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "physxMaterial:dampingCombineMode": "average",
+        "physxMaterial:frictionCombineMode": "min",
+        "physxMaterial:restitutionCombineMode": "average",
+        "combine": "min"
+      }
+    ],
+    "windows": {
+      "71-73": {
+        "four_support_pct": 64.0,
+        "wheel_mean_N": [
+          102.537815387249,
+          87.64065496444702,
+          32.40084730863571,
+          35.761504521369936
+        ]
+      },
+      "73-76": {
+        "four_support_pct": 0.0,
+        "wheel_mean_N": [
+          73.85448928991954,
+          69.44711669206619,
+          0.0,
+          0.0
+        ]
+      },
+      "77-81": {
+        "four_support_pct": 0.0,
+        "wheel_mean_N": [
+          118.79588050842285,
+          13.63841417312622,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "0.50 max": {
+    "bindings": [
+      {
+        "shape": "/World/envs/env_0/Robot/Geometry/base_link/FL_hip/FL_thigh/FL_calf/FL_foot/FL_foot_1/FL_foot",
+        "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "combine": null
+      },
+      {
+        "shape": "/World/envs/env_0/Robot/Geometry/base_link/FR_hip/FR_thigh/FR_calf/FR_foot/FR_foot_1/FR_foot",
+        "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "combine": null
+      },
+      {
+        "shape": "/World/envs/env_0/Robot/Geometry/base_link/RL_hip/RL_thigh/RL_calf/RL_foot/RL_foot_1/RL_foot",
+        "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "combine": null
+      },
+      {
+        "shape": "/World/envs/env_0/Robot/Geometry/base_link/RR_hip/RR_thigh/RR_calf/RR_foot/RR_foot_1/RR_foot",
+        "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "combine": null
+      },
+      {
+        "shape": "/World/ground/terrain/GroundPlane/CollisionPlane",
+        "material": "/World/ground/terrain/physicsMaterial",
+        "physics:dynamicFriction": 0.5,
+        "physics:staticFriction": 0.5,
+        "physxMaterial:dampingCombineMode": "average",
+        "physxMaterial:frictionCombineMode": "max",
+        "physxMaterial:restitutionCombineMode": "average",
+        "combine": "max"
+      }
+    ],
+    "windows": {
+      "71-73": {
+        "four_support_pct": 91.0,
+        "wheel_mean_N": [
+          77.79164402008057,
+          70.99930530548096,
+          50.60481789588928,
+          68.37763763427735
+        ]
+      },
+      "73-76": {
+        "four_support_pct": 98.66666666666667,
+        "wheel_mean_N": [
+          77.1877572631836,
+          73.88059781392415,
+          55.11689650217692,
+          62.877116673787434
+        ]
+      },
+      "77-81": {
+        "four_support_pct": 100.0,
+        "wheel_mean_N": [
+          74.8032347869873,
+          67.64404361724854,
+          59.07574359893799,
+          68.36596446990967
+        ]
+      }
+    }
+  },
+  "0.50 min": {
+    "bindings": [
+      {
+        "shape": "/World/envs/env_0/Robot/Geometry/base_link/FL_hip/FL_thigh/FL_calf/FL_foot/FL_foot_1/FL_foot",
+        "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "combine": null
+      },
+      {
+        "shape": "/World/envs/env_0/Robot/Geometry/base_link/FR_hip/FR_thigh/FR_calf/FR_foot/FR_foot_1/FR_foot",
+        "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "combine": null
+      },
+      {
+        "shape": "/World/envs/env_0/Robot/Geometry/base_link/RL_hip/RL_thigh/RL_calf/RL_foot/RL_foot_1/RL_foot",
+        "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "combine": null
+      },
+      {
+        "shape": "/World/envs/env_0/Robot/Geometry/base_link/RR_hip/RR_thigh/RR_calf/RR_foot/RR_foot_1/RR_foot",
+        "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "combine": null
+      },
+      {
+        "shape": "/World/ground/terrain/GroundPlane/CollisionPlane",
+        "material": "/World/ground/terrain/physicsMaterial",
+        "physics:dynamicFriction": 0.5,
+        "physics:staticFriction": 0.5,
+        "physxMaterial:dampingCombineMode": "average",
+        "physxMaterial:frictionCombineMode": "min",
+        "physxMaterial:restitutionCombineMode": "average",
+        "combine": "min"
+      }
+    ],
+    "windows": {
+      "71-73": {
+        "four_support_pct": 68.0,
+        "wheel_mean_N": [
+          100.59382526397705,
+          88.08388182163239,
+          30.986821262836457,
+          37.47720891952515
+        ]
+      },
+      "73-76": {
+        "four_support_pct": 0.0,
+        "wheel_mean_N": [
+          69.69416989644368,
+          60.93889864603678,
+          0.0,
+          1.3455391947428386
+        ]
+      },
+      "77-81": {
+        "four_support_pct": 0.0,
+        "wheel_mean_N": [
+          34.64636414527893,
+          0.0,
+          38.64395969390869,
+          0.0
+        ]
+      }
+    }
+  },
+  "0.25 max": {
+    "bindings": [
+      {
+        "shape": "/World/envs/env_0/Robot/Geometry/base_link/FL_hip/FL_thigh/FL_calf/FL_foot/FL_foot_1/FL_foot",
+        "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "combine": null
+      },
+      {
+        "shape": "/World/envs/env_0/Robot/Geometry/base_link/FR_hip/FR_thigh/FR_calf/FR_foot/FR_foot_1/FR_foot",
+        "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "combine": null
+      },
+      {
+        "shape": "/World/envs/env_0/Robot/Geometry/base_link/RL_hip/RL_thigh/RL_calf/RL_foot/RL_foot_1/RL_foot",
+        "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "combine": null
+      },
+      {
+        "shape": "/World/envs/env_0/Robot/Geometry/base_link/RR_hip/RR_thigh/RR_calf/RR_foot/RR_foot_1/RR_foot",
+        "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "combine": null
+      },
+      {
+        "shape": "/World/ground/terrain/GroundPlane/CollisionPlane",
+        "material": "/World/ground/terrain/physicsMaterial",
+        "physics:dynamicFriction": 0.25,
+        "physics:staticFriction": 0.25,
+        "physxMaterial:dampingCombineMode": "average",
+        "physxMaterial:frictionCombineMode": "max",
+        "physxMaterial:restitutionCombineMode": "average",
+        "combine": "max"
+      }
+    ],
+    "windows": {
+      "71-73": {
+        "four_support_pct": 68.0,
+        "wheel_mean_N": [
+          100.59382526397705,
+          88.08388182163239,
+          30.986821262836457,
+          37.47720891952515
+        ]
+      },
+      "73-76": {
+        "four_support_pct": 0.0,
+        "wheel_mean_N": [
+          69.69416989644368,
+          60.93889864603678,
+          0.0,
+          1.3455391947428386
+        ]
+      },
+      "77-81": {
+        "four_support_pct": 0.0,
+        "wheel_mean_N": [
+          34.64636414527893,
+          0.0,
+          38.64395969390869,
+          0.0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "stages": [
+    {"name":"field_reset","updates":1000},
+    {"name":"load","updates":1500},
+    {"name":"contact","updates":3000},
+    {"name":"timing","updates":1500},
+    {"name":"consolidate","updates":3000}
+  ],
+  "checkpoint_every":100,
+  "curves_every":500
+}

@@ -1,0 +1,172 @@
+{
+  "pitch_deg": -3.1254339539385523,
+  "hip_torque_nm": [
+    -6.175769739151001,
+    6.05047025680542,
+    -7.944621601104736,
+    8.310964546203614
+  ],
+  "leg_torque_nm": [
+    -6.175769739151001,
+    3.325512557029724,
+    8.182047958374023,
+    6.05047025680542,
+    3.4787642621994017,
+    8.163131504058837,
+    -7.944621601104736,
+    4.490713329315185,
+    12.674003429412842,
+    8.310964546203614,
+    3.9727559185028074,
+    12.276185836791992
+  ],
+  "wheel_normal_n": [
+    [
+      7.66450930314022e-06,
+      0.0,
+      57.0450675201416
+    ],
+    [
+      7.599810951433028e-06,
+      0.0,
+      56.56353424072265
+    ],
+    [
+      1.0578910751064542e-05,
+      0.0,
+      78.73624816894531
+    ],
+    [
+      1.0419230748084373e-05,
+      0.0,
+      77.54778930664062
+    ]
+  ],
+  "wheel_tangent_n": [
+    [
+      1.641913604736328,
+      -4.135926065444946,
+      -2.206056112186161e-07
+    ],
+    [
+      1.9940469145774842,
+      4.474578456878662,
+      -2.6791782431700994e-07
+    ],
+    [
+      -0.9433238971233368,
+      -14.287212295532226,
+      1.2674390774236598e-07
+    ],
+    [
+      -2.694269561767578,
+      13.948689498901366,
+      3.61998922926432e-07
+    ]
+  ],
+  "q": [
+    0.11238055631518364,
+    0.7395689451694488,
+    -1.748871991634369,
+    -0.11000394493341446,
+    0.7368434953689575,
+    -1.7485272002220154,
+    0.144641173183918,
+    0.7183343267440796,
+    -1.8305318331718445,
+    -0.15118230611085892,
+    0.7277844429016114,
+    -1.8232125639915466
+  ],
+  "dq": [
+    -0.0025725341169163586,
+    -0.0008961868577171117,
+    0.0029590541031211614,
+    -0.00011764825321733952,
+    -0.0025845568906515837,
+    0.0029270240711048246,
+    -0.00532198061235249,
+    0.0004585015121847391,
+    0.0026132872374728324,
+    0.0020288320444524287,
+    -0.0004455013782717288,
+    0.000254006038303487
+  ],
+  "gravity": [
+    -0.0545220647007227,
+    0.006492034839466214,
+    -0.9984911632537842
+  ],
+  "pitch_abs_max_deg": 3.1254511882892784,
+  "contract": {
+    "asset": "/root/as2w/unitree-flat-v2-dr/assets/as2w-t2-v2-mu025.usd",
+    "mode": "usd",
+    "mu_override": null,
+    "pd": "55",
+    "kp": 55.0,
+    "kd": 2.0,
+    "hold_fixture": false
+  },
+  "mass_contrast": null,
+  "bindings": [
+    {
+      "shape": "/World/envs/env_0/Robot/Geometry/base_link/FL_hip/FL_thigh/FL_calf/FL_foot/FL_foot_1/FL_foot",
+      "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+      "physics:dynamicFriction": 0.25,
+      "physics:staticFriction": 0.25,
+      "combine": null
+    },
+    {
+      "shape": "/World/envs/env_0/Robot/Geometry/base_link/FR_hip/FR_thigh/FR_calf/FR_foot/FR_foot_1/FR_foot",
+      "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+      "physics:dynamicFriction": 0.25,
+      "physics:staticFriction": 0.25,
+      "combine": null
+    },
+    {
+      "shape": "/World/envs/env_0/Robot/Geometry/base_link/RL_hip/RL_thigh/RL_calf/RL_foot/RL_foot_1/RL_foot",
+      "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+      "physics:dynamicFriction": 0.25,
+      "physics:staticFriction": 0.25,
+      "combine": null
+    },
+    {
+      "shape": "/World/envs/env_0/Robot/Geometry/base_link/RR_hip/RR_thigh/RR_calf/RR_foot/RR_foot_1/RR_foot",
+      "material": "/World/envs/env_0/Robot/ProbeTireMaterial",
+      "physics:dynamicFriction": 0.25,
+      "physics:staticFriction": 0.25,
+      "combine": null
+    },
+    {
+      "shape": "/World/ground/terrain/GroundPlane/CollisionPlane",
+      "material": "/World/ground/terrain/physicsMaterial",
+      "physics:dynamicFriction": 0.25,
+      "physics:staticFriction": 0.25,
+      "physxMaterial:dampingCombineMode": "average",
+      "physxMaterial:frictionCombineMode": "min",
+      "physxMaterial:restitutionCombineMode": "average",
+      "combine": "min"
+    }
+  ],
+  "leg_names": [
+    "FL_hip",
+    "FL_thigh",
+    "FL_calf",
+    "FR_hip",
+    "FR_thigh",
+    "FR_calf",
+    "RL_hip",
+    "RL_thigh",
+    "RL_calf",
+    "RR_hip",
+    "RR_thigh",
+    "RR_calf"
+  ],
+  "wheel_loaded": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "all_wheels_loaded": true
+}

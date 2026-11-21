@@ -1,0 +1,27 @@
+{
+  "fixedstand_frames": 2480,
+  "all_legs_85_3_2_frames": 2480,
+  "fixedstand_s": 4.997317656,
+  "exact_tick_matches": 1253,
+  "pitch_min_max_deg": [
+    -1.2978273803169444,
+    -0.8325256638645061
+  ],
+  "last_1s_pitch_mean_deg": -0.9339678159113494,
+  "last_1s_calf_measured_minus_target_rad": [
+    -0.10370283714285719,
+    -0.10121124984126995,
+    -0.15334426571428567,
+    -0.10574950380952393
+  ],
+  "protection_rows": 7411,
+  "motorstate_nonzero_rows": 0,
+  "warning_nonzero_rows": 0,
+  "published_state_values": [
+    0,
+    1,
+    2,
+    7,
+    8
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "schema": 1,
+  "kind": "holdout_static_vs_real_reference",
+  "trials": {
+    "A_t2_repeat1": {
+      "fixture": "physx-t2-repeat1-fixture.json",
+      "session": "20261119-182802_p55-hold",
+      "sim_hip_torque_nm": [
+        -5.408219366073609,
+        6.412078342437744,
+        8.08213035583496,
+        6.411845741271972
+      ],
+      "ref_hip_tau_nm": [
+        -11.33183299899699,
+        11.043818956870611,
+        -13.212525075225678,
+        13.03217151454363
+      ],
+      "error_nm": [
+        5.923613632923382,
+        -4.631740614432867,
+        21.29465543106064,
+        -6.6203257732716585
+      ],
+      "max_abs_error_nm": 21.29465543106064,
+      "sign_agreement": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "sim_pitch_deg": -11.980017290520104,
+      "ref_pitch_deg": -4.479226169661779,
+      "pitch_error_deg": -7.5007911208583256,
+      "all_wheels_loaded": true
+    },
+    "B_t2_repeat1": {
+      "fixture": "physx-t2-repeat1-fixture.json",
+      "session": "20261119-182802_p55-hold",
+      "sim_hip_torque_nm": [
+        -5.571063508987427,
+        6.796316013336182,
+        9.143484630584716,
+        7.75626877784729
+      ],
+      "ref_hip_tau_nm": [
+        -11.33183299899699,
+        11.043818956870611,
+        -13.212525075225678,
+        13.03217151454363
+      ],
+      "error_nm": [
+        5.760769490009563,
+        -4.247502943534429,
+        22.356009705810393,
+        -5.275902736696341
+      ],
+      "max_abs_error_nm": 22.356009705810393,
+      "sign_agreement": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "sim_pitch_deg": -13.018744355145152,
+      "ref_pitch_deg": -4.479226169661779,
+      "pitch_error_deg": -8.539518185483374,
+      "all_wheels_loaded": true
+    },
+    "A_t2_repeat3": {
+      "fixture": "physx-t2-repeat3-fixture.json",
+      "session": "20261119-190012_p55-hold",
+      "sim_hip_torque_nm": [
+        -6.591527042388916,
+        6.5176308155059814,
+        8.118096580505371,
+        7.058906326293945
+      ],
+      "ref_hip_tau_nm": [
+        -12.184686932849365,
+        12.035344827586208,
+        -15.227427404718693,
+        15.175635208711434
+      ],
+      "error_nm": [
+        5.593159890460449,
+        -5.517714012080226,
+        23.345523985224062,
+        -8.116728882417489
+      ],
+      "max_abs_error_nm": 23.345523985224062,
+      "sign_agreement": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "sim_pitch_deg": -12.157994494715231,
+      "ref_pitch_deg": -5.5311512825021145,
+      "pitch_error_deg": -6.6268432122131165,
+      "all_wheels_loaded": true
+    },
+    "B_t2_repeat3": {
+      "fixture": "physx-t2-repeat3-fixture.json",
+      "session": "20261119-190012_p55-hold",
+      "sim_hip_torque_nm": [
+        -6.015552234649658,
+        7.389053840637207,
+        9.306657180786132,
+        7.947790307998657
+      ],
+      "ref_hip_tau_nm": [
+        -12.184686932849365,
+        12.035344827586208,
+        -15.227427404718693,
+        15.175635208711434
+      ],
+      "error_nm": [
+        6.169134698199707,
+        -4.646290986949001,
+        24.534084585504825,
+        -7.2278449007127765
+      ],
+      "max_abs_error_nm": 24.534084585504825,
+      "sign_agreement": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "sim_pitch_deg": -12.975892569803804,
+      "ref_pitch_deg": -5.5311512825021145,
+      "pitch_error_deg": -7.44474128730169,
+      "all_wheels_loaded": true
+    },
+    "A_official_repeat": {
+      "fixture": "physx-official-repeat-fixture.json",
+      "session": "01_prone_to_stand_153922",
+      "sim_hip_torque_nm": [
+        1.1984710383415222,
+        3.8158732318878172,
+        9.628938751220703,
+        -1.3378888511657714
+      ],
+      "ref_hip_tau_nm": [
+        -4.350601604278075,
+        5.607820855614973,
+        -5.770922459893048,
+        4.469986631016043
+      ],
+      "error_nm": [
+        5.549072642619597,
+        -1.7919476237271557,
+        15.399861211113752,
+        -5.807875482181815
+      ],
+      "max_abs_error_nm": 15.399861211113752,
+      "sign_agreement": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "sim_pitch_deg": 0.042045483302619265,
+      "ref_pitch_deg": 0.645911677333938,
+      "pitch_error_deg": -0.6038661940313187,
+      "all_wheels_loaded": true
+    },
+    "B_official_repeat": {
+      "fixture": "physx-official-repeat-fixture.json",
+      "session": "01_prone_to_stand_153922",
+      "sim_hip_torque_nm": [
+        -0.5731104540824891,
+        -0.41669583320617676,
+        6.59700382232666,
+        1.4431662631034852
+      ],
+      "ref_hip_tau_nm": [
+        -4.350601604278075,
+        5.607820855614973,
+        -5.770922459893048,
+        4.469986631016043
+      ],
+      "error_nm": [
+        3.7774911501955857,
+        -6.02451668882115,
+        12.367926282219708,
+        -3.026820367912558
+      ],
+      "max_abs_error_nm": 12.367926282219708,
+      "sign_agreement": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "sim_pitch_deg": -0.4894792632741012,
+      "ref_pitch_deg": 0.645911677333938,
+      "pitch_error_deg": -1.1353909406080391,
+      "all_wheels_loaded": true
+    }
+  },
+  "summary": {
+    "A": {
+      "trials": 3,
+      "mean_max_abs_error_nm": 20.013346875799485,
+      "all_signs_match": false,
+      "mean_pitch_error_deg": -4.91050017570092
+    },
+    "B": {
+      "trials": 3,
+      "mean_max_abs_error_nm": 19.752673524511643,
+      "all_signs_match": false,
+      "mean_pitch_error_deg": -5.706550137797701
+    }
+  }
+}

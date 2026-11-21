@@ -1,0 +1,85 @@
+{
+  "cases": {
+    "native": {
+      "t2": {
+        "pitch_abs_error_deg": 6.683018297289881,
+        "hip_rmse_nm": 7.803469241961506,
+        "hip_sign_matches": 4,
+        "max_contact_force_closure_n": 1.7211211547873972e-06,
+        "wheel_normal_n": [
+          34.48625823974609,
+          42.01372573852539,
+          103.2799153137207,
+          90.16323669433594
+        ]
+      },
+      "official": {
+        "pitch_abs_error_deg": 0.9360252172410302,
+        "hip_rmse_nm": 4.443423793886075,
+        "hip_sign_matches": 2,
+        "max_contact_force_closure_n": 9.839823974289174e-07,
+        "wheel_normal_n": [
+          65.51744720458984,
+          67.01372421264648,
+          68.12211181640625,
+          69.23645309448243
+        ]
+      }
+    },
+    "10": {
+      "t2": {
+        "pitch_abs_error_deg": 0.3600959895637583,
+        "hip_rmse_nm": 4.616324474665947,
+        "hip_sign_matches": 4,
+        "max_contact_force_closure_n": 5.300825807807997e-07,
+        "wheel_normal_n": [
+          49.76670845031738,
+          50.68708122253418,
+          86.09560256958008,
+          83.34418594360352
+        ]
+      },
+      "official": {
+        "pitch_abs_error_deg": 1.1168987266169772,
+        "hip_rmse_nm": 1.3459652160467739,
+        "hip_sign_matches": 4,
+        "max_contact_force_closure_n": 1.1983000126747357e-06,
+        "wheel_normal_n": [
+          62.7196704864502,
+          71.7341194152832,
+          73.23093643188477,
+          62.206002655029295
+        ]
+      }
+    },
+    "30": {
+      "t2": {
+        "pitch_abs_error_deg": 2.1925978110776696,
+        "hip_rmse_nm": 4.763467852160075,
+        "hip_sign_matches": 4,
+        "max_contact_force_closure_n": 2.0195495324060175e-07,
+        "wheel_normal_n": [
+          56.56800537109375,
+          57.480459213256836,
+          79.14453002929687,
+          76.69994277954102
+        ]
+      },
+      "official": {
+        "pitch_abs_error_deg": 0.563380698827804,
+        "hip_rmse_nm": 0.45499564276779664,
+        "hip_sign_matches": 4,
+        "max_contact_force_closure_n": 1.4934270188859955e-06,
+        "wheel_normal_n": [
+          81.68303817749023,
+          60.61938430786133,
+          58.23875564575195,
+          69.35087524414062
+        ]
+      }
+    }
+  },
+  "joint_improvements": [
+    "30"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "forward": {
+    "successful_trials": 6,
+    "signals": [
+      "Raw target",
+      "Filtered target",
+      "Applied target",
+      "Measured angle"
+    ],
+    "FL_calf_5p8_to_7_Hz_band_rms_rad_median": [
+      0.0,
+      0.0,
+      0.0,
+      0.0023320000618696213
+    ],
+    "FL_calf_dominant_Hz_median": [
+      0.6,
+      0.6,
+      0.6,
+      1.7
+    ]
+  },
+  "reverse": {
+    "successful_trials": 6,
+    "signals": [
+      "Raw target",
+      "Filtered target",
+      "Applied target",
+      "Measured angle"
+    ],
+    "FL_calf_5p8_to_7_Hz_band_rms_rad_median": [
+      0.0,
+      0.0,
+      0.0,
+      0.0026030000299215317
+    ],
+    "FL_calf_dominant_Hz_median": [
+      0.6,
+      0.6,
+      0.6,
+      1.5
+    ]
+  },
+  "left": {
+    "successful_trials": 6,
+    "signals": [
+      "Raw target",
+      "Filtered target",
+      "Applied target",
+      "Measured angle"
+    ],
+    "FL_calf_5p8_to_7_Hz_band_rms_rad_median": [
+      0.0,
+      0.0,
+      0.0,
+      0.0011390000581741333
+    ],
+    "FL_calf_dominant_Hz_median": [
+      0.6,
+      0.6,
+      0.6,
+      1.5
+    ]
+  },
+  "right": {
+    "successful_trials": 6,
+    "signals": [
+      "Raw target",
+      "Filtered target",
+      "Applied target",
+      "Measured angle"
+    ],
+    "FL_calf_5p8_to_7_Hz_band_rms_rad_median": [
+      0.0,
+      0.0,
+      0.0,
+      0.001066999975591898
+    ],
+    "FL_calf_dominant_Hz_median": [
+      0.6,
+      0.6,
+      0.6,
+      1.0
+    ]
+  }
+}

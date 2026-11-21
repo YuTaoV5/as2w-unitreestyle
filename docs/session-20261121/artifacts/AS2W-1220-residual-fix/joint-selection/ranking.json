@@ -1,0 +1,435 @@
+{
+  "selected": {
+    "update": 1270,
+    "source": "A ablation +50",
+    "path": "/root/gpufree-data/as2w-runs/ab-reward-20261118-181304/eval-50/A",
+    "failures": [],
+    "phase_ratio": 0.9809456416181948,
+    "short_reversals": 8945,
+    "baseline_reversals": 9414,
+    "pass": true,
+    "eligible": true
+  },
+  "ranking": [
+    {
+      "update": 1270,
+      "source": "A ablation +50",
+      "path": "/root/gpufree-data/as2w-runs/ab-reward-20261118-181304/eval-50/A",
+      "failures": [],
+      "phase_ratio": 0.9809456416181948,
+      "short_reversals": 8945,
+      "baseline_reversals": 9414,
+      "pass": true,
+      "eligible": true
+    },
+    {
+      "update": 1245,
+      "source": "A ablation +25",
+      "path": "/root/gpufree-data/as2w-runs/ab-reward-20261118-181304/eval-25/A",
+      "failures": [],
+      "phase_ratio": 0.9999571022326142,
+      "short_reversals": 9041,
+      "baseline_reversals": 9414,
+      "pass": true,
+      "eligible": true
+    },
+    {
+      "update": 1401,
+      "source": "model_1400",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/joint-selection-20261118-225410/model_1400",
+      "failures": [
+        "mixed: FR lifts"
+      ],
+      "phase_ratio": 0.9767809665419708,
+      "short_reversals": 8955,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 1310,
+      "source": "best",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/joint-selection-20261118-225410/best",
+      "failures": [
+        "mixed: FL lifts"
+      ],
+      "phase_ratio": 0.985637457886881,
+      "short_reversals": 9260,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 1470,
+      "source": "scheduled",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/eval-200",
+      "failures": [
+        "yaw_left: RR lifts"
+      ],
+      "phase_ratio": 0.9994209775567862,
+      "short_reversals": 8981,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 1501,
+      "source": "model_1500",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/joint-selection-20261118-225410/model_1500",
+      "failures": [
+        "yaw_left: RR lifts",
+        "yaw_left: reduced active joint excursion"
+      ],
+      "phase_ratio": 0.9810924994177397,
+      "short_reversals": 8879,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 1601,
+      "source": "model_1600",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/joint-selection-20261118-225410/model_1600",
+      "failures": [
+        "yaw_left: RR lifts",
+        "yaw_left: reduced active joint excursion",
+        "mixed: FL lifts"
+      ],
+      "phase_ratio": 0.9604392318659412,
+      "short_reversals": 8934,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 1301,
+      "source": "model_1300",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/joint-selection-20261118-225410/model_1300",
+      "failures": [
+        "yaw_left: RR lifts",
+        "mixed: FL lifts",
+        "mixed: RR lifts"
+      ],
+      "phase_ratio": 0.9690798373338076,
+      "short_reversals": 9194,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 1901,
+      "source": "model_1900",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/joint-selection-20261118-225410/model_1900",
+      "failures": [
+        "left: FR lifts",
+        "yaw_left: RR lifts",
+        "mixed: FL lifts"
+      ],
+      "phase_ratio": 0.9730539835934416,
+      "short_reversals": 8583,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 1320,
+      "source": "scheduled",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/eval-50",
+      "failures": [
+        "right: FL lifts",
+        "yaw_left: RR lifts",
+        "mixed: FL lifts"
+      ],
+      "phase_ratio": 1.0026788043592274,
+      "short_reversals": 9057,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 1370,
+      "source": "scheduled",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/eval-100",
+      "failures": [
+        "right: FL lifts",
+        "yaw_left: RR lifts",
+        "mixed: FL lifts"
+      ],
+      "phase_ratio": 1.0279944934557976,
+      "short_reversals": 8889,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 1701,
+      "source": "model_1700",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/joint-selection-20261118-225410/model_1700",
+      "failures": [
+        "right: FR lifts",
+        "right: RR lifts",
+        "yaw_left: RR lifts",
+        "mixed: FR lifts"
+      ],
+      "phase_ratio": 0.9645739940267327,
+      "short_reversals": 8565,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 2001,
+      "source": "model_2000",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/joint-selection-20261118-225410/model_2000",
+      "failures": [
+        "left: FL lifts",
+        "left: FR lifts",
+        "right: FL lifts",
+        "yaw_left: RR lifts",
+        "mixed: FL lifts"
+      ],
+      "phase_ratio": 0.920500012574814,
+      "short_reversals": 8685,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 2270,
+      "source": "scheduled",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/eval-1000",
+      "failures": [
+        "left: FL lifts",
+        "left: FR lifts",
+        "yaw_left: RR lifts",
+        "yaw_left: reduced active joint excursion",
+        "mixed: FR lifts"
+      ],
+      "phase_ratio": 0.934220172528839,
+      "short_reversals": 8419,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 2201,
+      "source": "model_2200",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/joint-selection-20261118-225410/model_2200",
+      "failures": [
+        "left: FL lifts",
+        "left: FR lifts",
+        "right: FL lifts",
+        "yaw_left: RR lifts",
+        "yaw_left: reduced active joint excursion"
+      ],
+      "phase_ratio": 0.9351504654897407,
+      "short_reversals": 8445,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 1801,
+      "source": "model_1800",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/joint-selection-20261118-225410/model_1800",
+      "failures": [
+        "left: FR lifts",
+        "yaw_left: RR lifts",
+        "mixed: FL lifts",
+        "mixed: FR lifts",
+        "mixed: RR lifts"
+      ],
+      "phase_ratio": 0.9501344214871646,
+      "short_reversals": 8578,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 2601,
+      "source": "model_2600",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/joint-selection-20261118-225410/model_2600",
+      "failures": [
+        "left: FL lifts",
+        "left: FR lifts",
+        "right: FL lifts",
+        "yaw_left: RR lifts",
+        "yaw_left: reduced active joint excursion",
+        "mixed: tracking axis 1"
+      ],
+      "phase_ratio": 0.9249451835275377,
+      "short_reversals": 8288,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 2501,
+      "source": "model_2500",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/joint-selection-20261118-225410/model_2500",
+      "failures": [
+        "left: FL lifts",
+        "left: FR lifts",
+        "right: FL lifts",
+        "yaw_left: RR lifts",
+        "yaw_left: reduced active joint excursion",
+        "mixed: FL lifts"
+      ],
+      "phase_ratio": 0.9314869806926752,
+      "short_reversals": 8452,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 2470,
+      "source": "scheduled",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/eval-1200",
+      "failures": [
+        "left: FL lifts",
+        "left: FR lifts",
+        "right: FL lifts",
+        "yaw_left: RR lifts",
+        "yaw_left: reduced active joint excursion",
+        "mixed: FL lifts"
+      ],
+      "phase_ratio": 0.9351858374645878,
+      "short_reversals": 8482,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 2070,
+      "source": "scheduled",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/eval-800",
+      "failures": [
+        "left: FL lifts",
+        "left: FR lifts",
+        "right: FL lifts",
+        "yaw_left: RR lifts",
+        "yaw_left: reduced active joint excursion",
+        "mixed: FL lifts"
+      ],
+      "phase_ratio": 0.9378939813004707,
+      "short_reversals": 8445,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 1670,
+      "source": "scheduled",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/eval-400",
+      "failures": [
+        "left: FR lifts",
+        "right: FL lifts",
+        "right: FR lifts",
+        "yaw_left: RR lifts",
+        "yaw_left: reduced active joint excursion",
+        "mixed: FL lifts"
+      ],
+      "phase_ratio": 0.9668536174265132,
+      "short_reversals": 8794,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 2401,
+      "source": "model_2400",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/joint-selection-20261118-225410/model_2400",
+      "failures": [
+        "left: FL lifts",
+        "left: FR lifts",
+        "right: FL lifts",
+        "yaw_left: RR lifts",
+        "mixed: tracking axis 1",
+        "mixed: FL lifts",
+        "mixed: RL lifts"
+      ],
+      "phase_ratio": 0.9173823370796927,
+      "short_reversals": 8544,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 1870,
+      "source": "scheduled",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/eval-600",
+      "failures": [
+        "left: FR lifts",
+        "right: FL lifts",
+        "right: FR lifts",
+        "yaw_left: RR lifts",
+        "mixed: FL lifts",
+        "mixed: FR lifts",
+        "mixed: RR lifts"
+      ],
+      "phase_ratio": 0.9294772836203321,
+      "short_reversals": 8680,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 2101,
+      "source": "model_2100",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/joint-selection-20261118-225410/model_2100",
+      "failures": [
+        "left: FL lifts",
+        "left: FR lifts",
+        "right: FL lifts",
+        "right: FR lifts",
+        "yaw_left: RR lifts",
+        "yaw_left: reduced active joint excursion",
+        "mixed: FL lifts"
+      ],
+      "phase_ratio": 0.9473501230356529,
+      "short_reversals": 8592,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 2301,
+      "source": "model_2300",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/joint-selection-20261118-225410/model_2300",
+      "failures": [
+        "left: FL lifts",
+        "left: FR lifts",
+        "right: FL lifts",
+        "yaw_left: RR lifts",
+        "yaw_left: reduced active joint excursion",
+        "mixed: FL lifts",
+        "mixed: FR lifts"
+      ],
+      "phase_ratio": 0.951448862987665,
+      "short_reversals": 8489,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    },
+    {
+      "update": 2670,
+      "source": "scheduled",
+      "path": "/root/gpufree-data/as2w-runs/original-reward-2k-20261118-190914/eval-1400",
+      "failures": [
+        "left: FL lifts",
+        "left: FR lifts",
+        "right: FL lifts",
+        "yaw_left: RR lifts",
+        "yaw_left: reduced active joint excursion",
+        "mixed: tracking axis 1",
+        "mixed: FL lifts",
+        "mixed: RR lifts"
+      ],
+      "phase_ratio": 0.9490581452222141,
+      "short_reversals": 8309,
+      "baseline_reversals": 9414,
+      "pass": false,
+      "eligible": false
+    }
+  ]
+}

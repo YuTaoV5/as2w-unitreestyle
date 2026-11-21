@@ -1,0 +1,2012 @@
+{
+  "9836-min": {
+    "forward": {
+      "count": 6,
+      "entry_avg": 0.44200482964515686,
+      "stop_mean_cm": 10.07787799835205,
+      "stop_max_cm": 11.392545700073242,
+      "trials": [
+        {
+          "trial": 0,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.41903313994407654,
+          "stop_max_cm": 12.648784637451172,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 1,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.40300241112709045,
+          "stop_max_cm": 10.249364852905273,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 2,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.4116397202014923,
+          "stop_max_cm": 8.500022888183594,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 3,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.40790683031082153,
+          "stop_max_cm": 7.274168014526367,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 4,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.41211211681365967,
+          "stop_max_cm": 7.562258720397949,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 5,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.3976535499095917,
+          "stop_max_cm": 10.16643238067627,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 6,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.4435370862483978,
+          "stop_max_cm": 9.72203254699707,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 7,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.4335605502128601,
+          "stop_max_cm": 11.392545700073242,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 8,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.44263067841529846,
+          "stop_max_cm": 9.714808464050293,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 9,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.4443153440952301,
+          "stop_max_cm": 10.228548049926758,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 10,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.44996723532676697,
+          "stop_max_cm": 9.893470764160156,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 11,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.43801820278167725,
+          "stop_max_cm": 9.515861511230469,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 12,
+          "command": 0.5,
+          "entry_speed": 0.4860475957393646,
+          "stop_max_cm": 11.880859375,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 13,
+          "command": 0.5,
+          "entry_speed": 0.4882899820804596,
+          "stop_max_cm": 9.220561981201172,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 14,
+          "command": 0.5,
+          "entry_speed": 0.4828132688999176,
+          "stop_max_cm": 11.622322082519531,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 15,
+          "command": 0.5,
+          "entry_speed": 0.5116702318191528,
+          "stop_max_cm": 10.717626571655273,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 16,
+          "command": 0.5,
+          "entry_speed": 0.4873073697090149,
+          "stop_max_cm": 8.679499626159668,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 17,
+          "command": 0.5,
+          "entry_speed": 0.4808288812637329,
+          "stop_max_cm": 9.017156600952148,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 18,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5476774573326111,
+          "stop_max_cm": 11.887638092041016,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 19,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5554566979408264,
+          "stop_max_cm": 16.42977523803711,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 20,
+          "command": 0.550000011920929,
+          "entry_speed": 0.558189332485199,
+          "stop_max_cm": 12.171027183532715,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 21,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5595182776451111,
+          "stop_max_cm": 16.188508987426758,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 22,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5236272215843201,
+          "stop_max_cm": 13.32811450958252,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 23,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5337641835212708,
+          "stop_max_cm": 13.883015632629395,
+          "stop_four_support": 1.0,
+          "eligible": false
+        }
+      ]
+    },
+    "reverse": {
+      "count": 3,
+      "entry_avg": 0.477182000875473,
+      "stop_mean_cm": 8.860623359680176,
+      "stop_max_cm": 9.081456184387207,
+      "trials": [
+        {
+          "trial": 24,
+          "command": -0.4000000059604645,
+          "entry_speed": 0.35323286056518555,
+          "stop_max_cm": 8.48245620727539,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 25,
+          "command": -0.4000000059604645,
+          "entry_speed": 0.3435363471508026,
+          "stop_max_cm": 6.939236164093018,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 26,
+          "command": -0.4000000059604645,
+          "entry_speed": 0.338791161775589,
+          "stop_max_cm": 8.2515287399292,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 27,
+          "command": -0.4000000059604645,
+          "entry_speed": 0.3368471562862396,
+          "stop_max_cm": 8.444099426269531,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 28,
+          "command": -0.4000000059604645,
+          "entry_speed": 0.335342139005661,
+          "stop_max_cm": 7.963181972503662,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 29,
+          "command": -0.4000000059604645,
+          "entry_speed": 0.3350357115268707,
+          "stop_max_cm": 7.65983247756958,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 30,
+          "command": -0.44999998807907104,
+          "entry_speed": 0.38740506768226624,
+          "stop_max_cm": 7.5796284675598145,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 31,
+          "command": -0.44999998807907104,
+          "entry_speed": 0.39155781269073486,
+          "stop_max_cm": 8.748838424682617,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 32,
+          "command": -0.44999998807907104,
+          "entry_speed": 0.3976404368877411,
+          "stop_max_cm": 7.282593727111816,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 33,
+          "command": -0.44999998807907104,
+          "entry_speed": 0.3982227146625519,
+          "stop_max_cm": 9.686311721801758,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 34,
+          "command": -0.44999998807907104,
+          "entry_speed": 0.37920495867729187,
+          "stop_max_cm": 7.768903732299805,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 35,
+          "command": -0.44999998807907104,
+          "entry_speed": 0.3838457763195038,
+          "stop_max_cm": 7.887139797210693,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 36,
+          "command": -0.5,
+          "entry_speed": 0.47842034697532654,
+          "stop_max_cm": 8.85908317565918,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 37,
+          "command": -0.5,
+          "entry_speed": 0.4733816981315613,
+          "stop_max_cm": 8.64133358001709,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 38,
+          "command": -0.5,
+          "entry_speed": 0.47974392771720886,
+          "stop_max_cm": 9.081456184387207,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 39,
+          "command": -0.5,
+          "entry_speed": 0.4882243275642395,
+          "stop_max_cm": 8.840592384338379,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 40,
+          "command": -0.5,
+          "entry_speed": 0.48712292313575745,
+          "stop_max_cm": 8.989760398864746,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 41,
+          "command": -0.5,
+          "entry_speed": 0.49200159311294556,
+          "stop_max_cm": 9.480534553527832,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 42,
+          "command": -0.550000011920929,
+          "entry_speed": 0.5423404574394226,
+          "stop_max_cm": 10.241098403930664,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 43,
+          "command": -0.550000011920929,
+          "entry_speed": 0.540468156337738,
+          "stop_max_cm": 10.041940689086914,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 44,
+          "command": -0.550000011920929,
+          "entry_speed": 0.5429928302764893,
+          "stop_max_cm": 10.366035461425781,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 45,
+          "command": -0.550000011920929,
+          "entry_speed": 0.4927472174167633,
+          "stop_max_cm": 9.984015464782715,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 46,
+          "command": -0.550000011920929,
+          "entry_speed": 0.5501712560653687,
+          "stop_max_cm": 11.691290855407715,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 47,
+          "command": -0.550000011920929,
+          "entry_speed": 0.5297355055809021,
+          "stop_max_cm": 11.949955940246582,
+          "stop_four_support": 1.0,
+          "eligible": false
+        }
+      ]
+    }
+  },
+  "9836-max": {
+    "forward": {
+      "count": 11,
+      "entry_avg": 0.45549601316452026,
+      "stop_mean_cm": 7.65931510925293,
+      "stop_max_cm": 8.35332202911377,
+      "trials": [
+        {
+          "trial": 0,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.3801352381706238,
+          "stop_max_cm": 7.06174898147583,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 1,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.38270530104637146,
+          "stop_max_cm": 7.286585807800293,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 2,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.3796739876270294,
+          "stop_max_cm": 6.994288444519043,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 3,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.3811946511268616,
+          "stop_max_cm": 7.336714267730713,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 4,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.3815563917160034,
+          "stop_max_cm": 7.478299140930176,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 5,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.3810270130634308,
+          "stop_max_cm": 6.947341442108154,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 6,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.4360868036746979,
+          "stop_max_cm": 7.229796886444092,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 7,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.44087153673171997,
+          "stop_max_cm": 7.332127571105957,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 8,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.439599871635437,
+          "stop_max_cm": 7.140522480010986,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 9,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.43913909792900085,
+          "stop_max_cm": 7.130774974822998,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 10,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.44285866618156433,
+          "stop_max_cm": 7.21278190612793,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 11,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.44060176610946655,
+          "stop_max_cm": 7.580998420715332,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 12,
+          "command": 0.5,
+          "entry_speed": 0.4778165817260742,
+          "stop_max_cm": 7.826266288757324,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 13,
+          "command": 0.5,
+          "entry_speed": 0.47050464153289795,
+          "stop_max_cm": 8.211556434631348,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 14,
+          "command": 0.5,
+          "entry_speed": 0.4722824692726135,
+          "stop_max_cm": 8.109758377075195,
+          "stop_four_support": 0.98,
+          "eligible": true
+        },
+        {
+          "trial": 15,
+          "command": 0.5,
+          "entry_speed": 0.48279067873954773,
+          "stop_max_cm": 8.121618270874023,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 16,
+          "command": 0.5,
+          "entry_speed": 0.4745803773403168,
+          "stop_max_cm": 8.35332202911377,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 17,
+          "command": 0.5,
+          "entry_speed": 0.4761144518852234,
+          "stop_max_cm": 8.124560356140137,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 18,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5215365886688232,
+          "stop_max_cm": 10.00997543334961,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 19,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5301955342292786,
+          "stop_max_cm": 8.999938011169434,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 20,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5204401016235352,
+          "stop_max_cm": 9.96049690246582,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 21,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5251532196998596,
+          "stop_max_cm": 9.8484525680542,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 22,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5276076793670654,
+          "stop_max_cm": 8.66083812713623,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 23,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5265088677406311,
+          "stop_max_cm": 9.2138671875,
+          "stop_four_support": 0.98,
+          "eligible": false
+        }
+      ]
+    },
+    "reverse": {
+      "count": 0,
+      "entry_avg": null,
+      "stop_mean_cm": null,
+      "stop_max_cm": null,
+      "trials": [
+        {
+          "trial": 24,
+          "command": -0.4000000059604645,
+          "entry_speed": 0.3536181151866913,
+          "stop_max_cm": 6.036322593688965,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 25,
+          "command": -0.4000000059604645,
+          "entry_speed": 0.34950491786003113,
+          "stop_max_cm": 5.94603967666626,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 26,
+          "command": -0.4000000059604645,
+          "entry_speed": 0.35178428888320923,
+          "stop_max_cm": 6.24406099319458,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 27,
+          "command": -0.4000000059604645,
+          "entry_speed": 0.3555017113685608,
+          "stop_max_cm": 5.55877685546875,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 28,
+          "command": -0.4000000059604645,
+          "entry_speed": 0.35157784819602966,
+          "stop_max_cm": 6.153475284576416,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 29,
+          "command": -0.4000000059604645,
+          "entry_speed": 0.35030698776245117,
+          "stop_max_cm": 5.8067626953125,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 30,
+          "command": -0.44999998807907104,
+          "entry_speed": 0.3949825167655945,
+          "stop_max_cm": 8.497710227966309,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 31,
+          "command": -0.44999998807907104,
+          "entry_speed": 0.40309998393058777,
+          "stop_max_cm": 8.565242767333984,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 32,
+          "command": -0.44999998807907104,
+          "entry_speed": 0.4096357226371765,
+          "stop_max_cm": 8.78805923461914,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 33,
+          "command": -0.44999998807907104,
+          "entry_speed": 0.4008524715900421,
+          "stop_max_cm": 8.326946258544922,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 34,
+          "command": -0.44999998807907104,
+          "entry_speed": 0.4023135006427765,
+          "stop_max_cm": 8.809588432312012,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 35,
+          "command": -0.44999998807907104,
+          "entry_speed": 0.4024336636066437,
+          "stop_max_cm": 8.692269325256348,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 36,
+          "command": -0.5,
+          "entry_speed": 0.486751526594162,
+          "stop_max_cm": 8.099845886230469,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 37,
+          "command": -0.5,
+          "entry_speed": 0.4949028193950653,
+          "stop_max_cm": 8.20279598236084,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 38,
+          "command": -0.5,
+          "entry_speed": 0.48883238434791565,
+          "stop_max_cm": 8.159543991088867,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 39,
+          "command": -0.5,
+          "entry_speed": 0.49374136328697205,
+          "stop_max_cm": 8.289924621582031,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 40,
+          "command": -0.5,
+          "entry_speed": 0.4940991997718811,
+          "stop_max_cm": 8.157041549682617,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 41,
+          "command": -0.5,
+          "entry_speed": 0.48981234431266785,
+          "stop_max_cm": 8.38005256652832,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 42,
+          "command": -0.550000011920929,
+          "entry_speed": 0.5250524282455444,
+          "stop_max_cm": 8.46200180053711,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 43,
+          "command": -0.550000011920929,
+          "entry_speed": 0.5061837434768677,
+          "stop_max_cm": 9.169998168945312,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 44,
+          "command": -0.550000011920929,
+          "entry_speed": 0.535748302936554,
+          "stop_max_cm": 9.25870132446289,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 45,
+          "command": -0.550000011920929,
+          "entry_speed": 0.522628128528595,
+          "stop_max_cm": 8.507125854492188,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 46,
+          "command": -0.550000011920929,
+          "entry_speed": 0.49020713567733765,
+          "stop_max_cm": 7.994755268096924,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 47,
+          "command": -0.550000011920929,
+          "entry_speed": 0.530651867389679,
+          "stop_max_cm": 9.361237525939941,
+          "stop_four_support": 1.0,
+          "eligible": false
+        }
+      ]
+    }
+  },
+  "13900-min": {
+    "forward": {
+      "count": 2,
+      "entry_avg": 0.4544444978237152,
+      "stop_mean_cm": 7.678844451904297,
+      "stop_max_cm": 7.762494087219238,
+      "trials": [
+        {
+          "trial": 0,
+          "command": 0.46000000834465027,
+          "entry_speed": 0.37279894948005676,
+          "stop_max_cm": 6.942873954772949,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 1,
+          "command": 0.46000000834465027,
+          "entry_speed": 0.36804577708244324,
+          "stop_max_cm": 7.133694648742676,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 2,
+          "command": 0.46000000834465027,
+          "entry_speed": 0.3685368299484253,
+          "stop_max_cm": 7.014367580413818,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 3,
+          "command": 0.46000000834465027,
+          "entry_speed": 0.3734944760799408,
+          "stop_max_cm": 7.007741928100586,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 4,
+          "command": 0.46000000834465027,
+          "entry_speed": 0.3735010325908661,
+          "stop_max_cm": 7.173252105712891,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 5,
+          "command": 0.46000000834465027,
+          "entry_speed": 0.3708826005458832,
+          "stop_max_cm": 7.062078475952148,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 6,
+          "command": 0.5099999904632568,
+          "entry_speed": 0.4192517399787903,
+          "stop_max_cm": 6.939150333404541,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 7,
+          "command": 0.5099999904632568,
+          "entry_speed": 0.41601964831352234,
+          "stop_max_cm": 7.090145111083984,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 8,
+          "command": 0.5099999904632568,
+          "entry_speed": 0.40505677461624146,
+          "stop_max_cm": 7.556395053863525,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 9,
+          "command": 0.5099999904632568,
+          "entry_speed": 0.40954920649528503,
+          "stop_max_cm": 7.222823619842529,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 10,
+          "command": 0.5099999904632568,
+          "entry_speed": 0.414401113986969,
+          "stop_max_cm": 6.862356662750244,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 11,
+          "command": 0.5099999904632568,
+          "entry_speed": 0.41624146699905396,
+          "stop_max_cm": 6.972280979156494,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 12,
+          "command": 0.5600000023841858,
+          "entry_speed": 0.4888983964920044,
+          "stop_max_cm": 8.842348098754883,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 13,
+          "command": 0.5600000023841858,
+          "entry_speed": 0.4592117965221405,
+          "stop_max_cm": 7.762494087219238,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 14,
+          "command": 0.5600000023841858,
+          "entry_speed": 0.4917697012424469,
+          "stop_max_cm": 8.372725486755371,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 15,
+          "command": 0.5600000023841858,
+          "entry_speed": 0.4990279972553253,
+          "stop_max_cm": 8.026124954223633,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 16,
+          "command": 0.5600000023841858,
+          "entry_speed": 0.4496771991252899,
+          "stop_max_cm": 7.595194339752197,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 17,
+          "command": 0.5600000023841858,
+          "entry_speed": 0.48114144802093506,
+          "stop_max_cm": 8.997684478759766,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 18,
+          "command": 0.6100000143051147,
+          "entry_speed": 0.5423425436019897,
+          "stop_max_cm": 9.53110122680664,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 19,
+          "command": 0.6100000143051147,
+          "entry_speed": 0.5266783237457275,
+          "stop_max_cm": 9.459681510925293,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 20,
+          "command": 0.6100000143051147,
+          "entry_speed": 0.5280753970146179,
+          "stop_max_cm": 11.84595775604248,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 21,
+          "command": 0.6100000143051147,
+          "entry_speed": 0.5374261736869812,
+          "stop_max_cm": 11.639862060546875,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 22,
+          "command": 0.6100000143051147,
+          "entry_speed": 0.5314114093780518,
+          "stop_max_cm": 9.435721397399902,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 23,
+          "command": 0.6100000143051147,
+          "entry_speed": 0.5225830078125,
+          "stop_max_cm": 11.299362182617188,
+          "stop_four_support": 1.0,
+          "eligible": false
+        }
+      ]
+    },
+    "reverse": {
+      "count": 6,
+      "entry_avg": 0.4401420056819916,
+      "stop_mean_cm": 8.17068099975586,
+      "stop_max_cm": 8.864819526672363,
+      "trials": [
+        {
+          "trial": 24,
+          "command": -0.46000000834465027,
+          "entry_speed": 0.32722634077072144,
+          "stop_max_cm": 6.858241558074951,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 25,
+          "command": -0.46000000834465027,
+          "entry_speed": 0.3296562731266022,
+          "stop_max_cm": 7.04403829574585,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 26,
+          "command": -0.46000000834465027,
+          "entry_speed": 0.3282356560230255,
+          "stop_max_cm": 7.011806011199951,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 27,
+          "command": -0.46000000834465027,
+          "entry_speed": 0.3295019567012787,
+          "stop_max_cm": 6.741801738739014,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 28,
+          "command": -0.46000000834465027,
+          "entry_speed": 0.32753971219062805,
+          "stop_max_cm": 6.922053337097168,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 29,
+          "command": -0.46000000834465027,
+          "entry_speed": 0.32970619201660156,
+          "stop_max_cm": 6.62776517868042,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 30,
+          "command": -0.5099999904632568,
+          "entry_speed": 0.3733464479446411,
+          "stop_max_cm": 6.940585136413574,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 31,
+          "command": -0.5099999904632568,
+          "entry_speed": 0.37442895770072937,
+          "stop_max_cm": 6.857314109802246,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 32,
+          "command": -0.5099999904632568,
+          "entry_speed": 0.37493008375167847,
+          "stop_max_cm": 6.9506516456604,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 33,
+          "command": -0.5099999904632568,
+          "entry_speed": 0.3735993504524231,
+          "stop_max_cm": 6.798184871673584,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 34,
+          "command": -0.5099999904632568,
+          "entry_speed": 0.37503209710121155,
+          "stop_max_cm": 6.944859981536865,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 35,
+          "command": -0.5099999904632568,
+          "entry_speed": 0.37296873331069946,
+          "stop_max_cm": 6.910435676574707,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 36,
+          "command": -0.5600000023841858,
+          "entry_speed": 0.44206830859184265,
+          "stop_max_cm": 7.790727138519287,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 37,
+          "command": -0.5600000023841858,
+          "entry_speed": 0.4416642189025879,
+          "stop_max_cm": 8.864819526672363,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 38,
+          "command": -0.5600000023841858,
+          "entry_speed": 0.4404825270175934,
+          "stop_max_cm": 8.152020454406738,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 39,
+          "command": -0.5600000023841858,
+          "entry_speed": 0.4413285255432129,
+          "stop_max_cm": 7.6947712898254395,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 40,
+          "command": -0.5600000023841858,
+          "entry_speed": 0.4421732723712921,
+          "stop_max_cm": 8.42719841003418,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 41,
+          "command": -0.5600000023841858,
+          "entry_speed": 0.433135062456131,
+          "stop_max_cm": 8.094551086425781,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 42,
+          "command": -0.6100000143051147,
+          "entry_speed": 0.4989442229270935,
+          "stop_max_cm": 10.143993377685547,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 43,
+          "command": -0.6100000143051147,
+          "entry_speed": 0.500643789768219,
+          "stop_max_cm": 10.089439392089844,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 44,
+          "command": -0.6100000143051147,
+          "entry_speed": 0.4893922805786133,
+          "stop_max_cm": 10.70429801940918,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 45,
+          "command": -0.6100000143051147,
+          "entry_speed": 0.5032798647880554,
+          "stop_max_cm": 9.95808219909668,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 46,
+          "command": -0.6100000143051147,
+          "entry_speed": 0.49349668622016907,
+          "stop_max_cm": 10.45559310913086,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 47,
+          "command": -0.6100000143051147,
+          "entry_speed": 0.49308162927627563,
+          "stop_max_cm": 10.376083374023438,
+          "stop_four_support": 1.0,
+          "eligible": false
+        }
+      ]
+    }
+  },
+  "13900-max": {
+    "forward": {
+      "count": 5,
+      "entry_avg": 0.46153348684310913,
+      "stop_mean_cm": 6.526060581207275,
+      "stop_max_cm": 6.810343265533447,
+      "trials": [
+        {
+          "trial": 0,
+          "command": 0.46000000834465027,
+          "entry_speed": 0.3469344675540924,
+          "stop_max_cm": 5.956820964813232,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 1,
+          "command": 0.46000000834465027,
+          "entry_speed": 0.3504427671432495,
+          "stop_max_cm": 5.173378944396973,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 2,
+          "command": 0.46000000834465027,
+          "entry_speed": 0.3481599688529968,
+          "stop_max_cm": 5.221958160400391,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 3,
+          "command": 0.46000000834465027,
+          "entry_speed": 0.34618452191352844,
+          "stop_max_cm": 5.562638759613037,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 4,
+          "command": 0.46000000834465027,
+          "entry_speed": 0.3462488055229187,
+          "stop_max_cm": 5.254561901092529,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 5,
+          "command": 0.46000000834465027,
+          "entry_speed": 0.3492949306964874,
+          "stop_max_cm": 5.5995612144470215,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 6,
+          "command": 0.5099999904632568,
+          "entry_speed": 0.39366260170936584,
+          "stop_max_cm": 6.327537536621094,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 7,
+          "command": 0.5099999904632568,
+          "entry_speed": 0.3947058618068695,
+          "stop_max_cm": 5.895663738250732,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 8,
+          "command": 0.5099999904632568,
+          "entry_speed": 0.396528035402298,
+          "stop_max_cm": 5.327949523925781,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 9,
+          "command": 0.5099999904632568,
+          "entry_speed": 0.3938666582107544,
+          "stop_max_cm": 5.402400493621826,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 10,
+          "command": 0.5099999904632568,
+          "entry_speed": 0.399044394493103,
+          "stop_max_cm": 5.301166534423828,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 11,
+          "command": 0.5099999904632568,
+          "entry_speed": 0.393931120634079,
+          "stop_max_cm": 6.334825038909912,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 12,
+          "command": 0.5600000023841858,
+          "entry_speed": 0.48073917627334595,
+          "stop_max_cm": 6.8100104331970215,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 13,
+          "command": 0.5600000023841858,
+          "entry_speed": 0.46288591623306274,
+          "stop_max_cm": 6.478116512298584,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 14,
+          "command": 0.5600000023841858,
+          "entry_speed": 0.46722412109375,
+          "stop_max_cm": 6.754104137420654,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 15,
+          "command": 0.5600000023841858,
+          "entry_speed": 0.442800909280777,
+          "stop_max_cm": 6.309954643249512,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 16,
+          "command": 0.5600000023841858,
+          "entry_speed": 0.4668060541152954,
+          "stop_max_cm": 6.810343265533447,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 17,
+          "command": 0.5600000023841858,
+          "entry_speed": 0.4679504334926605,
+          "stop_max_cm": 6.2777838706970215,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 18,
+          "command": 0.6100000143051147,
+          "entry_speed": 0.5201593041419983,
+          "stop_max_cm": 7.486120700836182,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 19,
+          "command": 0.6100000143051147,
+          "entry_speed": 0.5074477195739746,
+          "stop_max_cm": 7.926867961883545,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 20,
+          "command": 0.6100000143051147,
+          "entry_speed": 0.5267342925071716,
+          "stop_max_cm": 7.5723395347595215,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 21,
+          "command": 0.6100000143051147,
+          "entry_speed": 0.5142858624458313,
+          "stop_max_cm": 7.703980922698975,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 22,
+          "command": 0.6100000143051147,
+          "entry_speed": 0.5251689553260803,
+          "stop_max_cm": 7.146026134490967,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 23,
+          "command": 0.6100000143051147,
+          "entry_speed": 0.5472543835639954,
+          "stop_max_cm": 7.926090240478516,
+          "stop_four_support": 1.0,
+          "eligible": false
+        }
+      ]
+    },
+    "reverse": {
+      "count": 6,
+      "entry_avg": 0.4456299841403961,
+      "stop_mean_cm": 7.440405368804932,
+      "stop_max_cm": 7.6859450340271,
+      "trials": [
+        {
+          "trial": 24,
+          "command": -0.46000000834465027,
+          "entry_speed": 0.33488401770591736,
+          "stop_max_cm": 6.190014839172363,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 25,
+          "command": -0.46000000834465027,
+          "entry_speed": 0.3398391604423523,
+          "stop_max_cm": 5.886267185211182,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 26,
+          "command": -0.46000000834465027,
+          "entry_speed": 0.34667712450027466,
+          "stop_max_cm": 5.734142780303955,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 27,
+          "command": -0.46000000834465027,
+          "entry_speed": 0.3377496004104614,
+          "stop_max_cm": 6.0280585289001465,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 28,
+          "command": -0.46000000834465027,
+          "entry_speed": 0.3377198576927185,
+          "stop_max_cm": 6.145838737487793,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 29,
+          "command": -0.46000000834465027,
+          "entry_speed": 0.33842188119888306,
+          "stop_max_cm": 6.117736339569092,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 30,
+          "command": -0.5099999904632568,
+          "entry_speed": 0.39047983288764954,
+          "stop_max_cm": 6.101627349853516,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 31,
+          "command": -0.5099999904632568,
+          "entry_speed": 0.391072154045105,
+          "stop_max_cm": 6.060962200164795,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 32,
+          "command": -0.5099999904632568,
+          "entry_speed": 0.39178958535194397,
+          "stop_max_cm": 6.077925205230713,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 33,
+          "command": -0.5099999904632568,
+          "entry_speed": 0.39086422324180603,
+          "stop_max_cm": 5.978811740875244,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 34,
+          "command": -0.5099999904632568,
+          "entry_speed": 0.3901785910129547,
+          "stop_max_cm": 5.976639270782471,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 35,
+          "command": -0.5099999904632568,
+          "entry_speed": 0.390891432762146,
+          "stop_max_cm": 5.984661102294922,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 36,
+          "command": -0.5600000023841858,
+          "entry_speed": 0.44428205490112305,
+          "stop_max_cm": 7.222382545471191,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 37,
+          "command": -0.5600000023841858,
+          "entry_speed": 0.4449116885662079,
+          "stop_max_cm": 7.541934490203857,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 38,
+          "command": -0.5600000023841858,
+          "entry_speed": 0.4468652009963989,
+          "stop_max_cm": 7.374993801116943,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 39,
+          "command": -0.5600000023841858,
+          "entry_speed": 0.4461017847061157,
+          "stop_max_cm": 7.445104598999023,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 40,
+          "command": -0.5600000023841858,
+          "entry_speed": 0.44575539231300354,
+          "stop_max_cm": 7.372072219848633,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 41,
+          "command": -0.5600000023841858,
+          "entry_speed": 0.44586381316185,
+          "stop_max_cm": 7.6859450340271,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 42,
+          "command": -0.6100000143051147,
+          "entry_speed": 0.48808079957962036,
+          "stop_max_cm": 9.489840507507324,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 43,
+          "command": -0.6100000143051147,
+          "entry_speed": 0.4903336465358734,
+          "stop_max_cm": 9.470171928405762,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 44,
+          "command": -0.6100000143051147,
+          "entry_speed": 0.4915366470813751,
+          "stop_max_cm": 9.410395622253418,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 45,
+          "command": -0.6100000143051147,
+          "entry_speed": 0.4889087677001953,
+          "stop_max_cm": 9.54155158996582,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 46,
+          "command": -0.6100000143051147,
+          "entry_speed": 0.49039125442504883,
+          "stop_max_cm": 9.54399299621582,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 47,
+          "command": -0.6100000143051147,
+          "entry_speed": 0.48704299330711365,
+          "stop_max_cm": 9.615978240966797,
+          "stop_four_support": 1.0,
+          "eligible": false
+        }
+      ]
+    }
+  },
+  "9836-max-refine": {
+    "forward": {
+      "count": 11,
+      "entry_avg": 0.45549601316452026,
+      "stop_mean_cm": 7.65931510925293,
+      "stop_max_cm": 8.35332202911377,
+      "trials": [
+        {
+          "trial": 0,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.3801352381706238,
+          "stop_max_cm": 7.06174898147583,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 1,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.38270530104637146,
+          "stop_max_cm": 7.286585807800293,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 2,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.3796739876270294,
+          "stop_max_cm": 6.994288444519043,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 3,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.3811946511268616,
+          "stop_max_cm": 7.336714267730713,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 4,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.3815563917160034,
+          "stop_max_cm": 7.478299140930176,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 5,
+          "command": 0.4000000059604645,
+          "entry_speed": 0.3810270130634308,
+          "stop_max_cm": 6.947341442108154,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 6,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.4360868036746979,
+          "stop_max_cm": 7.229796886444092,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 7,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.44087153673171997,
+          "stop_max_cm": 7.332127571105957,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 8,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.439599871635437,
+          "stop_max_cm": 7.140522480010986,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 9,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.43913909792900085,
+          "stop_max_cm": 7.130774974822998,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 10,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.44285866618156433,
+          "stop_max_cm": 7.21278190612793,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 11,
+          "command": 0.44999998807907104,
+          "entry_speed": 0.44060176610946655,
+          "stop_max_cm": 7.580998420715332,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 12,
+          "command": 0.5,
+          "entry_speed": 0.4778165817260742,
+          "stop_max_cm": 7.826266288757324,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 13,
+          "command": 0.5,
+          "entry_speed": 0.47050464153289795,
+          "stop_max_cm": 8.211556434631348,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 14,
+          "command": 0.5,
+          "entry_speed": 0.4722824692726135,
+          "stop_max_cm": 8.109758377075195,
+          "stop_four_support": 0.98,
+          "eligible": true
+        },
+        {
+          "trial": 15,
+          "command": 0.5,
+          "entry_speed": 0.48279067873954773,
+          "stop_max_cm": 8.121618270874023,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 16,
+          "command": 0.5,
+          "entry_speed": 0.4745803773403168,
+          "stop_max_cm": 8.35332202911377,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 17,
+          "command": 0.5,
+          "entry_speed": 0.4761144518852234,
+          "stop_max_cm": 8.124560356140137,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 18,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5215365886688232,
+          "stop_max_cm": 10.00997543334961,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 19,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5301955342292786,
+          "stop_max_cm": 8.999938011169434,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 20,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5204401016235352,
+          "stop_max_cm": 9.96049690246582,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 21,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5251532196998596,
+          "stop_max_cm": 9.8484525680542,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 22,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5276076793670654,
+          "stop_max_cm": 8.66083812713623,
+          "stop_four_support": 1.0,
+          "eligible": false
+        },
+        {
+          "trial": 23,
+          "command": 0.550000011920929,
+          "entry_speed": 0.5265088677406311,
+          "stop_max_cm": 9.2138671875,
+          "stop_four_support": 0.98,
+          "eligible": false
+        }
+      ]
+    },
+    "reverse": {
+      "count": 24,
+      "entry_avg": 0.4517005681991577,
+      "stop_mean_cm": 7.860422611236572,
+      "stop_max_cm": 9.886920928955078,
+      "trials": [
+        {
+          "trial": 24,
+          "command": -0.4650000035762787,
+          "entry_speed": 0.4325360059738159,
+          "stop_max_cm": 7.793749809265137,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 25,
+          "command": -0.4650000035762787,
+          "entry_speed": 0.4349960386753082,
+          "stop_max_cm": 8.198373794555664,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 26,
+          "command": -0.4650000035762787,
+          "entry_speed": 0.4267626106739044,
+          "stop_max_cm": 8.006327629089355,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 27,
+          "command": -0.4650000035762787,
+          "entry_speed": 0.4305000603199005,
+          "stop_max_cm": 7.694248199462891,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 28,
+          "command": -0.4650000035762787,
+          "entry_speed": 0.42571932077407837,
+          "stop_max_cm": 8.221426963806152,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 29,
+          "command": -0.4650000035762787,
+          "entry_speed": 0.42798110842704773,
+          "stop_max_cm": 7.817564010620117,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 30,
+          "command": -0.4724999964237213,
+          "entry_speed": 0.4427202641963959,
+          "stop_max_cm": 6.910834312438965,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 31,
+          "command": -0.4724999964237213,
+          "entry_speed": 0.4497050642967224,
+          "stop_max_cm": 6.570906162261963,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 32,
+          "command": -0.4724999964237213,
+          "entry_speed": 0.4491417706012726,
+          "stop_max_cm": 6.342231273651123,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 33,
+          "command": -0.4724999964237213,
+          "entry_speed": 0.4472593367099762,
+          "stop_max_cm": 6.533620357513428,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 34,
+          "command": -0.4724999964237213,
+          "entry_speed": 0.44978344440460205,
+          "stop_max_cm": 6.304953098297119,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 35,
+          "command": -0.4724999964237213,
+          "entry_speed": 0.44215160608291626,
+          "stop_max_cm": 6.406823635101318,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 36,
+          "command": -0.47999998927116394,
+          "entry_speed": 0.46418046951293945,
+          "stop_max_cm": 8.088031768798828,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 37,
+          "command": -0.47999998927116394,
+          "entry_speed": 0.4590064585208893,
+          "stop_max_cm": 7.920140266418457,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 38,
+          "command": -0.47999998927116394,
+          "entry_speed": 0.4606430232524872,
+          "stop_max_cm": 7.9910807609558105,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 39,
+          "command": -0.47999998927116394,
+          "entry_speed": 0.46488985419273376,
+          "stop_max_cm": 7.968813896179199,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 40,
+          "command": -0.47999998927116394,
+          "entry_speed": 0.46275919675827026,
+          "stop_max_cm": 8.250036239624023,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 41,
+          "command": -0.47999998927116394,
+          "entry_speed": 0.46185001730918884,
+          "stop_max_cm": 7.795961380004883,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 42,
+          "command": -0.48750001192092896,
+          "entry_speed": 0.47458142042160034,
+          "stop_max_cm": 9.886920928955078,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 43,
+          "command": -0.48750001192092896,
+          "entry_speed": 0.46483391523361206,
+          "stop_max_cm": 9.254426956176758,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 44,
+          "command": -0.48750001192092896,
+          "entry_speed": 0.4684991240501404,
+          "stop_max_cm": 9.765497207641602,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 45,
+          "command": -0.48750001192092896,
+          "entry_speed": 0.4698549211025238,
+          "stop_max_cm": 8.329360961914062,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 46,
+          "command": -0.48750001192092896,
+          "entry_speed": 0.46515071392059326,
+          "stop_max_cm": 7.707022666931152,
+          "stop_four_support": 1.0,
+          "eligible": true
+        },
+        {
+          "trial": 47,
+          "command": -0.48750001192092896,
+          "entry_speed": 0.46530798077583313,
+          "stop_max_cm": 8.891783714294434,
+          "stop_four_support": 1.0,
+          "eligible": true
+        }
+      ]
+    }
+  }
+}

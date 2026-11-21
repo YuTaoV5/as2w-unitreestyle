@@ -1,0 +1,157 @@
+{
+  "pitch_deg": -0.23689198610517792,
+  "hip_torque_nm": [
+    3.897039761543274,
+    0.7921613276004791,
+    -3.0903823280334475,
+    -1.860639352798462
+  ],
+  "leg_torque_nm": [
+    3.897039761543274,
+    -1.8367696261405946,
+    6.314566478729248,
+    0.7921613276004791,
+    2.8122856283187865,
+    6.6353672504425045,
+    -3.0903823280334475,
+    -4.2011494445800786,
+    2.4017396116256715,
+    -1.860639352798462,
+    7.5047556495666505,
+    10.905020217895508
+  ],
+  "wheel_normal_n": [
+    [
+      1.0529660867177882e-05,
+      0.0,
+      78.3696939086914
+    ],
+    [
+      8.055701437115204e-06,
+      0.0,
+      59.95661476135254
+    ],
+    [
+      7.234026743390131e-06,
+      0.0,
+      53.841092071533204
+    ],
+    [
+      1.04432565967727e-05,
+      0.0,
+      77.72660858154296
+    ]
+  ],
+  "wheel_tangent_n": [
+    [
+      -12.00472827911377,
+      -17.742637825012206,
+      1.6129413620546984e-06
+    ],
+    [
+      5.838665218353271,
+      4.028643484115601,
+      -7.844762978947984e-07
+    ],
+    [
+      -12.714684810638428,
+      2.8857757377624513,
+      1.708330323708651e-06
+    ],
+    [
+      18.8880973815918,
+      10.825681133270264,
+      -2.5377828478667652e-06
+    ]
+  ],
+  "q": [
+    -0.169422889649868,
+    0.6092302966117858,
+    -1.2317600202560426,
+    0.14603975772857666,
+    0.5860032737255096,
+    -1.233258340358734,
+    -0.13453838646411895,
+    0.6210661017894745,
+    -1.212208640575409,
+    0.15923460990190505,
+    0.5624936258792878,
+    -1.2544916009902953
+  ],
+  "dq": [
+    -0.003142576995305717,
+    -0.002330240746960044,
+    0.0093321524374187,
+    -5.553215873078443e-05,
+    -0.0032056290516629814,
+    0.004065345898270607,
+    -0.00048010552825871855,
+    -0.003112958483397961,
+    0.010046070590615273,
+    0.0034273066744208336,
+    -0.0008644090755842626,
+    -0.0016818382730707526
+  ],
+  "gravity": [
+    -0.0041345334611833096,
+    -0.0004772008687723428,
+    -0.9999909996986389
+  ],
+  "pitch_abs_max_deg": 0.23689198610517792,
+  "contract": {
+    "asset": "/root/as2w/calibration/candidates/t2-v2-20261119/as2w-t2-v2.urdf",
+    "mode": "native",
+    "mu_override": null,
+    "pd": "200",
+    "kp": 200.0,
+    "kd": 4.0,
+    "hold_fixture": false
+  },
+  "mass_contrast": null,
+  "bindings": [
+    {
+      "shape": "/World/envs/env_0/Robot/Geometry/base_link/FL_hip/FL_thigh/FL_calf/FL_foot/FL_foot_1/FL_foot",
+      "material": null
+    },
+    {
+      "shape": "/World/envs/env_0/Robot/Geometry/base_link/FR_hip/FR_thigh/FR_calf/FR_foot/FR_foot_1/FR_foot",
+      "material": null
+    },
+    {
+      "shape": "/World/envs/env_0/Robot/Geometry/base_link/RL_hip/RL_thigh/RL_calf/RL_foot/RL_foot_1/RL_foot",
+      "material": null
+    },
+    {
+      "shape": "/World/envs/env_0/Robot/Geometry/base_link/RR_hip/RR_thigh/RR_calf/RR_foot/RR_foot_1/RR_foot",
+      "material": null
+    },
+    {
+      "shape": "/World/ground/terrain/GroundPlane/CollisionPlane",
+      "material": "/World/ground/terrain/physicsMaterial",
+      "physics:dynamicFriction": 0.5,
+      "physics:staticFriction": 0.5,
+      "combine": null
+    }
+  ],
+  "leg_names": [
+    "FL_hip",
+    "FL_thigh",
+    "FL_calf",
+    "FR_hip",
+    "FR_thigh",
+    "FR_calf",
+    "RL_hip",
+    "RL_thigh",
+    "RL_calf",
+    "RR_hip",
+    "RR_thigh",
+    "RR_calf"
+  ],
+  "wheel_loaded": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "all_wheels_loaded": true
+}

@@ -1,0 +1,30 @@
+{
+  "left": {
+    "anchor": "FR",
+    "cycles": 36,
+    "period_s": 0.71,
+    "frequency_hz": 1.4084507042253522,
+    "max_curve_shift_deg": 0.4305382671361002
+  },
+  "right": {
+    "anchor": "FR",
+    "cycles": 39,
+    "period_s": 0.6,
+    "frequency_hz": 1.6666666666666667,
+    "max_curve_shift_deg": 0.4277597886564166
+  },
+  "yaw_left": {
+    "anchor": "RR",
+    "cycles": 34,
+    "period_s": 0.76,
+    "frequency_hz": 1.3157894736842106,
+    "max_curve_shift_deg": 0.533393833863407
+  },
+  "yaw_right": {
+    "anchor": "RL",
+    "cycles": 31,
+    "period_s": 0.84,
+    "frequency_hz": 1.1904761904761905,
+    "max_curve_shift_deg": 0.46523070931451116
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "phases": [
+    {
+      "state": "FixedStand",
+      "duration_s": 6.117222813,
+      "frames": 3039,
+      "aligned_count": 1317,
+      "leg_kp_first_last": [
+        85.0,
+        85.0
+      ],
+      "leg_kd_first_last": [
+        3.20000005,
+        3.20000005
+      ],
+      "pitch_minmax_deg": [
+        -2.8806987398239,
+        -0.962401702160901
+      ],
+      "last_1s_pitch_deg": -1.1415909845640708,
+      "last_1s_rear_calf_error_rad": [
+        -0.12537136211382122,
+        -0.10923656536585374
+      ],
+      "last_1s_rear_hip_error_rad": [
+        -0.22457239024390244,
+        0.22708436585365854
+      ],
+      "wheel_abs_dq_peak": 0.19635
+    },
+    {
+      "state": "PolicyHandoff",
+      "duration_s": 1.997526094,
+      "frames": 996,
+      "aligned_count": 321,
+      "leg_kp_first_last": [
+        85.0,
+        55.2971802
+      ],
+      "leg_kd_first_last": [
+        3.20000005,
+        2.01188707
+      ],
+      "pitch_minmax_deg": [
+        -1.276744854814815,
+        -1.1028930594832784
+      ],
+      "last_1s_pitch_deg": -1.170102854801838,
+      "last_1s_rear_calf_error_rad": [
+        -0.15044285909547736,
+        -0.13002395477386935
+      ],
+      "last_1s_rear_hip_error_rad": [
+        -0.13289590475075377,
+        0.11369861214070352
+      ],
+      "wheel_abs_dq_peak": 0.576777
+    },
+    {
+      "state": "PolicyWalk",
+      "duration_s": 10.019862968,
+      "frames": 4980,
+      "aligned_count": 1956,
+      "leg_kp_first_last": [
+        55.2971802,
+        55.0
+      ],
+      "leg_kd_first_last": [
+        2.01188707,
+        2.0
+      ],
+      "pitch_minmax_deg": [
+        -3.0378260090735494,
+        -1.2793891663797108
+      ],
+      "last_1s_pitch_deg": -2.832321357614429,
+      "last_1s_rear_calf_error_rad": [
+        -0.18540233537414963,
+        -0.1778897591836735
+      ],
+      "last_1s_rear_hip_error_rad": [
+        -0.09717222872789115,
+        0.05791012115646258
+      ],
+      "wheel_abs_dq_peak": 0.576777
+    },
+    {
+      "state": "Brake",
+      "duration_s": 0.315764687,
+      "frames": 159,
+      "aligned_count": 38,
+      "leg_kp_first_last": [
+        55.0,
+        55.0
+      ],
+      "leg_kd_first_last": [
+        2.0,
+        2.0
+      ],
+      "pitch_minmax_deg": [
+        -3.0673582604284233,
+        -2.998891839149379
+      ],
+      "last_1s_pitch_deg": -3.0254944109435087,
+      "last_1s_rear_calf_error_rad": [
+        -0.18800675421052632,
+        -0.18169497710526314
+      ],
+      "last_1s_rear_hip_error_rad": [
+        -0.11200532181578947,
+        0.07268983768421051
+      ],
+      "wheel_abs_dq_peak": 0.319068
+    },
+    {
+      "state": "ReturnStand",
+      "duration_s": 2.517095,
+      "frames": 1257,
+      "aligned_count": 854,
+      "leg_kp_first_last": [
+        55.0,
+        84.9920807
+      ],
+      "leg_kd_first_last": [
+        2.0,
+        3.19968319
+      ],
+      "pitch_minmax_deg": [
+        -4.077427743320858,
+        -3.0526993111337664
+      ],
+      "last_1s_pitch_deg": -3.7026382563737807,
+      "last_1s_rear_calf_error_rad": [
+        -0.1855031938775511,
+        -0.18411845142857142
+      ],
+      "last_1s_rear_hip_error_rad": [
+        -0.09709053036734694,
+        0.062396126734693885
+      ],
+      "wheel_abs_dq_peak": 0.257709
+    },
+    {
+      "state": "FixedStand",
+      "duration_s": 15.018184375,
+      "frames": 7470,
+      "aligned_count": 3224,
+      "leg_kp_first_last": [
+        84.9920807,
+        85.0
+      ],
+      "leg_kd_first_last": [
+        3.19968319,
+        3.20000005
+      ],
+      "pitch_minmax_deg": [
+        -4.4338910357899275,
+        -4.082105406561655
+      ],
+      "last_1s_pitch_deg": -4.369002049646876,
+      "last_1s_rear_calf_error_rad": [
+        -0.18422170205479466,
+        -0.18348934917808213
+      ],
+      "last_1s_rear_hip_error_rad": [
+        -0.08996662569863013,
+        0.0715880040410959
+      ],
+      "wheel_abs_dq_peak": 0.220893
+    }
+  ],
+  "policy_frames": 617,
+  "policy_nonzero_command_frames": 0,
+  "protection_rows": 12152,
+  "protection_flagged_rows": 0
+}

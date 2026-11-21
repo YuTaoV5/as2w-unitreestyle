@@ -1,0 +1,10 @@
+{
+  "checkpoint": "/root/gpufree-data/as2w-runs/him-flat-t2-v2-20261119-G6IW9O/train/model_9836.pt",
+  "sha256": "44fd1e6211749496812039b3d7997be9bfd2b7d59a4441a7744d97b396d87b60",
+  "asset": "/root/as2w/calibration/candidates/t2-v2-20261119/as2w-t2-v2.urdf",
+  "asset_sha256": "940a4a28a24d8b2ac144b5e62a0193897a1aeca177624456db76ccd1fdb49aa0",
+  "seed": 319,
+  "dt_s": 0.02,
+  "evaluation_complete": true,
+  "acceptance_status": "pending_review"
+}

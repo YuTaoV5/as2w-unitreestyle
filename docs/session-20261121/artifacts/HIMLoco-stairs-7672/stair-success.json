@@ -1,0 +1,6 @@
+{
+  "success_fraction": 0.90625,
+  "successes": 29,
+  "trials": 32,
+  "criterion": "all four wheels verified landing, current tread support >=3 and stable for 0.5s"
+}

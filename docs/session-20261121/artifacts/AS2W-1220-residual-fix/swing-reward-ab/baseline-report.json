@@ -1,0 +1,122 @@
+{
+  "left": {
+    "FL": {
+      "events": 41,
+      "calibrated_events": 36,
+      "peak_median_mm": 23.547096566782944,
+      "longest_calibrated_gap_s": 2.06,
+      "loaded_slip_p95_m_s": 0.683877745533026
+    },
+    "FR": {
+      "events": 48,
+      "calibrated_events": 47,
+      "peak_median_mm": 16.665362406814694,
+      "longest_calibrated_gap_s": 1.44,
+      "loaded_slip_p95_m_s": 0.5907101103363157
+    },
+    "RL": {
+      "events": 42,
+      "calibrated_events": 36,
+      "peak_median_mm": 48.355791741804076,
+      "longest_calibrated_gap_s": 1.46,
+      "loaded_slip_p95_m_s": 0.01840267226868717
+    },
+    "RR": {
+      "events": 0,
+      "calibrated_events": 0,
+      "peak_median_mm": null,
+      "longest_calibrated_gap_s": 5.0,
+      "loaded_slip_p95_m_s": 1.1453679700298514
+    }
+  },
+  "right": {
+    "FL": {
+      "events": 35,
+      "calibrated_events": 35,
+      "peak_median_mm": 12.985141945075302,
+      "longest_calibrated_gap_s": 2.26,
+      "loaded_slip_p95_m_s": 0.5498295219282532
+    },
+    "FR": {
+      "events": 32,
+      "calibrated_events": 32,
+      "peak_median_mm": 15.802609458316493,
+      "longest_calibrated_gap_s": 2.0,
+      "loaded_slip_p95_m_s": 0.2845884974403825
+    },
+    "RL": {
+      "events": 0,
+      "calibrated_events": 0,
+      "peak_median_mm": null,
+      "longest_calibrated_gap_s": 5.0,
+      "loaded_slip_p95_m_s": 1.063098889817397
+    },
+    "RR": {
+      "events": 26,
+      "calibrated_events": 26,
+      "peak_median_mm": 13.410678456653905,
+      "longest_calibrated_gap_s": 3.44,
+      "loaded_slip_p95_m_s": 0.35102755235524946
+    }
+  },
+  "yaw_left": {
+    "FL": {
+      "events": 0,
+      "calibrated_events": 0,
+      "peak_median_mm": null,
+      "longest_calibrated_gap_s": 5.0,
+      "loaded_slip_p95_m_s": 0.37997235442712657
+    },
+    "FR": {
+      "events": 2,
+      "calibrated_events": 0,
+      "peak_median_mm": 11.235617312514151,
+      "longest_calibrated_gap_s": 5.0,
+      "loaded_slip_p95_m_s": 0.4389753839356666
+    },
+    "RL": {
+      "events": 0,
+      "calibrated_events": 0,
+      "peak_median_mm": null,
+      "longest_calibrated_gap_s": 5.0,
+      "loaded_slip_p95_m_s": 0.4910590554772025
+    },
+    "RR": {
+      "events": 35,
+      "calibrated_events": 33,
+      "peak_median_mm": 19.12736325095607,
+      "longest_calibrated_gap_s": 1.56,
+      "loaded_slip_p95_m_s": 0.1307727179791688
+    }
+  },
+  "yaw_right": {
+    "FL": {
+      "events": 2,
+      "calibrated_events": 0,
+      "peak_median_mm": 13.090603821899908,
+      "longest_calibrated_gap_s": 5.0,
+      "loaded_slip_p95_m_s": 0.2558043298822984
+    },
+    "FR": {
+      "events": 6,
+      "calibrated_events": 6,
+      "peak_median_mm": 13.94858286405696,
+      "longest_calibrated_gap_s": 5.0,
+      "loaded_slip_p95_m_s": 0.36537257181306054
+    },
+    "RL": {
+      "events": 32,
+      "calibrated_events": 31,
+      "peak_median_mm": 15.401490148234505,
+      "longest_calibrated_gap_s": 1.8,
+      "loaded_slip_p95_m_s": 0.0401755998793127
+    },
+    "RR": {
+      "events": 0,
+      "calibrated_events": 0,
+      "peak_median_mm": null,
+      "longest_calibrated_gap_s": 5.0,
+      "loaded_slip_p95_m_s": 0.2999434927357762
+    }
+  }
+}

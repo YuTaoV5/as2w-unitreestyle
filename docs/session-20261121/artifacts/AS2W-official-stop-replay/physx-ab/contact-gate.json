@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "kind": "himloco_contact_stage_gate",
+  "stage": "contact",
+  "gates": {
+    "main_all_wheels_loaded": true,
+    "main_pitch_within_10deg": true,
+    "usd_wheels_025": true,
+    "usd_ground_025_min": true,
+    "holdout_all_probes_loaded": true,
+    "holdout_B_hip_not_worse_than_A": true,
+    "holdout_B_pitch_not_worse_than_A": true,
+    "hip_sign_mapping_plus1": true,
+    "isolation_4096_ok": true
+  },
+  "notes": {
+    "main_pitch_abs_deg": {
+      "A1_official_200": 0.11,
+      "A1_t2_55": 8.98,
+      "A_official_200": 0.25,
+      "A_t2_55": 8.39,
+      "B_official_200": 0.63,
+      "B_t2_55": 4.33
+    },
+    "usd_wheel_materials": 4,
+    "holdout_vs_ref_absolute (known gap, not a gate)": {
+      "A": {
+        "trials": 3,
+        "mean_max_abs_error_nm": 20.013346875799485,
+        "all_signs_match": false,
+        "mean_pitch_error_deg": -4.91050017570092
+      },
+      "B": {
+        "trials": 3,
+        "mean_max_abs_error_nm": 19.752673524511643,
+        "all_signs_match": false,
+        "mean_pitch_error_deg": -5.706550137797701
+      }
+    },
+    "holdout_delta": {
+      "hip_err_mm_nm": -0.261,
+      "pitch_err_deg": -0.796
+    },
+    "sign_note": "fixture ref_hip_tau uses a different torque convention from the sim joint torque; per-hip sign agreement with it is informational, not a gate",
+    "hip_sign_audit_t2": {
+      "plus1_mae_nm": 0.1255760604038647,
+      "minus1_mae_nm": 6.271921258928127
+    },
+    "isolation": {
+      "num_envs": 4096,
+      "tile_count": 4096,
+      "distinct_materials": 4096,
+      "distinct_mu": 4002,
+      "mu_min": 0.20000521838665009,
+      "mu_max": 0.2999430000782013,
+      "cross_write": {
+        "env1_mu_before": 0.2618630528450012,
+        "env1_mu_after_env0_write": 0.2618630528450012,
+        "isolated": true
+      },
+      "build_seconds": 53.88
+    }
+  },
+  "sources": {
+    "main": "/root/gpufree-data/as2w-runs/dr-mu025-ab-YiYSVi/static-contact/contact-acceptance.json",
+    "holdout": "/root/gpufree-data/as2w-runs/dr-mu025-ab-YiYSVi/static-holdout",
+    "isolation": "/root/gpufree-data/as2w-runs/dr-mu025-ab-YiYSVi/material-isolation-4096.json",
+    "hip_sign_audit": "/root/as2w/him_arc/dr-handoff/dr-hip-sign-audit.json"
+  },
+  "passed": true,
+  "status": "pending_review"
+}

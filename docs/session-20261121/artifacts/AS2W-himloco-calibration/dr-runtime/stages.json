@@ -1,0 +1,124 @@
+{
+  "schema": 1,
+  "policy_dt_s": 0.02,
+  "handoff_steps": 100,
+  "leg_pd": [
+    55,
+    2
+  ],
+  "wheel_pd": [
+    0,
+    2
+  ],
+  "cutoff_hz": [
+    10,
+    5
+  ],
+  "stages": [
+    {
+      "name": "field_reset",
+      "updates": 1000,
+      "field_probability": 0.5,
+      "base_mass_delta_kg": [
+        0,
+        0
+      ],
+      "com_delta_x_m": [
+        0,
+        0
+      ],
+      "friction_scale": [
+        1,
+        1
+      ],
+      "delay_steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "load",
+      "updates": 1500,
+      "field_probability": 0.5,
+      "base_mass_delta_kg": [
+        -0.5,
+        0.5
+      ],
+      "com_delta_x_m": [
+        -0.01,
+        0.01
+      ],
+      "friction_scale": [
+        1,
+        1
+      ],
+      "delay_steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "contact",
+      "updates": 3000,
+      "field_probability": 0.5,
+      "base_mass_delta_kg": [
+        -0.5,
+        0.5
+      ],
+      "com_delta_x_m": [
+        -0.01,
+        0.01
+      ],
+      "friction_scale": [
+        0.8,
+        1.2
+      ],
+      "delay_steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "timing",
+      "updates": 1500,
+      "field_probability": 0.5,
+      "base_mass_delta_kg": [
+        -0.5,
+        0.5
+      ],
+      "com_delta_x_m": [
+        -0.01,
+        0.01
+      ],
+      "friction_scale": [
+        0.8,
+        1.2
+      ],
+      "delay_steps": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "consolidate",
+      "updates": 3000,
+      "field_probability": 0.5,
+      "base_mass_delta_kg": [
+        -0.5,
+        0.5
+      ],
+      "com_delta_x_m": [
+        -0.01,
+        0.01
+      ],
+      "friction_scale": [
+        0.8,
+        1.2
+      ],
+      "delay_steps": [
+        0,
+        1
+      ]
+    }
+  ]
+}

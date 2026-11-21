@@ -1,0 +1,101 @@
+{
+  "checkpoint_sha256": "d7dd999a2597337cd37e6948021a58ed1488e88380e1fecad4a0a9d4a33d5033",
+  "trajectory_sha256": "d127f5a7218c93e121de1573113f7720179c18080388d146927c65a6674b25c2",
+  "physics": "Isaac Lab / PhysX recorded trajectory",
+  "renderer": "MuJoCo visual-only forward kinematics",
+  "mujoco_version": "3.12.0",
+  "policy_label": "DR3 endpoint (600 updates)",
+  "status": "research_only; not gait-qualified",
+  "seed": 319,
+  "trial_rule": "first of six trials, fixed in advance",
+  "terrain": "slope",
+  "randomization_level": 0,
+  "fps": 25,
+  "speed": 1,
+  "kinematics": {
+    "max_wheel_link_position_error_m": 7.718327160515162e-06,
+    "p99_error_m": 5.432211544317926e-06
+  },
+  "chapters": [
+    {
+      "mode": "stand",
+      "start_s": 0.0,
+      "trial_index": 0,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "mode": "forward",
+      "start_s": 4.0,
+      "trial_index": 6,
+      "command": [
+        0.3499999940395355,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "mode": "reverse",
+      "start_s": 8.0,
+      "trial_index": 12,
+      "command": [
+        -0.3499999940395355,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "mode": "left",
+      "start_s": 12.0,
+      "trial_index": 18,
+      "command": [
+        0.0,
+        0.30000001192092896,
+        0.0
+      ]
+    },
+    {
+      "mode": "right",
+      "start_s": 16.0,
+      "trial_index": 24,
+      "command": [
+        0.0,
+        -0.30000001192092896,
+        0.0
+      ]
+    },
+    {
+      "mode": "yaw_left",
+      "start_s": 20.0,
+      "trial_index": 30,
+      "command": [
+        0.0,
+        0.0,
+        0.6000000238418579
+      ]
+    },
+    {
+      "mode": "yaw_right",
+      "start_s": 24.0,
+      "trial_index": 36,
+      "command": [
+        0.0,
+        0.0,
+        -0.6000000238418579
+      ]
+    },
+    {
+      "mode": "mixed",
+      "start_s": 28.0,
+      "trial_index": 42,
+      "command": [
+        0.2800000011920929,
+        0.20000000298023224,
+        0.44999998807907104
+      ]
+    }
+  ]
+}
