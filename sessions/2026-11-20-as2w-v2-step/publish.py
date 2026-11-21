@@ -1,36 +1,24 @@
-"""Write manifest.md for the staged session archive and publish it to GitHub.
-
-Publishing uses the REST API (git push is blocked from this host). The token is
-read from the stored git credential and never printed.
-"""
+"""Write manifest.md and publish the staged session archive to GitHub (REST API)."""
 import base64
 import hashlib
 import json
 import subprocess
 import sys
-import urllib.error
 import urllib.request
 from pathlib import Path
 
 STAGE = Path(r"X:\Items\as2w\.stage58\gh-stage-20261120")
 REPO = "YuTaoV5/as2w-unitreestyle"
 PREFIX = "sessions/2026-11-20-as2w-v2-step"
-MESSAGE = """Add 2026-11-20 AS2-W v2 session archive (sim-to-real, friction, field logs)
+MESSAGE = """Add training curves for all 8 arms and full training logs to the 2026-11-20 archive
 
-One-day session covering the v2 step-only line from training to the real robot:
-
-- tanh squash + vx removal + motor-jitter randomisation (sign-flip 30% -> 8-13%)
-- quantified the missing sim term: ground/tire friction (static hip load
-  0.39 -> 5.37 Nm; rigid-hold 1.66 -> 11.91 Nm vs 11-12 Nm on hardware)
-- negative controls: joint friction, base mass and COM shift do not explain it
-- friction-aligned retraining (mu025, 600 updates) and its hardware A/B:
-  yaw tracking slope 0.146 vs 0.199 -> the friction hypothesis does NOT explain
-  the weak hardware turning
-- CPRO deployment path: ONNX export, frame parity, ARM64 build, CTest 10/10,
-  read-only replay and C++<->Python parity
-- analysis JSON, plots and downsampled data for every claim
-
-Full field logs (4.8 GB) stay local; see manifest.md for hashes and locations.
+- fetch the per-update reward-component logs for every v2 arm (step-only,
+  rear-weight, hardest, DR2+jitter, mu025, DR1/DR2/DR3)
+- training-runs-summary.csv + downsampled curves, and two new plots:
+  p6 (sign-flip and task progress per arm), p8 (event_right_RR, which is
+  0.000000 for every arm and every update - the geometric limit of the
+  right translation direction)
+- README now carries the per-arm table derived from those logs
 """
 
 
@@ -38,8 +26,7 @@ def sha256(p: Path) -> str:
     return hashlib.sha256(p.read_bytes()).hexdigest()
 
 
-# ── manifest ────────────────────────────────────────────────────────────────
-files = sorted(p for p in STAGE.rglob("*") if p.is_file() and p.name not in ("manifest.md",))
+files = sorted(p for p in STAGE.rglob("*") if p.is_file() and p.name != "manifest.md")
 rows = [(p.relative_to(STAGE).as_posix(), p.stat().st_size, sha256(p)) for p in files]
 manifest = ["# 归档清单（2026-11-20 会话）", "",
             f"共 {len(rows)} 个文件，合计 {sum(r[1] for r in rows)/1024/1024:.2f} MB。", "",
@@ -52,31 +39,26 @@ manifest += [
     "| 实机日志全量（field_logs + field_sessions） | 4.86 GB（解包） | `X:/Items/as2w/AS2W-field-logs-20261120/`；"
     "`field_logs_bundle.tar.gz` sha `5c09c4e00b17cfb486e5060f4eb7d50de0152c130e74d5225b92d953e6b65a22`，"
     "`field_sessions.tar.gz` sha `7f3a237c85139ce6b3e0e5f74a61225b9ad6383e3ff20bc30e1fdb657d6a3576` |",
-    "| 训练权重与 ONNX | 每个 4.7 MB / 0.8 MB | 训练服务器 `/root/gpufree-data/as2w-runs/<run>/train/`；"
-    "交付包内 SHA 见 `docs/deployment-contract-audit.md` |",
-    "| 传感器级回放带 | 7 MB/份 | 同交付包 `replay/sensor_tape.npz` |",
+    "| 训练权重与 ONNX | 4.7 MB / 0.8 MB | 训练服务器 `/root/gpufree-data/as2w-runs/<run>/train/`；交付包内 SHA 见合同审计 |",
+    "| 传感器级回放带 | 7 MB/份 | 交付包 `replay/sensor_tape.npz` |",
+    "| 完整逐轮训练日志（jsonl，各 0.5–1.2 MB） | 9 份 | 本机 `X:/Items/as2w/.stage58/gh2/`；仓库内只保留降采样 CSV |",
     "", "## 说明", "",
-    "- 训练服务器（gpufree）在会话结束后已不可达；本目录所有数字均来自本机留存的分析产物与日志副本。",
-    "- 图表由 `make_plots.py` 从 `data/` 与 `analysis/` 的可复算数据生成，可重新运行。 ",
+    "- 训练服务器 2026-11-21 11:35 重新可达后补取了全部 8 条臂的逐轮日志，`data/training-*.csv` 由其生成。",
+    "- 图表由 `make_plots.py` / `rebuild_training_plots.py` 从 `data/` 与 `analysis/` 的可复算数据生成。",
 ]
 (STAGE / "manifest.md").write_text("\n".join(manifest) + "\n", encoding="utf-8")
 files_all = sorted(p for p in STAGE.rglob("*") if p.is_file())
 print("staged files:", len(files_all))
 
-# ── token ───────────────────────────────────────────────────────────────────
 inp = "protocol=https\nhost=github.com\n\n"
 proc = subprocess.run(["git", "credential", "fill"], input=inp, capture_output=True, text=True)
 token = ""
-user = ""
 for line in proc.stdout.splitlines():
-    if line.startswith("username="):
-        user = line[len("username="):]
-    elif line.startswith("password="):
+    if line.startswith("password="):
         token = line[len("password="):]
 if not token:
     print("no stored credential")
     sys.exit(1)
-print("credential ok:", user, "len", len(token))
 
 
 def api(method, path, payload=None):
@@ -95,8 +77,7 @@ def api(method, path, payload=None):
 
 head = api("GET", "/git/ref/heads/main")["object"]["sha"]
 print("main head:", head)
-commit = api("GET", f"/git/commits/{head}")
-base_tree = commit["tree"]["sha"]
+base_tree = api("GET", f"/git/commits/{head}")["tree"]["sha"]
 
 entries = []
 for p in files_all:
@@ -106,10 +87,9 @@ for p in files_all:
         "encoding": "base64",
     })
     entries.append({"path": f"{PREFIX}/{rel}", "mode": "100644", "type": "blob", "sha": blob["sha"]})
-    print("blob", rel, p.stat().st_size)
+print("blobs:", len(entries))
 
 tree = api("POST", "/git/trees", {"base_tree": base_tree, "tree": entries})
 new_commit = api("POST", "/git/commits", {"message": MESSAGE, "tree": tree["sha"], "parents": [head]})
-print("commit", new_commit["sha"])
 api("PATCH", "/git/refs/heads/main", {"sha": new_commit["sha"], "force": False})
 print("PUBLISH_OK", new_commit["sha"])

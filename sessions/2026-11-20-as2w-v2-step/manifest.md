@@ -1,6 +1,6 @@
 # 归档清单（2026-11-20 会话）
 
-共 43 个文件，合计 0.88 MB。
+共 47 个文件，合计 1.06 MB。
 
 | 文件 | 字节 | SHA256 |
 |---|---|---|
@@ -20,7 +20,9 @@
 | `data/field-zeroB_mu025-downsampled.csv` | 75116 | `c8b6210f2a69f1b08bbfbd08191883efac0506100987640034af652e9e687c9c` |
 | `data/field-zeroB_old-downsampled.csv` | 75568 | `085285ac09d6e79728edd21313d97208e1dfc8e42f5e7fe727e4bec460fa51d7` |
 | `data/gate-matrix.csv` | 120 | `41e5afccad801df5c6d2526c18431dc6f85d6ff0c4a75bf77b7878270ffb126a` |
+| `data/training-curves-downsampled.csv` | 24300 | `3a9683915b6d998a02f9c047970fe78e7b00b6079cf641fb4ff638ca472a27c4` |
 | `data/training-jitter-downsampled.csv` | 15413 | `be144f4e750a252919da25f578ed4cd4659fc79aa9e94b346d2e5b2924603f38` |
+| `data/training-runs-summary.csv` | 759 | `ee13b9bbc28e662696ce7f094ccef72144aa15753678b49305e40b50465ff50a` |
 | `docs/AS2W-training-journal.md` | 123443 | `befeab4fff78bb3950eff9bc9066d0e4669a9fe130e16ed6e85689a1c74a5900` |
 | `docs/cpro-deploy-20261120.md` | 4035 | `a393180e800322117f6b987a71092b3098f70eab1a5b488dee273df275f2877f` |
 | `docs/deployment-contract-audit.md` | 5659 | `bf81efc5cec98c7c6a407b7a6893a297d5f76c273a6c615eeee39fa79e375283` |
@@ -43,20 +45,23 @@
 | `plots/p3-field-yaw-lateral-slopes.png` | 25820 | `8b1d3ef7b168c82742e977ef5be06cc201c2c48f83673c60adf5f74e1d99d1d7` |
 | `plots/p4-sim-torque-vs-friction.png` | 23688 | `cbd1357b7cf42a6f8df1c67aaf6f051e2cf35ee6c66a2940e039ad09a28451c9` |
 | `plots/p5-negative-controls.png` | 26084 | `14298d9c2758fad5257738d8ff65d1d695f209e50b938c79435af674ce1d38ae` |
-| `plots/p6-training-curves-jitter.png` | 113491 | `eeeecfc3ff4423c59d8694fc73a4c5afd962da4658154ef74b6e450e38a6a6b2` |
+| `plots/p6-training-curves.png` | 175163 | `48bdb883887e22b439bb003be1a4e49a436feb8a62a8fb93c3de76d547abe565` |
 | `plots/p7-gate-matrix.png` | 23673 | `bf59fe855b6e82a82a78ddcb66467a030a95c6628079649789164ec9838f0ea2` |
-| `publish.py` | 5527 | `b5e55809f7717c7c9c1f02a0f70aebdafb12499e5fd9385122418565107efec5` |
-| `README.md` | 5014 | `bd0a6b5c1a348d76d44659dff2427b901db6fead2100816798d3ad77470af2a5` |
+| `plots/p8-right-RR-events.png` | 94992 | `30ad1fda29afea70121cc2ba707121e327e243e12cd5cb7d7cf51aaab8d9542c` |
+| `publish.py` | 4466 | `4cdc77124a38f6c81f9f118ad0041b035fbcd4a6a8b8860a1628b6eb60e61e81` |
+| `README.md` | 5994 | `a43b87d6e6ab7c84bf405f7da95a1df46b8f18c2e2abd22e5df4db33f911a36d` |
+| `rebuild_training_plots.py` | 4486 | `e6cb8d73f94a335ec39488df40b872dd76b2eee232c459bf62eab6665b6c8d87` |
 
 ## 未上传（体量原因，已在本机归档）
 
 | 内容 | 大小 | 位置 / 校验 |
 |---|---|---|
 | 实机日志全量（field_logs + field_sessions） | 4.86 GB（解包） | `X:/Items/as2w/AS2W-field-logs-20261120/`；`field_logs_bundle.tar.gz` sha `5c09c4e00b17cfb486e5060f4eb7d50de0152c130e74d5225b92d953e6b65a22`，`field_sessions.tar.gz` sha `7f3a237c85139ce6b3e0e5f74a61225b9ad6383e3ff20bc30e1fdb657d6a3576` |
-| 训练权重与 ONNX | 每个 4.7 MB / 0.8 MB | 训练服务器 `/root/gpufree-data/as2w-runs/<run>/train/`；交付包内 SHA 见 `docs/deployment-contract-audit.md` |
-| 传感器级回放带 | 7 MB/份 | 同交付包 `replay/sensor_tape.npz` |
+| 训练权重与 ONNX | 4.7 MB / 0.8 MB | 训练服务器 `/root/gpufree-data/as2w-runs/<run>/train/`；交付包内 SHA 见合同审计 |
+| 传感器级回放带 | 7 MB/份 | 交付包 `replay/sensor_tape.npz` |
+| 完整逐轮训练日志（jsonl，各 0.5–1.2 MB） | 9 份 | 本机 `X:/Items/as2w/.stage58/gh2/`；仓库内只保留降采样 CSV |
 
 ## 说明
 
-- 训练服务器（gpufree）在会话结束后已不可达；本目录所有数字均来自本机留存的分析产物与日志副本。
-- 图表由 `make_plots.py` 从 `data/` 与 `analysis/` 的可复算数据生成，可重新运行。 
+- 训练服务器 2026-11-21 11:35 重新可达后补取了全部 8 条臂的逐轮日志，`data/training-*.csv` 由其生成。
+- 图表由 `make_plots.py` / `rebuild_training_plots.py` 从 `data/` 与 `analysis/` 的可复算数据生成。
