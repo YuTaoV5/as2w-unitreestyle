@@ -1,17 +1,19 @@
 # 视频说明
 
-## `isaac-consolidate-18200.mp4` — 已验证，可引用
+## `isaac-consolidate-18200.mp4` — Isaac Lab 回放，已验证
 
-Isaac Lab 渲染的 model_18200 回放，8 个工况（Stand / Forward / Reverse / 4 组弧线 / Fast left），前视 + 侧视双机位，**8 段全部无 fall**，与 48/48 存活一致。约 48 秒、6.1 MB。
+model_18200 的 8 工况回放（Stand / Forward / Reverse / 4 组弧线 / Fast left），前视 + 侧视双机位，**8 段全部无 fall**，与 48/48 存活一致。约 48 秒、6.1 MB。
 
-## `mujoco-draft-unvalidated.mp4` — 未验证，请勿引用为能力证据
+## `mujoco-validated-20261121.mp4` — MuJoCo 第二仿真器，2026-11-21 修复后
 
-用于验证 MuJoCo 第二仿真器管线（场景生成、ONNX 闭环、xvfb+glfw 渲染、ffmpeg 编码）是否跑通，**不是**策略能力演示。
+站立 / 前进 0.30 / 弧线 (0.30, wz 0.30) / 后退 −0.30，各 5–7 s，640×480、25 fps、约 0.6 MB。
 
-已知问题：
+修复内容与实测数据见 [`../analysis/mujoco-sim2sim.md`](../analysis/mujoco-sim2sim.md)。要点：
 
-1. 轮子是**显式力矩速度环**（`τ = kd·(v*−v)`，kd=2，轮惯量 0.595 kg），在 1.25 ms 步长下刚性不稳定 → 零速命令下轮子自激（`dq` 达 ±100 rad/s），机身乱窜
-2. 轮轴方向与策略约定相反（已发现：vx=+0.3 实际后退 0.10 m，vx=−0.3 前进 0.99 m），需要取反或改轴
-3. 从官方 URDF 生成的场景缺少正确的轮地接触与关节 armature/damping
+- 站立高度 0.333–0.384 m，全程无翻倒
+- 前进/后退速率跟踪 92% / 85%
+- **偏航跟踪偏弱（7 s 只转 24°，理论约 120°）**，转向不作为能力证据
 
-修复方向：轮子改隐式 `<velocity>` 执行器、加 armature 0.02–0.05、接触参数对齐、重标定后重新验证站立/前进/弧线，再出正式视频。
+## `mujoco-draft-unvalidated.mp4` — 历史草稿，已废弃
+
+2026-11-20 首次尝试的产物，三个缺陷未修复（显式轮速力矩环、ctrl 索引用错、绝对角重复叠加），机器人翻滚。**保留仅作对照，不要引用。**

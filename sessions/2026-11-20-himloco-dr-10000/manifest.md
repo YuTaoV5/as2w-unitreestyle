@@ -9,6 +9,7 @@
 | `analysis/field-sink-per-axis.csv` | 391 | `ad1e725143ad9ad797af9881948bfeddab0b1ba6accc927eb8c0e5b0c35f1a61` |
 | `analysis/matrix-mu025-report.json` | 28198 | `8d2aa9a3a1ee306433f0da6c1c31f4c6abc19a0f3dc99aa52430254dc545d631` |
 | `analysis/matrix-mu025-summary.json` | 344 | `c6e492a4b45f77de2c4a92671509c1a4774e07d2cfd2c548249a39b9fba2005d` |
+| `analysis/mujoco-sim2sim.md` | 2721 | `b44f88c12c76bdbfaf2d9ef2486b0d7c67835d2b95b06bfc6e7be671b6c6ebc8` |
 | `analysis/parity-chain.md` | 2191 | `8ee020c60da76f80cef778f54437e27c1e4cd9bd21106ba8b0718da644c2c638` |
 | `analysis/session-timeline.md` | 3163 | `b0e3108630573f2365c0e3116c89cb7dceb66fc5e98505ef8709ca6e332e496f` |
 | `data/deploy.yaml` | 2275 | `bd1a4b39b19a90ac372b90139784c9f85e0d9f3379131656c3b8035d534b240e` |
@@ -19,6 +20,9 @@
 | `data/export.json` | 677 | `d2eb4815a9666b1f093716c2e490a2f135590e9ee1ef18d5390784a9439607f7` |
 | `data/himloco_controller.cpp` | 18847 | `ceba6001af5949d01afb6eb8cdb4ae4c965daebf61b9955b2fb9c60bcd8306a8` |
 | `data/himloco_controller.hpp` | 7860 | `deb6a6ae58ed80286eb92acecdf62e57bee6aeaae98c501dffc755318f1a377f` |
+| `data/mujoco-make_scene_v2.py` | 1522 | `862ce5b6d0bf3323fae5ff61ccb16d6586ef23a41bd6aa705d780f005a78b680` |
+| `data/mujoco-mujoco_eval.py` | 3845 | `1fb63ad717fb67d20ee62077befb2415bd46048544a56586805c0bd844d2722a` |
+| `data/mujoco-scene_v2.xml` | 10945 | `239a4c125bfcfd6c9228b8590764939ac94d449ef7225d3a08f44b01ac3906e3` |
 | `data/parity.json` | 308 | `1c176af8d398e15faef963e6be06282c15de7f13218b26ed1b0f7b51c8d7f580` |
 | `data/policy-model-18200.onnx` | 1056450 | `02352011169cbf1dc3acfe3b698de27b98a32b6ad56c6063118c3d6e999678bf` |
 | `docs/deployment-contract-18200.md` | 6474 | `9d0926a8bfa1c0d0302ea6cad8f3a5e4b5c63911248a9bbfd3d6950dc4733098` |
@@ -36,7 +40,8 @@
 | `plots/p3-curve-forward-joints.png` | 385755 | `e9554a3d3ca26f7ee88881b207602d93b8e79240ef08d371cfe4ea86a19b4514` |
 | `plots/p4-curve-arc-left.png` | 434353 | `b24b52cd65dd9fd6d1081054541fa5cea27db4cf6a669810d58d1a5a6adbadcc` |
 | `plots/p5-curve-stand.png` | 182347 | `4529b3f638d5bc2cbb8a6fb1938651f7dcf93188e44775fb3767c37591bff5de` |
-| `README.md` | 2733 | `325d1baebe9dba3ede7c06106f7ab29bc786a8bc118e503868ce1bfb21761341` |
+| `README.md` | 2953 | `928be61a97b8b4559dffa1f2e0acbb08f82e8cc535c7c4c828f116275d16de32` |
 | `videos/isaac-consolidate-18200.mp4` | 6096842 | `132faca13b7530680c2be7d4ab0b2e49b16a622c2e7792f7d410d4f37343fd63` |
 | `videos/mujoco-draft-unvalidated.mp4` | 1316083 | `17f1cd0ea1a5728633530e2951d11905d4c43d952f9c9af67bd86c80b05b29c3` |
-| `videos/README.md` | 1138 | `cc3883c465be7c7a74c496d6703479a3e7d8b05bdfdc03db4468d98ae3f2e7b2` |
+| `videos/mujoco-validated-20261121.mp4` | 605751 | `3f99101c232c7cb0364a6672b46745a005e13079da583dffb6b2492de8fee410` |
+| `videos/README.md` | 1019 | `18048bc18dcd45a060ebfcec0b27cf077be315b20a684806740fd864dd4cc622` |
