@@ -61,3 +61,23 @@
 | `t19_hipcurves.py` | 7,876 | （脚本 SHA 见交付消息） |
 
 复现：`OMP_NUM_THREADS=2 /root/as2w/preflight/isaac-python t19_hipcurves.py`（读取原 CSV+MP4 → 叠加曲线面板 → H.264 重编码，约 1–2 min）。
+
+
+## 7. 4-panel 重制版（task-20；曲线/文字不再覆盖机器人/格子）
+
+用户否定 1.0 版（曲线叠在仿真画面上遮挡机器人）→ 重制 **4-panel 版**：
+
+- **视频**：`/root/as2w/mujoco-sim2sim-20261121/videos/a_policy_60s_toein_best/a_policy_60s_toein_best_hipcurves_4panel.mp4`
+- **SHA256**：`1cd21f9c5d1de8df659d4df3f031f1b17d7c8afe0a9bcfa894975e347b86ffff`（**10,797,672 B**）
+- **规格**：h264 / **1600×900** / 30 fps / **1800 帧 / 60.000000 s**（ffprobe 已验证）
+- **布局**：
+  - 顶部边缘栏（主画面外）：`t / phase / seg / cmd / ACT vx,vy,wz / z / tilt / support4 / nonwheel / fall`；
+  - **仿真主画面单独一块**：取原视频中机器人+格子区域（cropped，原视频内嵌的关节表/顶栏已裁掉），**新叠加的曲线/文字一律不进入该区域**；
+  - **右侧 2×2 四个独立子图** FL/FR/RL/RR：各有独立 y 轴（−0.8~+0.8，含 URDF ±0.785 虚线）；ACT 实线（FL 蓝/FR 橙/RL 绿/RR 红）、TGT 虚线（浅色）、**黄色随帧 cursor**、每图实时 `t / ACT / TGT` 数值、target 范围带（FL/RL [−0.40,+0.10]、FR/RR [−0.10,+0.40] 蓝色带）；
+  - **底部边缘栏（主画面外）**：12 个腿关节 q/tau 数值 + tau bar（>0.8×effort 标红）+ |tau|limit 标注；4 轮 dq。
+- **cursor 同步核验（帧 ↔ CSV）**：
+  - 帧 300：t=10.000 s ↔ CSV 10.000 s，act FL −0.0843 / FR +0.0839 / RL −0.0840 / RR +0.0834（完全一致）；
+  - 帧 900：t=30.000 s ↔ CSV 30.000 s，FL −0.2916 / FR +0.0579 / RL −0.1653 / RR +0.3743（完全一致）；
+  - 帧 1499：t=49.967 s ↔ 最近 CSV 49.965 s（差 1 样本=5 ms）。
+- 数据：`results/a_policy_60s_toein_best/hip_curves_4panel_summary.json`（sha256 `194fd6f0711498ed85afe08324f4483a0de172ae4a62ae4767dd1e47fe0ac02c`）；脚本 `t20_hipcurves_4panel.py`（sha256 `fef08fc28710bd80928f7c8db5092ed7fb8fb73df5ccdbe3914f4ee2652f4539`）。
+- 输入（CSV/原视频）未改动：CSV sha `68657ea3…`、原视频 sha `35c2015e…`。
