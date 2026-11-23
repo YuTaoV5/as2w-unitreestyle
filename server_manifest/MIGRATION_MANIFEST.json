@@ -1,0 +1,178 @@
+{
+  "repository": "AS2W_MIGRATION_20261123",
+  "purpose": "server-independent migration snapshot for AS2-W deployment/training/analysis",
+  "generated_at": "2026-11-23T20:30:00+08:00",
+  "visibility": "PRIVATE (internal training/report data)",
+  "artifacts": [
+    {
+      "path": "artifacts/AS2W_A400_DEPLOY_20261123.zip",
+      "bytes": 6714675,
+      "sha256": "c3a286fc3d086bab181fb6c76254c7ca7e1cbf31eb5ffe470674b6006f443328"
+    },
+    {
+      "path": "artifacts/AS2W_C1_s42_200_DEPLOY_20261123.zip",
+      "bytes": 6738949,
+      "sha256": "2830ced23b82e81104d8800b15884a634659ff8c50c42d5679d764d1541e08a3"
+    },
+    {
+      "path": "artifacts/AS2W_DELIVERY_20261123.zip",
+      "bytes": 78480543,
+      "sha256": "8830bfe0674c61a8afe9b0d6d06e070fbe28e9d42883c155a7c1cd543e0ececc"
+    }
+  ],
+  "docs": [
+    {
+      "path": "docs/A_POLICY_60S_FULL_SIM_REPORT.md",
+      "bytes": 7584,
+      "sha256": "57cf0976053fa93b80ab7b244b227b5af657643ab7ed95f400131e6f9f816a7a"
+    },
+    {
+      "path": "docs/A_POLICY_PRELIFT_60S_REPORT.md",
+      "bytes": 7364,
+      "sha256": "4f53b6d6ee948d0d8c1c895b3c5239f0ad311e3562193cce3a27df0a81b90d0d"
+    },
+    {
+      "path": "docs/A_POLICY_TOEIN_60S_REPORT.md",
+      "bytes": 7585,
+      "sha256": "64a513f04c2bcf9326628bf2521a9aa64ed23c3e5ef936c64c8990e02e2341ed"
+    },
+    {
+      "path": "docs/BODY_ATTITUDE_60S_ASSESSMENT.md",
+      "bytes": 2694,
+      "sha256": "9bff58bb400840259779066d7a62285a738d582664a609e6944e5c4388a37e0a"
+    },
+    {
+      "path": "docs/CPRO_V4X_DEPLOY_ATTEMPT-20261123.md",
+      "bytes": 7801,
+      "sha256": "5c3d6fcf7a4a5c208bcfcccffc1da557690653554d20b1f1a7d90902a0bfda5f"
+    },
+    {
+      "path": "docs/EXTENDED_REPLAY_REPORT.md",
+      "bytes": 14956,
+      "sha256": "a13b26ac70a5c856b12f2c1e329008d10ea14b73f6b16b10fa656db109b63365"
+    },
+    {
+      "path": "docs/GATE_V4X_CROSSARCH_DRAFT.md",
+      "bytes": 4675,
+      "sha256": "308b325deecef40d81a08d3f9e2065710868893ea666f105f72a3c709052c7c8"
+    },
+    {
+      "path": "docs/HIP_SIGN_FIX-20261123.md",
+      "bytes": 1548,
+      "sha256": "ef01e71a1f244146fb90a544ffd688afc20cf300de443a21900cecf5ae28a886"
+    },
+    {
+      "path": "docs/STAND_GAIN_VERIFICATION-20261123.md",
+      "bytes": 1763,
+      "sha256": "8aa33267530312ddfbe54d86f41aef9676ad885f0597e47a85412f77bf6a66ef"
+    },
+    {
+      "path": "docs/SYMBOL_CHECK-20261123.md",
+      "bytes": 1275,
+      "sha256": "c42fe6a2d98d6313d58583791f929823eebb380e10c729ddf4d242e95991e613"
+    },
+    {
+      "path": "docs/WEIGHT_ATTITUDE_COMPARISON.md",
+      "bytes": 6490,
+      "sha256": "d2f8f97d53f8f98a1cc9a0717279fe989b5ffa209ec14ecf171e995bbcde2f15"
+    },
+    {
+      "path": "docs/WEIGHT_PRELIFT_COMPARISON.md",
+      "bytes": 7480,
+      "sha256": "65e6592a324764aa2800bb4936eed0535c04345a19375b822d28d38472c5949b"
+    },
+    {
+      "path": "docs/WEIGHT_TOEIN_COMPARISON.md",
+      "bytes": 8717,
+      "sha256": "b58a3ad834873bb66554394b63f54821e50e8e39c384f464c5c17025af16148f"
+    },
+    {
+      "path": "docs/ZERO_B_FIELD_ATTEMPT-20261123.md",
+      "bytes": 2971,
+      "sha256": "ee99ac924d6d045e6f78ac12678d313e2476927d25e141771f43ee3a1528f6ad"
+    }
+  ],
+  "source": {
+    "A_recipe": "source/domain_config_A_recipe.json",
+    "A400_readme": "source/A400_README_FIRST.md"
+  },
+  "server_roots": {
+    "training_runs": "/root/gpufree-data/as2w-runs",
+    "training_src": "/root/as2w/retrain-wheeldiff-dr2b-20261122/src",
+    "deploy_cpro": "/root/as2w_deploy_v4x",
+    "deploy_a400_target": "/root/as2w_deploy_a400_s42_400",
+    "himloco_deploy": "/root/as2w/deploy/model_18200"
+  },
+  "candidate_weights": [
+    {
+      "id": "A_799",
+      "path": "/root/gpufree-data/as2w-runs/retrain-dr2b-20261122/evals/dr2b_s1_seed42_final/best.pt",
+      "sha256": "4c92b1cbc9f412f53716b2d440d16ba6a36c97f45edd31e25a54e3044974e856",
+      "iters": 800
+    },
+    {
+      "id": "B_s43_799",
+      "path": "/root/gpufree-data/as2w-runs/retrain-dr2b-20261122/dr2b_s1_seed43/train/model_799.pt",
+      "sha256": "bfe10385",
+      "iters": 799
+    },
+    {
+      "id": "C1_s42_200",
+      "path": "/root/gpufree-data/as2w-runs/retrain-dr3c-20261122/c1_s42/train/model_199.pt",
+      "sha256": "572898f0e9897f5d03d32febb1bed60952a727662a074269bcc36f370550b3fb",
+      "iters": 200
+    },
+    {
+      "id": "T3_s43_25",
+      "path": "/root/gpufree-data/as2w-runs/retrain-dr3c-20261122/T3/s43/train/update_25.pt",
+      "sha256": "ac090223",
+      "iters": 25
+    },
+    {
+      "id": "T4_s43_25",
+      "path": "/root/gpufree-data/as2w-runs/retrain-dr3c-20261122/T4/s43/train/update_25.pt",
+      "sha256": "5562e69c",
+      "iters": 25
+    },
+    {
+      "id": "DR3a_s42_400",
+      "path": "/root/gpufree-data/as2w-runs/retrain-dr3a-20261122/dr3a_s42/train/model_400.pt",
+      "sha256": "ac085dad",
+      "iters": 400
+    },
+    {
+      "id": "cshort_s43_50",
+      "path": "/root/gpufree-data/as2w-runs/retrain-dr3c-20261122/cshort/s43/train/update_50.pt",
+      "sha256": "c7033e2b",
+      "iters": 50
+    },
+    {
+      "id": "A_400",
+      "path": "/root/gpufree-data/as2w-runs/retrain-dr2b-20261122/dr2b_s1_seed42/train/model_400.pt",
+      "sha256": "88cff1a264ad3ffe5e7b9fc61ddee4998d6101a1f30fa68d0218696e5bbf4802",
+      "iters": 400,
+      "selected": true
+    },
+    {
+      "id": "HimLoco_18200",
+      "path": "/root/as2w/deploy/model_18200",
+      "sha256_policy": "02352011",
+      "sha256_actor": "50de80a8",
+      "sha256_estimator": "5d32959b",
+      "iters": 18200,
+      "contract": "16 act + history 6x60 + estimator 19"
+    }
+  ],
+  "omitted_data": [
+    "full 200/500 Hz raw logs and bags (large; see server paths)",
+    "all intermediate checkpoints not listed",
+    "server credentials/secrets (never included)",
+    "full Isaac/MuJoCo run trees"
+  ],
+  "restore_note": "unzip artifacts; deploy packages are self-contained; training checkpoints inside A400/C1 zips; server paths above for any missing raw logs.",
+  "current_state": {
+    "robot": "ai; no active publisher; no persistent LowCmd",
+    "release_authorized": false,
+    "gates": "Scheme2 signed; A799 T8 fixed/final PASS; A400 audit PENDING; field zero-B not passed"
+  }
+}
