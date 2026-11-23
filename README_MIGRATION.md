@@ -59,15 +59,19 @@ less docs/A_POLICY_TOEIN_60S_REPORT.md
 - 不包含全部原始 200Hz/500Hz bag（体积大）；保留报告、摘要、关键 CSV/视频与路径清单。
 - 训练大 run 的完整 raw logs 未全量上传；`server_manifest` 记录路径与 SHA，服务器若仍在线可按清单补拉。
 
-## 5. 上传方式（需要 GitHub 凭据）
-本目录已可 `git init/commit`。上传到 private repo 需要：
-- repo URL（建议新建 private `as2w-migration`）
-- 有 `repo` 权限的 PAT 或已配置的 SSH remote
-后续执行：
+## 5. 上传方式（已上传分支）
+本目录已初始化为 git 仓库，并已推送到：
+- repo：`https://github.com/YuTaoV5/as2w-unitreestyle.git`
+- branch：**`migration-20261123`**
+- PR 创建链接：`https://github.com/YuTaoV5/as2w-unitreestyle/pull/new/migration-20261123`
+- remote `main` 未改动（避免覆盖现有工程）；由维护者 review 后合并。
+- GitHub 对大文件 `artifacts/AS2W_DELIVERY_20261123.zip`（74.84MB）给出“超过建议 50MB”警告，但文件 <100MB 上限，推送成功。
+
+后续更新：
 ```bash
-git remote add origin <url>
-git branch -M main
-git push -u origin main
+git add .
+git commit -m "update migration"
+git -c http.proxy= -c https.proxy= push origin main:migration-20261123
 ```
 
 > 迁移目标：新服务器 clone 后能复现部署包、训练候选选择、仿真证据和当前风险边界；不是把旧服务器所有 raw telemetry 镜像。
