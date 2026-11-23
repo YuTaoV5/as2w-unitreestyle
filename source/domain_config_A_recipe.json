@@ -1,0 +1,86 @@
+{
+  "contact": {
+    "static_friction": [
+      0.25,
+      0.5
+    ],
+    "dynamic_friction": [
+      0.18,
+      0.35
+    ],
+    "restitution": [
+      0,
+      0.02
+    ],
+    "drive_gain_scale": [
+      0.9,
+      1.1
+    ],
+    "base_mass_add_kg": [
+      -0.5,
+      1.0
+    ],
+    "base_com_delta_m": {
+      "x": [
+        -0.02,
+        0.02
+      ],
+      "y": [
+        -0.01,
+        0.01
+      ],
+      "z": [
+        -0.01,
+        0.01
+      ]
+    }
+  },
+  "sensors": {
+    "position_noise_rad": 0.01,
+    "velocity_noise_rad_s": 0.15,
+    "gyro_noise_rad_s": 0.05,
+    "position_bias_rad": 0.005,
+    "velocity_bias_rad_s": 0.03,
+    "gyro_bias_rad_s": 0.02,
+    "delay_ticks_max": 3,
+    "delay_tick_probabilities": {
+      "0": 0.15,
+      "1": 0.35,
+      "2": 0.35,
+      "3": 0.15
+    },
+    "delay_probability": 0.25,
+    "delay_note": "DR2b/DR3a execution delay: per-episode 0/1/2/3 ticks (0.15/0.35/0.35/0.15); depth-3 ring supports it.",
+    "obs_delay_ticks_max": 0,
+    "obs_delay_tick_probabilities": {
+      "0": 1.0
+    },
+    "obs_delay_note": "DR3a GO 2026-11-22 (mjsim: A obs2 9/9 survived, obs3 falls off; B fails at obs2 -> keep A): training obs delay 0/1/2 with 0.4/0.4/0.2; exec delay stays DR2b 0/1/2/3 (0.15/0.35/0.35/0.15)."
+  },
+  "jitter": {
+    "enabled": true,
+    "min_level": 2,
+    "target_noise_rad": 0.02,
+    "target_noise_wheel_rad_s": 0.5,
+    "gain_jitter_fraction": 0.15,
+    "torque_noise_nm": 0.0,
+    "note": "per-step uniform dither on the applied joint/velocity targets plus per-episode per-joint gain jitter; models the real robot's motor/encoder dither and unequal PD response"
+  },
+  "push": {
+    "interval_s": [
+      6.0,
+      10.0
+    ],
+    "horizontal_delta_v_m_s": [
+      0.05,
+      0.12
+    ]
+  },
+  "optimization": {
+    "learning_rate": 0.0001,
+    "fixed_policy_std": 0.4,
+    "entropy_coef": 0.0,
+    "desired_kl": 0.01
+  },
+  "_dr3c_cshort": "A original recipe: lr1e-4, command_hold 4.0, exec delay 0/1/2/3=0.15/0.35/0.35/0.15, obs delay 0, v4.1 reward"
+}
