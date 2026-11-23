@@ -4,7 +4,8 @@
 
 > **状态：迁移快照，不是已放行产品。**
 > A_400 / C1 / A_799 均未完成 owner 最终放行；实机 zero-B/B gate 未全部通过。
-> 仓库应设为 **private**（训练数据/内部报告不应公开）。
+> **安全提醒：上传时 `YuTaoV5/as2w-unitreestyle` 是 public。本仓库包含内部训练资产/报告；如非有意公开，请立即在 GitHub Settings → Danger Zone 改为 private，或删除 `migration-20261123` 分支。**
+> 仓库原本已有一个 470MB 左右的 public `main`；本次只新增分支，未改 `main`。
 
 ## 1. 仓库内容
 
